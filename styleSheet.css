@@ -1,0 +1,99 @@
+body {
+    font-family: 'Spectral';
+    color: #002FA7;
+    padding: 0 0px;
+    font-family: 'Space Mono';
+    text-align: justify;
+}
+
+.navigation {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-items {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    right: 20px;
+}
+
+.landingTitle {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.landingTitle p {
+
+    font-size: 250px;
+    margin: 0px 0px;
+    transform: scaleY(1.4);
+    transform-origin: bottom;
+    font-weight: 200;
+    font-family: 'Spectral';
+    line-height: 180px;
+    ;
+}
+
+ul li {
+    margin: 50px;
+    /* Adjust the value to set the gap distance */
+}
+
+#map {
+    width: 400px;
+    height: 400px;
+}
+
+@media (max-width: 819.5px) {
+    .landingTitle #deXifra {
+        line-height: 150px;
+    }
+
+    .landingTitle #aMapa {
+        margin-top: 310px;
+        margin-bottom: 230px;
+        line-height: 130px;
+        text-align: left !important;
+    }
+}
+
+.textStyle {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    margin-top: 0px;
+    letter-spacing: -0.145rem;
+    transform: scaleY(1.1);
+    transform-origin: bottom;
+    line-height: 28px;
+    font-weight: 100;
+}
+
+.navigation div p:hover {
+    border-bottom: 2px solid #002FA7;
+    /* Adding a solid outline with a specific thickness */
+    cursor: pointer;
+    /* Adding a pointer cursor for better UX */
+}
+
+.movingText {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 96px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.example-left {
+    white-space: nowrap;
+}
+
+@keyframes animate2 {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-200%);
+	}
+}

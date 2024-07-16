@@ -1,0 +1,83 @@
+// Define a function to set the color for each feature based on population density
+function getColor(density) {
+  return density > 1000 ? '#53273A' :
+    density > 700 ? '#7D3B58' :
+      density > 400 ? '#A64E75' :
+        density > 100 ? '#BE7495' :
+          '#D19EB5';
+}
+
+// Define the style for each feature
+function style(feature) {
+  return {
+    fillColor: getColor(feature.properties.density),
+    weight: 2,
+    opacity: 0.3,
+    color: 'black',
+    fillOpacity: 1
+  };
+}
+
+// Logic to digest and merge data:
+// Load the barris polygons, select specofic values.
+Promise.all([
+  fetch('/barris').then(response => response.json()),
+  fetch('/densitatPoblacio').then(response => response.json())
+]).then(([barrisData, densityData]) => {
+  // Create a mapping of neighborhood ids to density values
+  const densityMap = {};
+  densityData.features.forEach(feature => {
+    const { Neighborhood_Code, Net_Density_hab_per_ha } = feature.properties;
+    densityMap[Neighborhood_Code] = Net_Density_hab_per_ha;
+  });
+
+  // Merge the density data with the barris polygons
+  barrisData.features.forEach(feature => {
+    const neighborhoodCode = parseInt(feature.properties.codi_barri, 10);
+    const density = densityMap[neighborhoodCode] || 0; // Default to 0 if density is not found
+    feature.properties.density = density; // ads 'density' : <density value> key pair to barris object
+  });
+
+  // Add the GeoJSON layer to the map
+  L.geoJson(barrisData, {
+    style,
+  }).addTo(map); // Loads barris merged object
+});
+
+fetch('/districtes') // Load districts data.
+  .then(response => response.json())
+  .then(data => {
+    L.geoJSON(data, {
+      style: {
+        color: "#000",
+        weight: 1,
+        opacity: 0.5,
+        fillOpacity: 0
+      },
+      onEachFeature: function (feature, layer) {
+        if (feature.properties && feature.properties.name) {
+          layer.bindPopup(feature.properties.name);
+        }
+      }
+    }).addTo(map);
+  })
+  .catch(error => console.error('Error fetching districts data:', error));
+
+// Add Legend
+const legend = L.control({ position: 'bottomright' });
+
+legend.onAdd = function (map) {
+  const div = L.DomUtil.create('div', 'info legend');
+  const grades = [ 0, 100, 400, 700, 1000];
+  const labels = [];
+
+  for (let i = 0; i < grades.length; i++) {
+    div.innerHTML +=
+      '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+      grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+  }
+
+  return div;
+};
+
+legend.addTo(map);

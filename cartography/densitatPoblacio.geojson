@@ -1,0 +1,1392 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 1,
+        "Barri_Name": "Ciutat Vella",
+        "Neighborhood_Code": 1,
+        "Neighborhood_Name": "el Raval",
+        "Population": 47228,
+        "Area_ha": 110.0,
+        "Residential_Area_ha": 49.6,
+        "Density_hab_per_ha": 429,
+        "Net_Density_hab_per_ha": 952
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 1,
+        "Barri_Name": "Ciutat Vella",
+        "Neighborhood_Code": 2,
+        "Neighborhood_Name": "el Barri G\u00f2tic",
+        "Population": 21827,
+        "Area_ha": 81.6,
+        "Residential_Area_ha": 34.1,
+        "Density_hab_per_ha": 268,
+        "Net_Density_hab_per_ha": 639
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 1,
+        "Barri_Name": "Ciutat Vella",
+        "Neighborhood_Code": 3,
+        "Neighborhood_Name": "la Barceloneta",
+        "Population": 14643,
+        "Area_ha": 117.9,
+        "Residential_Area_ha": 13.5,
+        "Density_hab_per_ha": 124,
+        "Net_Density_hab_per_ha": 1081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 1,
+        "Barri_Name": "Ciutat Vella",
+        "Neighborhood_Code": 4,
+        "Neighborhood_Name": "Sant Pere, Santa Caterina i la Ribera",
+        "Population": 22131,
+        "Area_ha": 111.0,
+        "Residential_Area_ha": 32.4,
+        "Density_hab_per_ha": 199,
+        "Net_Density_hab_per_ha": 683
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 2,
+        "Barri_Name": "Eixample",
+        "Neighborhood_Code": 5,
+        "Neighborhood_Name": "el Fort Pienc",
+        "Population": 31262,
+        "Area_ha": 92.9,
+        "Residential_Area_ha": 33.6,
+        "Density_hab_per_ha": 336,
+        "Net_Density_hab_per_ha": 930
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 2,
+        "Barri_Name": "Eixample",
+        "Neighborhood_Code": 6,
+        "Neighborhood_Name": "la Sagrada Fam\u00edlia",
+        "Population": 51319,
+        "Area_ha": 104.2,
+        "Residential_Area_ha": 51.0,
+        "Density_hab_per_ha": 493,
+        "Net_Density_hab_per_ha": 1007
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 2,
+        "Barri_Name": "Eixample",
+        "Neighborhood_Code": 7,
+        "Neighborhood_Name": "la Dreta de l'Eixample",
+        "Population": 44675,
+        "Area_ha": 212.0,
+        "Residential_Area_ha": 113.9,
+        "Density_hab_per_ha": 211,
+        "Net_Density_hab_per_ha": 392
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 2,
+        "Barri_Name": "Eixample",
+        "Neighborhood_Code": 8,
+        "Neighborhood_Name": "l'Antiga Esquerra de l'Eixample",
+        "Population": 41990,
+        "Area_ha": 122.8,
+        "Residential_Area_ha": 66.9,
+        "Density_hab_per_ha": 342,
+        "Net_Density_hab_per_ha": 627
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 2,
+        "Barri_Name": "Eixample",
+        "Neighborhood_Code": 9,
+        "Neighborhood_Name": "la Nova Esquerra de l'Eixample",
+        "Population": 57054,
+        "Area_ha": 134.1,
+        "Residential_Area_ha": 65.2,
+        "Density_hab_per_ha": 426,
+        "Net_Density_hab_per_ha": 876
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 2,
+        "Barri_Name": "Eixample",
+        "Neighborhood_Code": 10,
+        "Neighborhood_Name": "Sant Antoni",
+        "Population": 38053,
+        "Area_ha": 80.4,
+        "Residential_Area_ha": 41.3,
+        "Density_hab_per_ha": 473,
+        "Net_Density_hab_per_ha": 921
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 3,
+        "Barri_Name": "Sants-Montju\u00efc",
+        "Neighborhood_Code": 11,
+        "Neighborhood_Name": "el Poble Sec",
+        "Population": 39400,
+        "Area_ha": 458.5,
+        "Residential_Area_ha": 38.1,
+        "Density_hab_per_ha": 86,
+        "Net_Density_hab_per_ha": 1033
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 3,
+        "Barri_Name": "Sants-Montju\u00efc",
+        "Neighborhood_Code": 12,
+        "Neighborhood_Name": "la Marina del Prat Vermell",
+        "Population": 1350,
+        "Area_ha": 1423.7,
+        "Residential_Area_ha": 35.5,
+        "Density_hab_per_ha": 1,
+        "Net_Density_hab_per_ha": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 3,
+        "Barri_Name": "Sants-Montju\u00efc",
+        "Neighborhood_Code": 13,
+        "Neighborhood_Name": "la Marina de Port",
+        "Population": 30741,
+        "Area_ha": 126.9,
+        "Residential_Area_ha": 38.9,
+        "Density_hab_per_ha": 242,
+        "Net_Density_hab_per_ha": 789
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 3,
+        "Barri_Name": "Sants-Montju\u00efc",
+        "Neighborhood_Code": 14,
+        "Neighborhood_Name": "la Font de la Guatlla",
+        "Population": 10084,
+        "Area_ha": 29.7,
+        "Residential_Area_ha": 11.5,
+        "Density_hab_per_ha": 339,
+        "Net_Density_hab_per_ha": 873
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 3,
+        "Barri_Name": "Sants-Montju\u00efc",
+        "Neighborhood_Code": 15,
+        "Neighborhood_Name": "Hostafrancs",
+        "Population": 15842,
+        "Area_ha": 41.0,
+        "Residential_Area_ha": 22.1,
+        "Density_hab_per_ha": 386,
+        "Net_Density_hab_per_ha": 717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 3,
+        "Barri_Name": "Sants-Montju\u00efc",
+        "Neighborhood_Code": 16,
+        "Neighborhood_Name": "la Bordeta",
+        "Population": 19292,
+        "Area_ha": 57.2,
+        "Residential_Area_ha": 20.8,
+        "Density_hab_per_ha": 337,
+        "Net_Density_hab_per_ha": 928
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 3,
+        "Barri_Name": "Sants-Montju\u00efc",
+        "Neighborhood_Code": 17,
+        "Neighborhood_Name": "Sants - Badal",
+        "Population": 24576,
+        "Area_ha": 41.5,
+        "Residential_Area_ha": 25.1,
+        "Density_hab_per_ha": 593,
+        "Net_Density_hab_per_ha": 980
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 3,
+        "Barri_Name": "Sants-Montju\u00efc",
+        "Neighborhood_Code": 18,
+        "Neighborhood_Name": "Sants",
+        "Population": 43082,
+        "Area_ha": 109.5,
+        "Residential_Area_ha": 59.4,
+        "Density_hab_per_ha": 394,
+        "Net_Density_hab_per_ha": 726
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 4,
+        "Barri_Name": "Les Corts",
+        "Neighborhood_Code": 19,
+        "Neighborhood_Name": "les Corts",
+        "Population": 45422,
+        "Area_ha": 141.0,
+        "Residential_Area_ha": 64.7,
+        "Density_hab_per_ha": 322,
+        "Net_Density_hab_per_ha": 702
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 4,
+        "Barri_Name": "Les Corts",
+        "Neighborhood_Code": 20,
+        "Neighborhood_Name": "la Maternitat i Sant Ramon",
+        "Population": 23574,
+        "Area_ha": 191.5,
+        "Residential_Area_ha": 31.8,
+        "Density_hab_per_ha": 123,
+        "Net_Density_hab_per_ha": 741
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 4,
+        "Barri_Name": "Les Corts",
+        "Neighborhood_Code": 21,
+        "Neighborhood_Name": "Pedralbes",
+        "Population": 11581,
+        "Area_ha": 268.5,
+        "Residential_Area_ha": 81.7,
+        "Density_hab_per_ha": 43,
+        "Net_Density_hab_per_ha": 142
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 5,
+        "Barri_Name": "Sarri\u00e0-Sant Gervasi",
+        "Neighborhood_Code": 22,
+        "Neighborhood_Name": "Vallvidrera, el Tibidabo i les Planes",
+        "Population": 4697,
+        "Area_ha": 1132.9,
+        "Residential_Area_ha": 242.0,
+        "Density_hab_per_ha": 4,
+        "Net_Density_hab_per_ha": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 5,
+        "Barri_Name": "Sarri\u00e0-Sant Gervasi",
+        "Neighborhood_Code": 23,
+        "Neighborhood_Name": "Sarri\u00e0",
+        "Population": 24405,
+        "Area_ha": 304.7,
+        "Residential_Area_ha": 95.4,
+        "Density_hab_per_ha": 80,
+        "Net_Density_hab_per_ha": 256
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 5,
+        "Barri_Name": "Sarri\u00e0-Sant Gervasi",
+        "Neighborhood_Code": 24,
+        "Neighborhood_Name": "les Tres Torres",
+        "Population": 16228,
+        "Area_ha": 78.8,
+        "Residential_Area_ha": 42.5,
+        "Density_hab_per_ha": 206,
+        "Net_Density_hab_per_ha": 382
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 5,
+        "Barri_Name": "Sarri\u00e0-Sant Gervasi",
+        "Neighborhood_Code": 25,
+        "Neighborhood_Name": "Sant Gervasi - la Bonanova",
+        "Population": 25659,
+        "Area_ha": 223.4,
+        "Residential_Area_ha": 82.1,
+        "Density_hab_per_ha": 115,
+        "Net_Density_hab_per_ha": 313
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 5,
+        "Barri_Name": "Sarri\u00e0-Sant Gervasi",
+        "Neighborhood_Code": 26,
+        "Neighborhood_Name": "Sant Gervasi - Galvany",
+        "Population": 46816,
+        "Area_ha": 166.9,
+        "Residential_Area_ha": 95.4,
+        "Density_hab_per_ha": 280,
+        "Net_Density_hab_per_ha": 491
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 5,
+        "Barri_Name": "Sarri\u00e0-Sant Gervasi",
+        "Neighborhood_Code": 27,
+        "Neighborhood_Name": "el Putxet i el Farr\u00f3",
+        "Population": 29629,
+        "Area_ha": 84.8,
+        "Residential_Area_ha": 53.1,
+        "Density_hab_per_ha": 349,
+        "Net_Density_hab_per_ha": 558
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 6,
+        "Barri_Name": "Gr\u00e0cia",
+        "Neighborhood_Code": 28,
+        "Neighborhood_Name": "Vallcarca i els Penitents",
+        "Population": 16142,
+        "Area_ha": 125.1,
+        "Residential_Area_ha": 48.2,
+        "Density_hab_per_ha": 129,
+        "Net_Density_hab_per_ha": 335
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 6,
+        "Barri_Name": "Gr\u00e0cia",
+        "Neighborhood_Code": 29,
+        "Neighborhood_Name": "el Coll",
+        "Population": 7590,
+        "Area_ha": 35.3,
+        "Residential_Area_ha": 12.4,
+        "Density_hab_per_ha": 215,
+        "Net_Density_hab_per_ha": 611
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 6,
+        "Barri_Name": "Gr\u00e0cia",
+        "Neighborhood_Code": 30,
+        "Neighborhood_Name": "la Salut",
+        "Population": 13282,
+        "Area_ha": 64.8,
+        "Residential_Area_ha": 19.5,
+        "Density_hab_per_ha": 205,
+        "Net_Density_hab_per_ha": 680
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 6,
+        "Barri_Name": "Gr\u00e0cia",
+        "Neighborhood_Code": 31,
+        "Neighborhood_Name": "la Vila de Gr\u00e0cia",
+        "Population": 49492,
+        "Area_ha": 132.1,
+        "Residential_Area_ha": 84.0,
+        "Density_hab_per_ha": 375,
+        "Net_Density_hab_per_ha": 589
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 6,
+        "Barri_Name": "Gr\u00e0cia",
+        "Neighborhood_Code": 32,
+        "Neighborhood_Name": "el Camp d'en Grassot i Gr\u00e0cia Nova",
+        "Population": 34932,
+        "Area_ha": 65.1,
+        "Residential_Area_ha": 38.5,
+        "Density_hab_per_ha": 537,
+        "Net_Density_hab_per_ha": 907
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 33,
+        "Neighborhood_Name": "el Baix Guinard\u00f3",
+        "Population": 25601,
+        "Area_ha": 56.2,
+        "Residential_Area_ha": 23.7,
+        "Density_hab_per_ha": 455,
+        "Net_Density_hab_per_ha": 1079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 34,
+        "Neighborhood_Name": "Can Bar\u00f3",
+        "Population": 9233,
+        "Area_ha": 38.4,
+        "Residential_Area_ha": 14.3,
+        "Density_hab_per_ha": 240,
+        "Net_Density_hab_per_ha": 645
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 35,
+        "Neighborhood_Name": "el Guinard\u00f3",
+        "Population": 36939,
+        "Area_ha": 130.9,
+        "Residential_Area_ha": 52.0,
+        "Density_hab_per_ha": 282,
+        "Net_Density_hab_per_ha": 710
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 36,
+        "Neighborhood_Name": "la Font d'en Fargues",
+        "Population": 9458,
+        "Area_ha": 65.7,
+        "Residential_Area_ha": 38.8,
+        "Density_hab_per_ha": 144,
+        "Net_Density_hab_per_ha": 244
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 37,
+        "Neighborhood_Name": "el Carmel",
+        "Population": 32444,
+        "Area_ha": 94.0,
+        "Residential_Area_ha": 39.4,
+        "Density_hab_per_ha": 345,
+        "Net_Density_hab_per_ha": 822
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 38,
+        "Neighborhood_Name": "la Teixonera",
+        "Population": 11926,
+        "Area_ha": 33.8,
+        "Residential_Area_ha": 16.9,
+        "Density_hab_per_ha": 353,
+        "Net_Density_hab_per_ha": 707
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 39,
+        "Neighborhood_Name": "Sant Gen\u00eds dels Agudells",
+        "Population": 7249,
+        "Area_ha": 168.1,
+        "Residential_Area_ha": 16.9,
+        "Density_hab_per_ha": 43,
+        "Net_Density_hab_per_ha": 430
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 40,
+        "Neighborhood_Name": "Montbau",
+        "Population": 5071,
+        "Area_ha": 205.5,
+        "Residential_Area_ha": 11.4,
+        "Density_hab_per_ha": 25,
+        "Net_Density_hab_per_ha": 447
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 41,
+        "Neighborhood_Name": "la Vall d'Hebron",
+        "Population": 5882,
+        "Area_ha": 74.5,
+        "Residential_Area_ha": 7.2,
+        "Density_hab_per_ha": 79,
+        "Net_Density_hab_per_ha": 813
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 42,
+        "Neighborhood_Name": "la Clota",
+        "Population": 689,
+        "Area_ha": 17.8,
+        "Residential_Area_ha": 6.1,
+        "Density_hab_per_ha": 39,
+        "Net_Density_hab_per_ha": 114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 7,
+        "Barri_Name": "Horta-Guinard\u00f3",
+        "Neighborhood_Code": 43,
+        "Neighborhood_Name": "Horta",
+        "Population": 27707,
+        "Area_ha": 307.0,
+        "Residential_Area_ha": 63.2,
+        "Density_hab_per_ha": 90,
+        "Net_Density_hab_per_ha": 439
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 44,
+        "Neighborhood_Name": "Vilapicina i la Torre Llobeta",
+        "Population": 25674,
+        "Area_ha": 56.4,
+        "Residential_Area_ha": 29.3,
+        "Density_hab_per_ha": 455,
+        "Net_Density_hab_per_ha": 875
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 45,
+        "Neighborhood_Name": "Porta",
+        "Population": 27418,
+        "Area_ha": 83.7,
+        "Residential_Area_ha": 35.7,
+        "Density_hab_per_ha": 328,
+        "Net_Density_hab_per_ha": 768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 46,
+        "Neighborhood_Name": "el Tur\u00f3 de la Peira",
+        "Population": 16025,
+        "Area_ha": 35.4,
+        "Residential_Area_ha": 13.3,
+        "Density_hab_per_ha": 452,
+        "Net_Density_hab_per_ha": 1204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 47,
+        "Neighborhood_Name": "Can Peguera",
+        "Population": 2204,
+        "Area_ha": 11.9,
+        "Residential_Area_ha": 6.1,
+        "Density_hab_per_ha": 186,
+        "Net_Density_hab_per_ha": 359
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 48,
+        "Neighborhood_Name": "la Guineueta",
+        "Population": 15189,
+        "Area_ha": 61.2,
+        "Residential_Area_ha": 22.0,
+        "Density_hab_per_ha": 248,
+        "Net_Density_hab_per_ha": 689
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 49,
+        "Neighborhood_Name": "Canyelles",
+        "Population": 6797,
+        "Area_ha": 79.0,
+        "Residential_Area_ha": 11.0,
+        "Density_hab_per_ha": 86,
+        "Net_Density_hab_per_ha": 620
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 50,
+        "Neighborhood_Name": "les Roquetes",
+        "Population": 16373,
+        "Area_ha": 64.3,
+        "Residential_Area_ha": 18.2,
+        "Density_hab_per_ha": 255,
+        "Net_Density_hab_per_ha": 897
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 51,
+        "Neighborhood_Name": "Verdun",
+        "Population": 12727,
+        "Area_ha": 23.7,
+        "Residential_Area_ha": 14.2,
+        "Density_hab_per_ha": 537,
+        "Net_Density_hab_per_ha": 894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 52,
+        "Neighborhood_Name": "la Prosperitat",
+        "Population": 26669,
+        "Area_ha": 59.1,
+        "Residential_Area_ha": 27.1,
+        "Density_hab_per_ha": 451,
+        "Net_Density_hab_per_ha": 985
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 53,
+        "Neighborhood_Name": "la Trinitat Nova",
+        "Population": 7507,
+        "Area_ha": 57.7,
+        "Residential_Area_ha": 12.6,
+        "Density_hab_per_ha": 130,
+        "Net_Density_hab_per_ha": 598
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 54,
+        "Neighborhood_Name": "Torre Bar\u00f3",
+        "Population": 2890,
+        "Area_ha": 174.2,
+        "Residential_Area_ha": 21.2,
+        "Density_hab_per_ha": 17,
+        "Net_Density_hab_per_ha": 136
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 55,
+        "Neighborhood_Name": "Ciutat Meridiana",
+        "Population": 11026,
+        "Area_ha": 37.7,
+        "Residential_Area_ha": 15.1,
+        "Density_hab_per_ha": 293,
+        "Net_Density_hab_per_ha": 729
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 8,
+        "Barri_Name": "Nou Barris",
+        "Neighborhood_Code": 56,
+        "Neighborhood_Name": "Vallbona",
+        "Population": 1384,
+        "Area_ha": 61.4,
+        "Residential_Area_ha": 6.8,
+        "Density_hab_per_ha": 23,
+        "Net_Density_hab_per_ha": 204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 9,
+        "Barri_Name": "Sant Andreu",
+        "Neighborhood_Code": 57,
+        "Neighborhood_Name": "la Trinitat Vella",
+        "Population": 10364,
+        "Area_ha": 80.8,
+        "Residential_Area_ha": 12.7,
+        "Density_hab_per_ha": 128,
+        "Net_Density_hab_per_ha": 817
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 9,
+        "Barri_Name": "Sant Andreu",
+        "Neighborhood_Code": 58,
+        "Neighborhood_Name": "Bar\u00f3 de Viver",
+        "Population": 2645,
+        "Area_ha": 23.0,
+        "Residential_Area_ha": 3.9,
+        "Density_hab_per_ha": 115,
+        "Net_Density_hab_per_ha": 673
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 9,
+        "Barri_Name": "Sant Andreu",
+        "Neighborhood_Code": 59,
+        "Neighborhood_Name": "el Bon Pastor",
+        "Population": 13582,
+        "Area_ha": 186.8,
+        "Residential_Area_ha": 17.8,
+        "Density_hab_per_ha": 73,
+        "Net_Density_hab_per_ha": 763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 9,
+        "Barri_Name": "Sant Andreu",
+        "Neighborhood_Code": 60,
+        "Neighborhood_Name": "Sant Andreu",
+        "Population": 57954,
+        "Area_ha": 186.7,
+        "Residential_Area_ha": 76.5,
+        "Density_hab_per_ha": 310,
+        "Net_Density_hab_per_ha": 758
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 9,
+        "Barri_Name": "Sant Andreu",
+        "Neighborhood_Code": 61,
+        "Neighborhood_Name": "la Sagrera",
+        "Population": 29351,
+        "Area_ha": 98.6,
+        "Residential_Area_ha": 38.1,
+        "Density_hab_per_ha": 298,
+        "Net_Density_hab_per_ha": 770
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 9,
+        "Barri_Name": "Sant Andreu",
+        "Neighborhood_Code": 62,
+        "Neighborhood_Name": "el Congr\u00e9s i els Indians",
+        "Population": 14420,
+        "Area_ha": 40.9,
+        "Residential_Area_ha": 19.1,
+        "Density_hab_per_ha": 352,
+        "Net_Density_hab_per_ha": 753
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 9,
+        "Barri_Name": "Sant Andreu",
+        "Neighborhood_Code": 63,
+        "Neighborhood_Name": "Navas",
+        "Population": 22091,
+        "Area_ha": 42.4,
+        "Residential_Area_ha": 22.4,
+        "Density_hab_per_ha": 521,
+        "Net_Density_hab_per_ha": 984
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 64,
+        "Neighborhood_Name": "el Camp de l'Arpa del Clot",
+        "Population": 38360,
+        "Area_ha": 74.1,
+        "Residential_Area_ha": 42.9,
+        "Density_hab_per_ha": 518,
+        "Net_Density_hab_per_ha": 894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 65,
+        "Neighborhood_Name": "el Clot",
+        "Population": 26520,
+        "Area_ha": 69.7,
+        "Residential_Area_ha": 23.4,
+        "Density_hab_per_ha": 381,
+        "Net_Density_hab_per_ha": 1131
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 66,
+        "Neighborhood_Name": "el Parc i la Llacuna del Poblenou",
+        "Population": 15603,
+        "Area_ha": 112.2,
+        "Residential_Area_ha": 22.3,
+        "Density_hab_per_ha": 139,
+        "Net_Density_hab_per_ha": 699
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 67,
+        "Neighborhood_Name": "la Vila Ol\u00edmpica del Poblenou",
+        "Population": 9240,
+        "Area_ha": 92.5,
+        "Residential_Area_ha": 24.3,
+        "Density_hab_per_ha": 100,
+        "Net_Density_hab_per_ha": 380
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 68,
+        "Neighborhood_Name": "el Poblenou",
+        "Population": 33976,
+        "Area_ha": 156.7,
+        "Residential_Area_ha": 45.0,
+        "Density_hab_per_ha": 217,
+        "Net_Density_hab_per_ha": 755
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 69,
+        "Neighborhood_Name": "Diagonal Mar i el Front Mar\u00edtim del Poblenou",
+        "Population": 13323,
+        "Area_ha": 122.7,
+        "Residential_Area_ha": 24.0,
+        "Density_hab_per_ha": 109,
+        "Net_Density_hab_per_ha": 556
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 70,
+        "Neighborhood_Name": "el Bes\u00f2s i el Maresme",
+        "Population": 25657,
+        "Area_ha": 120.9,
+        "Residential_Area_ha": 28.1,
+        "Density_hab_per_ha": 212,
+        "Net_Density_hab_per_ha": 913
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 71,
+        "Neighborhood_Name": "Proven\u00e7als del Poblenou",
+        "Population": 20949,
+        "Area_ha": 108.6,
+        "Residential_Area_ha": 15.3,
+        "Density_hab_per_ha": 193,
+        "Net_Density_hab_per_ha": 1368
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 72,
+        "Neighborhood_Name": "Sant Mart\u00ed de Proven\u00e7als",
+        "Population": 26032,
+        "Area_ha": 73.4,
+        "Residential_Area_ha": 23.4,
+        "Density_hab_per_ha": 355,
+        "Net_Density_hab_per_ha": 1111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "Year": 2021,
+        "Barri_Code": 10,
+        "Barri_Name": "Sant Mart\u00ed",
+        "Neighborhood_Code": 73,
+        "Neighborhood_Name": "la Verneda i la Pau",
+        "Population": 28585,
+        "Area_ha": 113.0,
+        "Residential_Area_ha": 40.0,
+        "Density_hab_per_ha": 253,
+        "Net_Density_hab_per_ha": 714
+      }
+    }
+  ]
+}

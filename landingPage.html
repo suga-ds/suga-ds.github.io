@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>deX1fra</title>
+    <meta charset="UTF-8">
+    <link href='./styleSheet.css' rel='stylesheet'>
+    <!-- Iner Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- End of Iner Font-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Leaflet --->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <style>
+        #map1,
+        #map2 {
+            flex: 1 1 400px;
+            box-sizing: border-box;
+            margin: 10px 0px;
+            height: 450px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="nav-items">
+            <p id="scrollToSection1">QUÈ FEM</p>
+            <p id="scrollToSection2">QUÈ ÉS SIG</p>
+            <p id="scrollToSection3">QUÈ OFERIM</p>
+            <p id="scrollToSection4">DADES</p>
+            <p id="scrollToSection5">CONTACTE</p>
+        </div>
+    </div>
+    <div style="padding: 150px 20px 20px 20px;">
+        <div class="landingTitle" style="width: 100%; display: grid; row-gap: 200px; column-gap: 40px;">
+            <p>DE</p>
+            <p style="text-align: end;">XIFRA</p>
+            <p>A</p>
+            <p style="text-align: end;">MAPA</p>
+        </div>
+        <h3
+            style="text-align: justify; width: 794px; position: absolute; top: 340px; font-family: 'Space Mono'; left: 125px; font-weight: 200; font-size: 18px;">
+            UN MAPA GEOESPACIAL ÉS UN CANAL DE DIFUSIÓ UNIVERSAL. UN RECURS QÙE TRADUEIX DADES I LES MOSTRE PERQUÈ
+            LA VISTA LES ENTENGUI I INTERIORITZI. UNA MANERA DE TRANSMETRE UN MISSATGE INTUITIVA I CAPTIVADORA.</h3>
+        <div style="display: flex; margin-top: 10vh; gap: 5vh; border: 2px solid #002FA7; padding: 1.875rem; border-radius: 10px;"
+            id="section1">
+            <div style="margin-top: 20px; ">
+                <h3
+                    style="writing-mode: vertical-rl; transform: rotate(180deg); text-align: end; font-weight: 900; font-size: 32px; line-height: 30px;">
+                    QUÈ FEM?</h3>
+            </div>
+            <div>
+                <p class="textStyle">
+                    Analitzem dades geogràfiques. Raonem quina es la manera
+                    optima de comunicar al usuari el significat de les xifres que recollim. Seguidament interpretem les
+                    dades amb l'ajuda d'un software <span style="font-weight: 700;">SIG</span>. D'aquesta manera, construim un mapa tematic interactiu que
+                    mostra amb punts, linies, formes i colors tota la informació.
+                </p>
+                <div id="section2"
+                    style="background-color: #002FA7; color: white; border-radius: 10px; padding: 10px 50px; display: flex; gap: 50px; padding: 2rem 1rem 0rem 1rem;">
+                    <div>
+                        <p class="textStyle"
+                            style="font-size: 18px; letter-spacing: -0.099rem; align-items: center; height: 100%;">És el
+                            Sistema d'Informació Geogràfic. És un eina specialitzada en la integració de múltiples capes
+                            d'informació geoespacial en el matiex recurs. Ofereix les bases en les quales dissenyar un
+                            mapa interactiu.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 1200;font-size: 24px; width: max-content;">QUÈ ÉS SIG?</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <marquee behavior="scroll" direction="left" id="section3" class="movingText" class="example-left">Buscar
+            tendències espacials, identificar patrons geogràfics</marquee>
+        <div class="queOferim"
+            style="margin-top: 200px; display: flex; align-items: end; border: 2px solid #002FA7; border-radius: 10px; padding: 30px;">
+            <p class="textStyle">Proposem un mapa interactiu que expliqui tota la informació
+                que
+                recopilem, amb una interfície fàcil de
+                navegar per a l'usuari. El mapa carrega dinàmicament la informació geogràfica a mesura que l'usuari
+                s'apropa, fa clic o passa el ratolí per sobre de la pàgina. A més a més, quan les dades que
+                sustenten el
+                mapa s'actualitzen, el mateix mapa es renova automàticament per reflectir aquests canvis.</p>
+            <h3
+                style="writing-mode: vertical-rl; transform: rotate(180deg); text-align: end; font-weight: 1200; font-size: 32px;">
+                QUÈ OFERIM </h3>
+        </div>
+        <div id="section4" style="border: 2px solid #002FA7; border-radius: 10px; padding: 30px; margin-top: 30px;">
+            <h2 style="font-size: 32px;">DÀDES</h2>
+            <!-- MAPS -->
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+                <div id="map1"></div>
+                <div id="map2"></div>
+            </div>
+            <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+            <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+            <script>
+                // Initialize the first map
+                const map1 = L.map('map1').setView([41.3851, 2.1734], 12); // Centered on Barcelona
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                }).addTo(map1);
+
+                // Initialize the second map
+                const map2 = L.map('map2').setView([41.3851, 2.1734], 12); // Centered on Barcelona
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                }).addTo(map2);
+            </script>
+        </div>
+        <div">
+            <p id="section5" style="text-align: center;">Contacta amb nosaltres: contacte@deX1fra.cat</p>
+    </div>
+    <script src="./cartography/mainCarrilBici.js"></script>
+    <script>
+        document.getElementById("scrollToSection1").addEventListener("click", function () {
+            document.getElementById("section1").scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById("scrollToSection2").addEventListener("click", function () {
+            document.getElementById("section1").scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById("scrollToSection3").addEventListener("click", function () {
+            document.getElementById("section3").scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById("scrollToSection4").addEventListener("click", function () {
+            document.getElementById("section4").scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById("scrollToSection5").addEventListener("click", function () {
+            document.getElementById("section5").scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+    </div>
+</body>
