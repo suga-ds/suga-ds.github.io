@@ -5,6 +5,9 @@
     <title>deX1fra</title>
     <meta charset="UTF-8">
     <link href='./styleSheet.css' rel='stylesheet'>
+    <!-- Leaflet -->    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <!-- Iner Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +20,7 @@
         rel="stylesheet">
     <!-- End of Iner Font-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <!-- Leaflet --->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <script src="./mainCarrilBici.js"></script>
     <style>
         #map1,
         #map2 {
@@ -31,6 +31,9 @@
             border-radius: 0.52vw;
         }
     </style>
+    <!-- More Leaflet --->
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script> 
 </head>
 
 <body>
@@ -105,11 +108,9 @@
                 <div id="map1"></div>
                 <div id="map2"></div>
             </div>
-            <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-            <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
             <script>
                 // Initialize the first map
-                const map1 = L.map('map1').setView([41.3851, 2.1734], 12); // Centered on Barcelona
+                const map1 = L.map('map1').setView([41.3851, 2.1734], 12); // Initialize and center on Barcelona
                 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                 }).addTo(map1);
