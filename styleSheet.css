@@ -1,5 +1,4 @@
 body {
-    font-family: 'Spectral';
     color: #002FA7;
     padding: 0 0.00vw;
     font-family: 'Space Mono';
@@ -61,12 +60,10 @@ ul li {
 
 .textStyle {
     font-size: 1.775rem;
-    line-height: 2.375rem;
     margin-top: 0.00vw;
-    letter-spacing: -0.1rem;
     transform: scaleY(1.1);
     transform-origin: bottom;
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     font-weight: 100;
 }
 
