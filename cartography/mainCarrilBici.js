@@ -11,8 +11,8 @@ function bikeLaneStyle(feature) {
 fetch('./cartography/carrilBici.geojson')
   .then(response => response.json())
   .then(data => {
-    // Add the GeoJSON layer to the map with the specified style
-    L.geoJson(data, { style: bikeLaneStyle }).addTo(map);
+    // Add the GeoJSON layer to the map1 with the specified style
+    L.geoJson(data, { style: bikeLaneStyle }).addTo(map1);
   })
   .catch(error => console.error('Error fetching bike lanes data:', error));
 
@@ -33,7 +33,7 @@ fetch('./cartography/barcelonaDistrictes.geojson')
           layer.bindPopup(feature.properties.name);
         }
       }
-    }).addTo(map);
+    }).addTo(map1);
   })
   .catch(error => console.error('Error fetching districts data:', error));
 
@@ -54,6 +54,6 @@ fetch('./cartography/barcelonaBarris.geojson')
           layer.bindPopup(feature.properties.name);
         }
       }
-    }).addTo(map);
+    }).addTo(map1);
   })
   .catch(error => console.error('Error fetching barris data:', error));
