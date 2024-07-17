@@ -21,8 +21,8 @@ function style(feature) {
 // Logic to digest and merge data:
 // Load the barris polygons, select specofic values.
 Promise.all([
-  fetch('/barris').then(response => response.json()),
-  fetch('/densitatPoblacio').then(response => response.json())
+  fetch('./cartography/barcelonaBarris.geojson').then(response => response.json()),
+  fetch('./cartography/densitatPoblacio.geojson').then(response => response.json())
 ]).then(([barrisData, densityData]) => {
   // Create a mapping of neighborhood ids to density values
   const densityMap = {};
@@ -38,13 +38,13 @@ Promise.all([
     feature.properties.density = density; // ads 'density' : <density value> key pair to barris object
   });
 
-  // Add the GeoJSON layer to the map
+  // Add the GeoJSON layer to the map2
   L.geoJson(barrisData, {
     style,
-  }).addTo(map); // Loads barris merged object
+  }).addTo(map2); // Loads barris merged object
 });
 
-fetch('/districtes') // Load districts data.
+fetch('./cartography/barcelonaDistrictes.geojson') // Load districts data.
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data, {
@@ -59,14 +59,14 @@ fetch('/districtes') // Load districts data.
           layer.bindPopup(feature.properties.name);
         }
       }
-    }).addTo(map);
+    }).addTo(map2);
   })
   .catch(error => console.error('Error fetching districts data:', error));
 
 // Add Legend
 const legend = L.control({ position: 'bottomright' });
 
-legend.onAdd = function (map) {
+legend.onAdd = function (map2) {
   const div = L.DomUtil.create('div', 'info legend');
   const grades = [ 0, 100, 400, 700, 1000];
   const labels = [];
@@ -80,4 +80,4 @@ legend.onAdd = function (map) {
   return div;
 };
 
-legend.addTo(map);
+legend.addTo(map2);
