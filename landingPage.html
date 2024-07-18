@@ -122,6 +122,12 @@
                 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                 }).addTo(map2);
+
+                // Initialize the second map
+                const map3 = L.map('map3').setView([41.3851, 2.1734], 12); // Centered on Barcelona
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                }).addTo(map3);
             </script>
         </div>
         <div">
@@ -129,6 +135,7 @@
     </div>
     <script src="./cartography/mainCarrilBici.js"></script>
     <script src="./cartography/mainDensitatPoblacio.js"></script>
+    <script src="./cartography/mainRefugisClimàtics.js"></script>
     <script>
         document.getElementById("scrollToSection1").addEventListener("click", function () {
             document.getElementById("section1").scrollIntoView({ behavior: 'smooth' });

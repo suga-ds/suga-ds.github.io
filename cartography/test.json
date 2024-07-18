@@ -1,0 +1,315 @@
+{
+    "help": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/help_show?name=datastore_search",
+    "success": true,
+    "result": {
+        "resource_id": "7ecae024-6cb2-427d-b2d0-e170500e2a38",
+        "fields": [
+            {
+                "type": "int4",
+                "id": "_id"
+            },
+            {
+                "type": "text",
+                "id": "register_id"
+            },
+            {
+                "type": "text",
+                "id": "name"
+            },
+            {
+                "type": "numeric",
+                "id": "institution_id"
+            },
+            {
+                "type": "text",
+                "id": "institution_name"
+            },
+            {
+                "type": "timestamp",
+                "id": "created"
+            },
+            {
+                "type": "timestamp",
+                "id": "modified"
+            },
+            {
+                "type": "text",
+                "id": "addresses_roadtype_id"
+            },
+            {
+                "type": "text",
+                "id": "addresses_roadtype_name"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_road_id"
+            },
+            {
+                "type": "text",
+                "id": "addresses_road_name"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_start_street_number"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_end_street_number"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_neighborhood_id"
+            },
+            {
+                "type": "text",
+                "id": "addresses_neighborhood_name"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_district_id"
+            },
+            {
+                "type": "text",
+                "id": "addresses_district_name"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_zip_code"
+            },
+            {
+                "type": "text",
+                "id": "addresses_town"
+            },
+            {
+                "type": "text",
+                "id": "addresses_main_address"
+            },
+            {
+                "type": "text",
+                "id": "addresses_type"
+            },
+            {
+                "type": "numeric",
+                "id": "values_id"
+            },
+            {
+                "type": "numeric",
+                "id": "values_attribute_id"
+            },
+            {
+                "type": "text",
+                "id": "values_category"
+            },
+            {
+                "type": "text",
+                "id": "values_attribute_name"
+            },
+            {
+                "type": "text",
+                "id": "values_value"
+            },
+            {
+                "type": "text",
+                "id": "values_outstanding"
+            },
+            {
+                "type": "text",
+                "id": "values_description"
+            },
+            {
+                "type": "numeric",
+                "id": "geo_epgs_25831_x"
+            },
+            {
+                "type": "numeric",
+                "id": "geo_epgs_25831_y"
+            },
+            {
+                "type": "numeric",
+                "id": "geo_epgs_4326_lat"
+            },
+            {
+                "type": "numeric",
+                "id": "geo_epgs_4326_lon"
+            }
+        ],
+        "records": [
+            {
+                "addresses_roadtype_name": "",
+                "addresses_end_street_number": null,
+                "geo_epgs_4326_lon": "2.147525318360155",
+                "values_attribute_name": "E-mail",
+                "addresses_road_name": "Carrer del Rabí Rubèn",
+                "values_category": "Informació d'interès",
+                "addresses_zip_code": "8004",
+                "values_value": "admin@fontdelaguatlla.org",
+                "addresses_town": "Barcelona",
+                "addresses_district_name": "Sants-Montjuïc",
+                "geo_epgs_25831_x": "428708.30231272907",
+                "addresses_start_street_number": "22",
+                "register_id": "﻿94322130925",
+                "institution_id": null,
+                "addresses_main_address": "True",
+                "addresses_district_id": "3",
+                "addresses_roadtype_id": "",
+                "addresses_type": "",
+                "addresses_neighborhood_id": "14",
+                "_id": 1,
+                "name": "Centre Cívic Font de la Guatlla",
+                "addresses_road_id": "273309",
+                "created": "1994-11-18T00:00:00",
+                "geo_epgs_25831_y": "4580247.651421676",
+                "institution_name": "",
+                "modified": "2024-06-21T14:53:32.453229",
+                "geo_epgs_4326_lat": "41.37058744098685",
+                "values_description": "",
+                "values_id": "594050",
+                "addresses_neighborhood_name": "la Font de la Guatlla",
+                "values_outstanding": "False",
+                "values_attribute_id": "100002"
+            },
+            {
+                "addresses_roadtype_name": "",
+                "addresses_end_street_number": null,
+                "geo_epgs_4326_lon": "2.1815895746695557",
+                "values_attribute_name": "E-mail",
+                "addresses_road_name": "C Capella",
+                "values_category": "Informació d'interès",
+                "addresses_zip_code": "8041",
+                "values_value": "gestionavas@bcn.cat",
+                "addresses_town": "BARCELONA",
+                "addresses_district_name": "Sant Andreu",
+                "geo_epgs_25831_x": "431605.70809224",
+                "addresses_start_street_number": "14",
+                "register_id": "﻿92086029816",
+                "institution_id": null,
+                "addresses_main_address": "True",
+                "addresses_district_id": "9",
+                "addresses_roadtype_id": "",
+                "addresses_type": "",
+                "addresses_neighborhood_id": "63",
+                "_id": 2,
+                "name": "Casal de Gent Gran Navas",
+                "addresses_road_id": "62100",
+                "created": "1989-03-15T00:00:00",
+                "geo_epgs_25831_y": "4585367.230074294",
+                "institution_name": "",
+                "modified": "2024-06-26T10:46:25.125354",
+                "geo_epgs_4326_lat": "41.416949376341556",
+                "values_description": "",
+                "values_id": "42073",
+                "addresses_neighborhood_name": "Navas",
+                "values_outstanding": "True",
+                "values_attribute_id": "100002"
+            },
+            {
+                "addresses_roadtype_name": "",
+                "addresses_end_street_number": null,
+                "geo_epgs_4326_lon": "2.14824894371729",
+                "values_attribute_name": "E-mail",
+                "addresses_road_name": "París",
+                "values_category": "Informació d'interès",
+                "addresses_zip_code": "8029",
+                "values_value": "psj@natacio.cat",
+                "addresses_town": "BARCELONA",
+                "addresses_district_name": "Eixample",
+                "geo_epgs_25831_x": "428787.77213170566",
+                "addresses_start_street_number": "114",
+                "register_id": "﻿92086002693",
+                "institution_id": null,
+                "addresses_main_address": "True",
+                "addresses_district_id": "2",
+                "addresses_roadtype_id": "",
+                "addresses_type": "",
+                "addresses_neighborhood_id": "9",
+                "_id": 3,
+                "name": "Centre Esportiu Municipal Piscina Sant Jordi",
+                "addresses_road_id": "245802",
+                "created": "1987-11-03T00:00:00",
+                "geo_epgs_25831_y": "4582175.602620509",
+                "institution_name": "",
+                "modified": "2024-06-27T16:04:13.414655",
+                "geo_epgs_4326_lat": "41.387958851510035",
+                "values_description": "",
+                "values_id": "39771",
+                "addresses_neighborhood_name": "la Nova Esquerra de l'Eixample",
+                "values_outstanding": "True",
+                "values_attribute_id": "100002"
+            },
+            {
+                "addresses_roadtype_name": "",
+                "addresses_end_street_number": null,
+                "geo_epgs_4326_lon": "2.1190944805898617",
+                "values_attribute_name": "Web",
+                "addresses_road_name": "C Martí i Franquès",
+                "values_category": "Informació d'interès",
+                "addresses_zip_code": "8028",
+                "values_value": "http://crai.ub.edu/coneix-el-crai/biblioteques",
+                "addresses_town": "BARCELONA",
+                "addresses_district_name": "Les Corts",
+                "geo_epgs_25831_x": "426346.04695031093",
+                "addresses_start_street_number": "2",
+                "register_id": "﻿92086009953",
+                "institution_id": "92086009951",
+                "addresses_main_address": "True",
+                "addresses_district_id": "4",
+                "addresses_roadtype_id": "",
+                "addresses_type": "",
+                "addresses_neighborhood_id": "20",
+                "_id": 4,
+                "name": "CRAI - Biblioteca",
+                "addresses_road_id": "7258",
+                "created": "1990-02-12T00:00:00",
+                "geo_epgs_25831_y": "4581787.985879826",
+                "institution_name": "Facultat de Ciències de la Terra - UB",
+                "modified": "2024-06-20T11:04:37.313184",
+                "geo_epgs_4326_lat": "41.38424788636903",
+                "values_description": "",
+                "values_id": "73283",
+                "addresses_neighborhood_name": "la Maternitat i Sant Ramon",
+                "values_outstanding": "True",
+                "values_attribute_id": "100003"
+            },
+            {
+                "addresses_roadtype_name": "",
+                "addresses_end_street_number": null,
+                "geo_epgs_4326_lon": "2.1152495646604175",
+                "values_attribute_name": "E-mail",
+                "addresses_road_name": "Av Diagonal",
+                "values_category": "Informació d'interès",
+                "addresses_zip_code": "8028",
+                "values_value": "etseib@upc.edu",
+                "addresses_town": "BARCELONA",
+                "addresses_district_name": "Les Corts",
+                "geo_epgs_25831_x": "426025.30305167846",
+                "addresses_start_street_number": "647",
+                "register_id": "﻿92086010030",
+                "institution_id": "92086010028",
+                "addresses_main_address": "True",
+                "addresses_district_id": "4",
+                "addresses_roadtype_id": "",
+                "addresses_type": "",
+                "addresses_neighborhood_id": "20",
+                "_id": 5,
+                "name": "Biblioteca",
+                "addresses_road_id": "144601",
+                "created": "1986-05-16T00:00:00",
+                "geo_epgs_25831_y": "4581863.652071393",
+                "institution_name": "Escola Tècnica Superior d'Enginyeria Industrial de Barcelona - UPC",
+                "modified": "2024-06-20T10:53:58.823124",
+                "geo_epgs_4326_lat": "41.38489994951897",
+                "values_description": "",
+                "values_id": "40074",
+                "addresses_neighborhood_name": "la Maternitat i Sant Ramon",
+                "values_outstanding": "True",
+                "values_attribute_id": "100002"
+            }
+        ],
+        "_links": {
+            "start": "/api/action/datastore_search?limit=5&resource_id=7ecae024-6cb2-427d-b2d0-e170500e2a38",
+            "next": "/api/action/datastore_search?offset=5&limit=5&resource_id=7ecae024-6cb2-427d-b2d0-e170500e2a38"
+        },
+        "limit": 5,
+        "total": 367
+    }
+}
