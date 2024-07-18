@@ -1,6 +1,6 @@
 body {
     color: #002FA7;
-    padding: 0 0.00vw;
+    padding: 0 0vw;
     font-family: 'Space Mono';
     text-align: justify;
 }
@@ -32,7 +32,7 @@ body {
     transform-origin: bottom;
     font-weight: 200;
     font-family: 'Spectral';
-    line-height: 9.38vw;;
+    line-height: 12vw;
 }
 
 ul li {

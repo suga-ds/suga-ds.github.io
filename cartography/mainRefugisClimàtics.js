@@ -1,10 +1,14 @@
 var customIcon = L.icon({
   iconUrl: './dot.png', // Path to your image
   iconSize: [16, 16], // Size of the icon
-  iconAnchor: [16, 32], // Point of the icon which will correspond to marker's location
-  popupAnchor: [0, -32] // Point from which the popup should open relative to the iconAnchor
+  iconAnchor: [8, 8], // Point of the icon which will correspond to marker's location
+  popupAnchor: [0, -8] // Point from which the popup should open relative to the iconAnchor
 });
 
+var enlargedIcon = L.icon({
+  iconUrl: './dot.png', // Path to your image
+  iconSize: [20, 20], // Enlarged size of the icon
+});
 
 fetch('./cartography/refugisClimàtics.json')
   .then(response => response.json())  // Parse the JSON from the response
@@ -16,10 +20,18 @@ fetch('./cartography/refugisClimàtics.json')
     records.forEach(function (location) {
       var marker = L.marker([location.geo_epgs_4326_lat, location.geo_epgs_4326_lon], { icon: customIcon }).addTo(map3);
       marker.bindPopup('<b>' + location.name + '</b><br>' + location.values_value);
+
+      // Add event listeners for mouseover and mouseout
+      marker.on('mouseover', function () {
+        marker.setIcon(enlargedIcon);
+      });
+      marker.on('mouseout', function () {
+        marker.setIcon(customIcon);
+      });
     });
   })
   .catch(error => console.error('Error fetching the JSON data:', error));
-
+/*
 // Fetch and display the districtes data
 fetch('./cartography/barcelonaDistrictes.geojson')
   .then(response => response.json())
@@ -41,23 +53,33 @@ fetch('./cartography/barcelonaDistrictes.geojson')
   })
   .catch(error => console.error('Error fetching districts data:', error));
 
-// Fetch and display the barris data
-fetch('./cartography/barcelonaBarris.geojson')
+fetch('./cartography/barcelonaBarris.json')
   .then(response => response.json())
   .then(data => {
-    L.geoJSON(data, {
-      style: {
+    // Loop through the records in the JSON file
+    data.result.records.forEach(function (record) {
+      // Parse the WGS84 geometry
+      var wgs84Coordinates = record.geometria_wgs84
+        .replace('POLYGON ((', '')
+        .replace('))', '')
+        .split(', ')
+        .map(coord => coord.split(' ').map(Number));
+
+      // Create an array of LatLng objects
+      var latLngs = wgs84Coordinates.map(coord => [coord[1], coord[0]]);
+
+      // Define style options
+      var polygonStyle = {
         color: "#000",
         // fillColor: "#3867A8",
-        weight: 1,
-        opacity: 0.1,
+        weight: 0.5,
+        opacity: 0.2,
         fillOpacity: 0
-      },
-      onEachFeature: function (feature, layer) {
-        if (feature.properties && feature.properties.name) {
-          layer.bindPopup(feature.properties.name);
-        }
-      }
-    }).addTo(map3);
+      };
+
+      // Add the polygon to the map with style options
+      L.polygon(latLngs, polygonStyle).addTo(map3);
+    });
   })
-  .catch(error => console.error('Error fetching barris data:', error));
+  .catch(error => console.error('Error fetching the JSON data:', error));
+*/

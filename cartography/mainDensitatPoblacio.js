@@ -17,22 +17,22 @@
 
 	// get color depending on population density value
 	function getColor(d) {
-		return d > 1000 ? '#800026' :
-			d > 500  ? '#BD0026' :
-			d > 200  ? '#E31A1C' :
-			d > 100  ? '#FC4E2A' :
-			d > 50   ? '#FD8D3C' :
-			d > 20   ? '#FEB24C' :
-			d > 10   ? '#FED976' : '#FFEDA0';
+		return d > 1000 ? '#53273A' :
+			d > 500  ? '#6F344E' :
+			d > 200  ? '#8B4161' :
+			d > 100  ? '#A64E75' :
+			d > 50   ? '#B7668B' :
+			d > 20   ? '#C482A0' :
+			d > 10   ? '#D19EB5' : '#DEBACA';
 	}
 
 	function style(feature) {
 		return {
-			weight: 2,
-			opacity: 1,
-			color: 'white',
+			weight: 1,
+			opacity: 0.5,
+			color: 'black',
 			// dashArray: '3',
-			fillOpacity: 0.7,
+			fillOpacity: 0.9,
 			fillColor: getColor(feature.properties.density)
 		};
 	}
@@ -42,7 +42,7 @@
 
 		layer.setStyle({
 			weight: 5,
-			color: '#888',
+			color: '#111',
 			dashArray: '',
 			fillOpacity: 0.7
 		});
