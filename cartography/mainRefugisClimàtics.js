@@ -1,6 +1,6 @@
 var customIcon = L.icon({
   iconUrl: './dot.png', // Path to your image
-  iconSize: [32, 32], // Size of the icon
+  iconSize: [16, 16], // Size of the icon
   iconAnchor: [16, 32], // Point of the icon which will correspond to marker's location
   popupAnchor: [0, -32] // Point from which the popup should open relative to the iconAnchor
 });
@@ -37,7 +37,7 @@ fetch('./cartography/barcelonaDistrictes.geojson')
           layer.bindPopup(feature.properties.name);
         }
       }
-    }).addTo(map1);
+    }).addTo(map3);
   })
   .catch(error => console.error('Error fetching districts data:', error));
 
@@ -58,6 +58,6 @@ fetch('./cartography/barcelonaBarris.geojson')
           layer.bindPopup(feature.properties.name);
         }
       }
-    }).addTo(map1);
+    }).addTo(map3);
   })
   .catch(error => console.error('Error fetching barris data:', error));

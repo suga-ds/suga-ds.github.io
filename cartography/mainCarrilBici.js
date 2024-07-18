@@ -1,9 +1,9 @@
 // Define a function to set the style for bike lanes
 function bikeLaneStyle(feature) {
   return {
-    color: '#7D3B58',
-    weight: 2,
-    opacity: 0.7
+      color: '#7D3B58',
+      weight: 2,
+      opacity: 0.7
   };
 }
 
@@ -11,8 +11,16 @@ function bikeLaneStyle(feature) {
 fetch('./cartography/carrilBici.geojson')
   .then(response => response.json())
   .then(data => {
-    // Add the GeoJSON layer to the map1 with the specified style
-    L.geoJson(data, { style: bikeLaneStyle }).addTo(map1);
+      L.geoJson(data, {
+          style: bikeLaneStyle,
+          onEachFeature: function (feature, layer) {
+              if (feature.properties && feature.properties.TOOLTIP) {
+                  layer.on('click', function () {
+                      layer.bindPopup(feature.properties.TOOLTIP).openPopup();
+                  });
+              }
+          }
+      }).addTo(map1);
   })
   .catch(error => console.error('Error fetching bike lanes data:', error));
 

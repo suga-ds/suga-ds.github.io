@@ -8,6 +8,9 @@
     <!-- Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.umd.js"></script>
+    <link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.css" rel="stylesheet" />
+    <script src="https://cdn.maptiler.com/leaflet-maptilersdk/v2.0.0/leaflet-maptilersdk.js"></script>
     <!-- Iner Font-->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,11 +21,11 @@
         rel="stylesheet">
     <!-- End of Iner Font-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <script src="./mainCarrilBici.js"></script>
     <style>
         #map1,
         #map2,
-        #map3 {
+        #map3,
+        #map4 {
             flex: 1 1 20.83vw;
             box-sizing: border-box;
             margin: 0.52vw 0.00vw;
@@ -83,7 +86,8 @@
                         </p>
                     </div>
                     <div>
-                        <h3 style="font-weight: 1200; writing-mode: vertical-rl; padding: 1vw 1vw 1vw 1vw; margin: 0; margin-right: 2vw;" class="titleStyle">SIG</h3>
+                        <h3 style="font-weight: 1200; writing-mode: vertical-rl; padding: 1vw 1vw 1vw 1vw; margin: 0; margin-right: 2vw;"
+                            class="titleStyle">SIG</h3>
                     </div>
                 </div>
             </div>
@@ -116,26 +120,31 @@
                 // Initialize the first map
                 const map1 = L.map('map1').setView([41.3851, 2.1734], 12); // Initialize and center on Barcelona
                 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                 }).addTo(map1);
 
                 // Initialize the second map
                 const map2 = L.map('map2').setView([41.3851, 2.1734], 12); // Centered on Barcelona
                 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                 }).addTo(map2);
 
-                // Initialize the second map
+                // Initialize the third map
                 const map3 = L.map('map3').setView([41.3851, 2.1734], 12); // Centered on Barcelona
                 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                 }).addTo(map3);
+
+                // Initialize the fourth map
+                // const map4 = L.map('map4').setView([41.782993, 3.030553], 14);
+                // const mtLayer = L.maptilerLayer({
+                //     apiKey: 'YOUR_MAPTILER_API_KEY_HERE',
+                // }).addTo(map); -->
+
             </script>
         </div>
         <div">
             <p id="section5" style="text-align: center;">Contacta amb nosaltres: contacte@deX1fra.cat</p>
     </div>
     <script src="./cartography/mainCarrilBici.js"></script>
+    <script type="text/javascript" src="./cartography/densitatPoblació.js"></script>
     <script src="./cartography/mainDensitatPoblacio.js"></script>
     <script src="./cartography/mainRefugisClimàtics.js"></script>
     <script>
