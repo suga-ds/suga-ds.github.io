@@ -59,12 +59,16 @@ ul li {
 }
 
 .textStyle {
-    font-size: 1.775rem;
+    font-size: clamp(12px, 2vw, 32px);
     margin-top: 0.00vw;
-    transform: scaleY(1.1);
     transform-origin: bottom;
-    line-height: 2.5rem;
+    line-height: clamp(1.5rem, 2vw, 32px);
     font-weight: 100;
+}
+
+.titleStyle {
+    font-size: clamp(18px, 2vw, 32px);
+    font-weight: 900; 
 }
 
 .navigation div p:hover {
