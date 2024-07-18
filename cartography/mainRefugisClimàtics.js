@@ -37,7 +37,7 @@ fetch('./cartography/barcelonaDistrictes.geojson')
           layer.bindPopup(feature.properties.name);
         }
       }
-    }).addTo(map1);
+    }).addTo(map3);
   })
   .catch(error => console.error('Error fetching districts data:', error));
 
@@ -58,6 +58,6 @@ fetch('./cartography/barcelonaBarris.geojson')
           layer.bindPopup(feature.properties.name);
         }
       }
-    }).addTo(map1);
+    }).addTo(map3);
   })
   .catch(error => console.error('Error fetching barris data:', error));
