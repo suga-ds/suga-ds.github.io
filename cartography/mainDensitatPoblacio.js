@@ -62,22 +62,3 @@ fetch('./cartography/barcelonaDistrictes.geojson') // Load districts data.
     }).addTo(map2);
   })
   .catch(error => console.error('Error fetching districts data:', error));
-
-// Add Legend
-const legend = L.control({ position: 'bottomright' });
-
-legend.onAdd = function (map2) {
-  const div = L.DomUtil.create('div', 'info legend');
-  const grades = [ 0, 100, 400, 700, 1000];
-  const labels = [];
-
-  for (let i = 0; i < grades.length; i++) {
-    div.innerHTML +=
-      '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
-      grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
-  }
-
-  return div;
-};
-
-legend.addTo(map2);
