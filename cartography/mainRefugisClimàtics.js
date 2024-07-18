@@ -14,7 +14,7 @@ fetch('./cartography/refugisClimàtics.json')
 
     // Loop through the data and create markers with the custom icon
     records.forEach(function (location) {
-      var marker = L.marker([location.geo_epgs_4326_lat, location.geo_epgs_4326_lon], { icon: customIcon }).addTo(map);
+      var marker = L.marker([location.geo_epgs_4326_lat, location.geo_epgs_4326_lon], { icon: customIcon }).addTo(map3);
       marker.bindPopup('<b>' + location.name + '</b><br>' + location.values_value);
     });
   })
