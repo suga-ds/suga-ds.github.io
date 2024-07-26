@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EBEBEB;
+    color: #001B2E;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 15vw;
+    margin: 1vh 0 1vh 0;
+    font-size: 1rem;
+    font-weight: 900;
+    z-index: 1;
+    position: sticky;
+}
+
+.logoName {
+    display: flex;
+    gap: 0.5vw;
+    font-size: 3vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.navigation p {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    margin: 0;
+    font-size: 3vh;
+}
+
+.navigation p::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: -1;
+    background-color: #d4c6e6;
+    transition: width 0.3s ease;
+    opacity: 0.8;
+}
+
+.navigation p:hover::before {
+    width: 60%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0 10vh 0;
+}
+
+.button a {
+    border: none;
+}
+
+.buttonNav div {
+    width: 12vh;
+    height: 3.3vh;
+    border-radius: 0.5vh;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 2px 2px 2px 0px #ffffff80,
+        7px 7px 20px 0px #0000001a,
+        4px 4px 5px 0px #0000001a;
+    background-color: #7D3B58;
+    text-align: center;
+}
+
+.buttonNav div a {
+    font-weight: 600;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+    position: relative;
+}
+
+.buttonNav div:hover {
+    bottom: 1px;
+}
+
+/* HERO SECTION */
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/pattern.png");
+    background-size: 20%;
+    width: 100%;
+    background-color: #c8d5d8;
+    color: #001B2E;
+    text-align: center;
+    padding: 0 0 10vh 0;
+}
+
+.heroSection h1 {
+    font-weight: 900;
+    letter-spacing: -0.075em;
+    font-size: 6vw;
+    line-height: 5vw;
+    margin-bottom: 1vh;
+}
+
+.highlight {
+    color: #7D3B58;
+}
+
+.mapImage {
+    height: 10vh;
+}
+
+/* SUBTITLE */
+
+.heroSection h2 {
+    color: #636363;
+    font-size: 1.4vw;
+}
+
+/* BUTTON */
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0 10vh 0;
+}
+
+.button a {
+    border: none;
+}
+
+.button div {
+    width: 20vh;
+    height: 4vh;
+    border-radius: 0.5vh;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 2px 2px 2px 0px #ffffff80,
+        7px 7px 20px 0px #0000001a,
+        4px 4px 5px 0px #0000001a;
+    background-color: #7D3B58;
+    text-align: center;
+}
+
+.button div a {
+    font-weight: 600;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+    position: relative;
+    font-size: 2.5vh;
+}
+
+.button div:hover {
+    bottom: 1px;
+}
+
+/* CHOROPLETHMAP */
+
+.choroplethMap {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 5vh 0;
+}
+
+#choroplethMap {
+    height: 70vh;
+    width: 80vw;
+    border-radius: 1vw;
+}
+
+/* SERVICES SECTION */
+/* BLOCKS */
+
+#serviceSection {
+    padding: 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 0 5vh 0;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    margin-bottom: 10vh;
+}
+
+.block {
+    flex: 1;
+    background-color: #fafafabd;
+    padding: 1vw;
+    border-radius: 1vh;
+}
+
+.block p {
+    color: #294C60;
+}
+
+/* PLOTTED MAP */
+
+.plottedMap {
+    display: flex;
+    justify-content: center;
+}
+
+#plottedMap {
+    height: 50vh;
+    width: 80vw;
+    border-radius: 1vw;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 5vw; /* Using vh and vw for padding */
+}
+
+.contact-form h2 {
+    margin-bottom: 2vh; /* Converted from 15px to vh */
+    font-size: 2.4vh; /* Converted from 24px to vh */
+}
+
+.contact-form label {
+    margin-bottom: 1vh; /* Converted from 5px to vh */
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 2vh; /* Converted from 15px to vh */
+    padding: 1.2vh; /* Converted from 10px to vh */
+    border: 0.1vh solid #EBEBEB; /* Converted from 1px to vh */
+    border-radius: 0.3vh; /* Converted from 3px to vh */
+    font-size: 1.6vh; /* Converted from 16px to vh */
+    width: 100%;
+    background-color: #EBEBEB;
+}
+
+.contact-form button {
+    padding: 1.2vh; /* Converted from 10px to vh */
+    background-color: #a9bdc2;
+    border: none;
+    border-radius: 0.5vh; /* Converted from 5px to vh */
+    font-size: 1.6vh; /* Converted from 16px to vh */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 900;
+    color: black;
+}
+
+.contact-form button:hover {
+    background-color: #869fa5;
+}
+
+/* FOOTER */
+
+@media (max-width: 1118px) {
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .landing h1 {
+        font-size: 80px;
+        line-height: 70px;
+        font-weight: 900;
+        letter-spacing: -0.1em;
+    }
+
+    .heroSection .header .navigation #queOferim {
+        display: none;
+    }
+}

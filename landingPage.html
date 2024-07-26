@@ -1,205 +1,162 @@
+<!-- public/index.html -->
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>deX1fra</title>
     <meta charset="UTF-8">
-    <link href='./styleSheet.css' rel='stylesheet'>
+    <link href='./landingPageStyle.css' rel='stylesheet'>
     <!-- Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.umd.js"></script>
     <link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.css" rel="stylesheet" />
     <script src="https://cdn.maptiler.com/leaflet-maptilersdk/v2.0.0/leaflet-maptilersdk.js"></script>
-    <!-- Iner Font-->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <!-- End of Iner Font-->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Mobile sizing -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <style>
-        #map1,
-        #map2,
-        #map3,
-        #map4 {
-            flex: 1 1 20.83vw;
-            box-sizing: border-box;
-            margin: 0.52vw 0.00vw;
-            height: 23.44vw;
-            border-radius: 0.52vw;
-        }
-    </style>
-    <!-- More Leaflet --->
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 
 <body>
-    <div class="navigation">
-        <div class="nav-items">
-            <p id="scrollToSection1">QUÈ FEM</p>
-            <p id="scrollToSection2">QUÈ ÉS SIG</p>
-            <p id="scrollToSection3">QUÈ OFERIM</p>
-            <p id="scrollToSection4">DADES</p>
-            <p id="scrollToSection5">CONTACTE</p>
-        </div>
-    </div>
-    <div style="height: 100vh; position: absolute;">
-        <div class="landingTitle" style="width: 100%; display: grid; row-gap: 6vw; column-gap: 2vw; margin-top: 10vw;">
-            <p>DE</p>
-            <p style="text-align: end;">XIFRA</p>
-            <p>A</p>
-            <p style="text-align: end;">MAPA</p>
-        </div>
-        <h3
-            style="text-align: justify; width: 59vw; font-family: 'Space Mono'; font-weight: 200; font-size: clamp(8px, 2vw, 18px);">
-            UN MAPA GEOESPACIAL ÉS UN CANAL DE DIFUSIÓ UNIVERSAL. UN RECURS QUE TRADUEIX DADES I LES MOSTRA. UNA
-            MANERA
-            DE TRANSMETRE UN MISSATGE INTUÏTIVA I CAPTIVADORA.</h3>
-    </div>
-    <div style="padding: 1vw 1vw 1vw 1vw;">
-        <div style="display: flex; margin-top: 5vh; gap: clamp(0.5vw, -2vw, 0.1vw); border: 0.10vw solid #002FA7; border-radius: 0.52vw; margin-top: 100vh;"
-            id="section1">
-            <div style="margin-top: 1vw; ">
-                <h3 style="writing-mode: vertical-rl; transform: rotate(180deg); text-align: end;" class="titleStyle">
-                    QUÈ FEM?</h3>
+
+    <div class="heroSection">
+        
+        <!-- HEADER -->
+        <div class="header">
+            <div class="logoName">
+                <img src="./images/logo.png" alt="Logo" style="width: 1.5rem; height: 1.5rem;">
+                <p style="margin: 0;">dexifra</p>
             </div>
-            <div style="padding: 0.5vw 0.5vw;">
-                <p class="textStyle">
-                    Analitzem dades geogràfiques. Raonem quina és la manera
-                    òptima de comunicar a l'usuari el significat de les xifres que recollim. Seguidament, interpretem
-                    les
-                    dades amb l'ajuda d'un programari SIG. D'aquesta manera,
-                    construïm un mapa temàtic interactiu que
-                    mostra amb punts, línies, formes i colors tota la informació.
-                </p>
-                <div id="section2"
-                    style="background-color: #002FA7; color: white; border-radius: 0.7vw; display: flex; gap: 1vw;">
-                    <div>
-                        <p class="textStyle" style="padding: 1rem; margin: 0 0 0 0;">És el
-                            Sistema d'Informació Geogràfic. És una eina especialitzada en la integració de múltiples
-                            capes
-                            d'informació geoespacial en el mateix recurs. Ofereix les bases en les quals dissenyar un
-                            mapa interactiu.
-                        </p>
-                    </div>
-                    <div>
-                        <h3 style="font-weight: 1200; writing-mode: vertical-rl; padding: 1vw 1vw 1vw 1vw; margin: 0; margin-right: 2vw;"
-                            class="titleStyle">SIG</h3>
-                    </div>
+            <div class="navigation">
+                <div id="queOferim">
+                    <p><a style="text-decoration: none; color: inherit;">Què oferim</a></p>
+                </div>
+                <div class="buttonNav">
+                    <div><a>Contacte</a></div>
                 </div>
             </div>
         </div>
-        <marquee behavior="scroll" direction="left" id="section3" class="movingText" class="example-left">Buscar
-            tendències espacials, identificar patrons geogràfics</marquee>
-        <div
-            style="margin-top: 10vw; display: flex; border: 0.10vw solid #002FA7; border-radius: 0.52vw; padding: 1vw 0.5vw 1rem 0.5vw;">
-            <p class="textStyle">Oferim un mapa interactiu que expliqui tota la informació
-                que
-                recopilem, amb una interfície fàcil de
-                navegar per a l'usuari. El mapa carrega dinàmicament la informació geogràfica a mesura que l'usuari
-                s'apropa, fa clic o passa el ratolí per sobre de la pàgina. A més a més, quan les dades que
-                sustenten el
-                mapa s'actualitzen, el mateix mapa es renova automàticament per reflectir aquests canvis.</p>
-            <h3 style="writing-mode: vertical-rl; transform: rotate(180deg); text-align: end; font-weight: 1200;"
-                class="titleStyle">
-                QUÈ OFERIM </h3>
+        <!-- HEADER END -->
+
+    
+        <h1>MAPES<br><span class=" highlight">INTERACTIUS</span></h1>
+        <h2>Captiva a l’usuari amb une experiencia dinàmica</h2>
+        <div class="button">
+            <div><a>Contacte</a></div>
         </div>
-        <div id="section4"
-            style="border: 0.10vw solid #002FA7; border-radius: 0.52vw; padding: 1.56vw; margin-top: 1.56vw;">
-            <h2 style="font-size: 1.67vw;">DADES</h2>
-            <!-- MAPS -->
-            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.04vw;">
-                <div id="map1"></div>
-                <div id="map2"></div>
-                <div id="map3"></div>
-            </div>
-            <script>
-                // Initialize the first map
-                const map1 = L.map('map1').setView([41.3851, 2.1734], 12); // Initialize and center on Barcelona
-                L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-                }).addTo(map1);
-
-                // Initialize the second map
-                const map2 = L.map('map2').setView([41.3851, 2.1734], 12); // Centered on Barcelona
-                L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-                }).addTo(map2);
-
-                // Initialize the third map
-                const map3 = L.map('map3').setView([41.3851, 2.1734], 12); // Centered on Barcelona
-                L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-                }).addTo(map3);
-
-                // Initialize the fourth map
-                // const map4 = L.map('map4').setView([41.782993, 3.030553], 14);
-                // const mtLayer = L.maptilerLayer({
-                //     apiKey: 'YOUR_MAPTILER_API_KEY_HERE',
-                // }).addTo(map); -->
-
-                // Fetch and display the districtes data
-                fetch('./cartography/barcelonaDistrictes.geojson')
-                    .then(response => response.json())
-                    .then(data => {
-                        L.geoJSON(data, {
-                            style: {
-                                color: "#000",
-                                // fillColor: "#3867A8",
-                                weight: 1,
-                                opacity: 0.2,
-                                fillOpacity: 0
-                            },
-                            onEachFeature: function (feature, layer) {
-                                if (feature.properties && feature.properties.name) {
-                                    layer.bindPopup(feature.properties.name);
-                                }
-                            }
-                        }).addTo(map3);
-                    })
-                    .catch(error => console.error('Error fetching districts data:', error));
-
-                fetch('./cartography/barcelonaBarris.json')
-                    .then(response => response.json())
-                    .then(data => {
-                        // Loop through the records in the JSON file
-                        data.result.records.forEach(function (record) {
-                            // Parse the WGS84 geometry
-                            var wgs84Coordinates = record.geometria_wgs84
-                                .replace('POLYGON ((', '')
-                                .replace('))', '')
-                                .split(', ')
-                                .map(coord => coord.split(' ').map(Number));
-
-                            // Create an array of LatLng objects
-                            var latLngs = wgs84Coordinates.map(coord => [coord[1], coord[0]]);
-
-                            // Define style options
-                            var polygonStyle = {
-                                color: "#000",
-                                // fillColor: "#3867A8",
-                                weight: 1,
-                                opacity: 0.1,
-                                fillOpacity: 0
-                            };
-
-                            // Add the polygon to map1
-                            L.polygon(latLngs, polygonStyle).addTo(map1);
-                            // Add the polygon to map3
-                            L.polygon(latLngs, polygonStyle).addTo(map3);
-                        });
-                    })
-                    .catch(error => console.error('Error fetching the JSON data:', error));
-
-            </script>
+        <div class="choroplethMap">
+            <div id="choroplethMap"></div>
         </div>
-        <div">
-            <p id="section5" style="text-align: center;">Contacta amb nosaltres: contacte@dexifra.cat</p>
     </div>
-    <script src="./cartography/mainCarrilBici.js"></script>
+
+    <div id="serviceSection">
+        <div class="blocks">
+            <div class="block">
+                <img src="./images/webNative.png" alt="database" style="height: 10vh;">
+                <h3>Implentats al web</h3>
+                <p>El mapa carrega dinàmicament la informació geogràfica a mesura que l'usuari s'apropa, fa clic o passa el ratolí per sobre dels elements de la pàgina. Oferim una interfície que sigui fàcil de navegar.</p>
+            </div>
+            <div class="block">
+                <img src="./images/mobileFriendly.png" alt="database" style="height: 10vh;">
+                <h3>Mobile-Friendly</h3>
+                <p>Els mapes de 'dexifra' estan suportats pels buscadors web a l'ordinador i al mòbil. És un recurs universal que permet que l'usuari interaccioni amb el mapa des de tota mena de dispositius.</p>
+            </div>
+            <div class="block">
+                <img src="./images/realTimeUpdates.png" alt="database" style="height: 10vh;">
+                <h3>Actualizats en temps real</h3>
+                <p>Quan les dades que sustenten el mapa s'actualitzen, el mateix mapa es renova automàticament per reflectir aquests canvis. D'aquesta manera, es poden fer canvis recurrents en les bases de dades sense modificar la tecnologia dels mapes.</p>
+            </div>
+        </div>
+        <div id="plottedMap"></div>
+    </div>
+    
+    <div style="
+        background-color: #001b2ed3;
+        color: #EBEBEB;
+        ">
+        <form class="contact-form" action="your-backend-endpoint" method="post">
+            <h2>Contacta amb nosaltres!</h2>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Tema:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Missatge:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        // Initialize the choropleth map map
+        const map2 = L.map('choroplethMap').setView([41.3851, 2.1734], 12); // Centered on Barcelona
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        }).addTo(map2);
+
+        // Initialize the plotted map map
+        const map3 = L.map('plottedMap').setView([41.3851, 2.1734], 12); // Centered on Barcelona
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        }).addTo(map3);
+
+        // Fetch and display the districtes data
+        fetch('./cartography/barcelonaDistrictes.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    style: {
+                        color: "#000",
+                        // fillColor: "#3867A8",
+                        weight: 1,
+                        opacity: 0.2,
+                        fillOpacity: 0
+                    },
+                    onEachFeature: function (feature, layer) {
+                        if (feature.properties && feature.properties.name) {
+                            layer.bindPopup(feature.properties.name);
+                        }
+                    }
+                }).addTo(map3);
+            })
+            .catch(error => console.error('Error fetching districts data:', error));
+
+        fetch('./cartography/barcelonaBarris.json')
+            .then(response => response.json())
+            .then(data => {
+                // Loop through the records in the JSON file
+                data.result.records.forEach(function (record) {
+                    // Parse the WGS84 geometry
+                    var wgs84Coordinates = record.geometria_wgs84
+                        .replace('POLYGON ((', '')
+                        .replace('))', '')
+                        .split(', ')
+                        .map(coord => coord.split(' ').map(Number));
+
+                    // Create an array of LatLng objects
+                    var latLngs = wgs84Coordinates.map(coord => [coord[1], coord[0]]);
+
+                    // Define style options
+                    var polygonStyle = {
+                        color: "#000",
+                        // fillColor: "#3867A8",
+                        weight: 1,
+                        opacity: 0.1,
+                        fillOpacity: 0
+                    };
+
+                    // Add the polygon to map1
+                    L.polygon(latLngs, polygonStyle).addTo(map1);
+                    // Add the polygon to map3
+                    L.polygon(latLngs, polygonStyle).addTo(map3);
+                });
+            })
+            .catch(error => console.error('Error fetching the JSON data:', error));
+    </script>
     <script type="text/javascript" src="./cartography/densitatPoblació.js"></script>
     <script src="./cartography/mainDensitatPoblacio.js"></script>
     <script src="./cartography/mainRefugisClimàtics.js"></script>
@@ -210,15 +167,7 @@
         document.getElementById("scrollToSection2").addEventListener("click", function () {
             document.getElementById("section1").scrollIntoView({ behavior: 'smooth' });
         });
-        document.getElementById("scrollToSection3").addEventListener("click", function () {
-            document.getElementById("section3").scrollIntoView({ behavior: 'smooth' });
-        });
-        document.getElementById("scrollToSection4").addEventListener("click", function () {
-            document.getElementById("section4").scrollIntoView({ behavior: 'smooth' });
-        });
-        document.getElementById("scrollToSection5").addEventListener("click", function () {
-            document.getElementById("section5").scrollIntoView({ behavior: 'smooth' });
-        });
     </script>
-    </div>
 </body>
+
+</html>

@@ -1,0 +1,38 @@
+Desenvolupament Consultoria:
+
+TITLE:
+-Un mapa temátic geoespacial no només és una imatge, és una eina per comunicar un misatge
+-Una IMATGE val més que mil XIFRES.
+-De xifra a imatge // experiència // misatge
+-
+
+SUBTITLE:
+-Un mapa geoespacial és un canal de difusió universal. Un recurs qùe tradueix dades i les mostre perque la vista les entengui i interioritzi. Una manera de transmetre un missatge intuitiva i captivadora.
+
+TEXT:
+-Que fem? Analitzem dades geoespacials. Agrupem i estructurem l'informacio. Raonem quina es la manera optima de transmetre al usuari el significat de les <xifres> que recollim. Busquem tendències espacials i identifiquem patrons geogràfics. Seguidament interpretem les dades amb l'ajuda d'un software SIG. D'aquesta manera, construim un mapa tematic interactiu que mostra amb punts, linies, formes i colors tota la informació.
+
+-Que es GIS? El Sistema d'Informació Geogràfica (SIG) és una eina que permet capturar, emmagatzemar, analitzar i gestionar dades espacials i geogràfiques. Aquest sistema integra diversos tipus de dades, com ara mapes, imatges satel·litals, i bases de dades amb informació geolocalitzada. Permet crear de mapes digitals detallats. És essencial per simulacions i previsions que ajuden a entendre millor els impactes futurs de diversos fenòmens.
+
+Què oferim? Proposem un mapa interactiu que expliqui tota la informació que recopilem, amb una interfície fàcil de navegar per a l'usuari. El mapa carrega dinàmicament la informació geogràfica a mesura que l'usuari s'apropa, fa clic o passa el ratolí per sobre dels elements de la pàgina. A més a més, 
+quan les dades que sustenten el mapa s'actualitzen, el mateix mapa es renova automàticament per reflectir aquests canvis. 
+Aquest recurs proporciona una visió global que es detalla de manera més específica quan l'usuari decideix explorar parts concretes del mapa.
+
+-Qui som? Som un grup de apassionats per la cartografia de Barcelona. Busquem promoure aquesta eina i participar en projectes de tots tipus.
+
+-Exemples: <mapes>
+
+Who are you? Som un grup de desenvolupadors informatics. Ens vam ajuntar a través de la nostra passió per la cartigrafia. Hem decidit ajuntar les dues coses que més ens agraden- l'indformaàtica i els mapes. La consultoria de xifra neox amb l'objectiu de millorar dels recursos espaials a les pagines web.
+
+What do you do? Mapes interactius
+
+How can you help me? Visualitza data espaial en temps real.
+
+
+
+la dada no nómes es xifra, és eina + misatge
+les millors decisions son les ffonamentades en les dades més precisess i rogoroses ¡, comunicades amb les visualitzacion mñes atractives i inertctives i explicades amb el llengñuatje mñes clar i persuasiu.
+Treballem les dades de forma global, des de la recopilació fins a la divulgació. Pensem, planifiquem i actuem transversalment, per aconseguir dades + acurades però també  + eficients i impactants per optimitzar les decisions i gestió i generar reacció i canvi. 
+
+PROCÉS COMPLET I SIGNIFICAT DEL MAPA INTERACTIU:
+El proces del map interactiu consisteix en agafar un una taula amb dades genreals asosciades d'altres espaials ( nom del meu gos <-> localitzacio del meu gos ). La relacio de dades pot ser de una a moltes ( nom del meu gos, edat <-> localització del meu gos ). D'aquesta manera, el mateix set de dades es pot represtar de manera diferent, ( quantitat de gossos per barri // segons l'edat // segons el nom). El recurs per plasmar l'informació és Un progrma que que utilitzi GIS( gfeografic informational system ). Aquerst programa recorre i introdueix les files de la les taules sobre un mapa cartgrafic base. La  manera en que es mostren les dades es visual, formes, punts, linies, colors ... La ventatja del map a interactiu es que permet l'usuari filtrar i decidir quina informacio es representa.
