@@ -31,6 +31,23 @@ fetch('./cartography/refugisClimàtics.json')
     });
   })
   .catch(error => console.error('Error fetching the JSON data:', error));
+
+// Add a control with the "localització" text
+var localitzacioControl = L.control({ position: 'topright' });
+
+localitzacioControl.onAdd = function (map) {
+  var div = L.DomUtil.create('div', 'localitzacio-label');
+  div.innerHTML = 'LOCALITZACIÓ REFUGIS CLIMÀTICS';
+  div.style.backgroundColor = '#f8f8f8';
+  this._div.style.padding = '1vh'; // Padding for better spacing
+  this._div.style.borderRadius = '0.4vh'; // Rounded corners
+  this._div.style.fontSize = '1.6vh'; // Font size
+return div;
+};
+
+localitzacioControl.addTo(map3);
+
+
 /*
 // Fetch and display the districtes data
 fetch('./cartography/barcelonaDistrictes.geojson')

@@ -89,11 +89,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: inset 2px 2px 2px 0px #ffffff80,
-        7px 7px 20px 0px #0000001a,
-        4px 4px 5px 0px #0000001a;
-    background-color: #7D3B58;
+    border-color: #7D3B58;
     text-align: center;
+    text-decoration: none; 
+    color: inherit;
+    border-style: solid; /* Defines the border style */
+    border-width: 2px; /* Defines the border width */
+    border-radius: 0.4vh;
 }
 
 .buttonNav div a {
@@ -101,7 +103,7 @@ body {
     outline: none;
     text-decoration: none;
     text-align: center;
-    color: white;
+    color: #7D3B58;
     position: relative;
 }
 
@@ -124,9 +126,9 @@ body {
 
 .heroSection h1 {
     font-weight: 900;
-    letter-spacing: -0.075em;
+    letter-spacing: -0.070em;
     font-size: 11vh;
-    line-height: 8vh;
+    line-height: 9vh;
     margin-bottom: 1vh;
 }
 
@@ -141,7 +143,7 @@ body {
 /* SUBTITLE */
 
 .heroSection p {
-    font-size: 2vh;
+    font-size: 3vh;
     font-weight: 900;
 }
 
@@ -217,7 +219,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 1vw;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 .block {
