@@ -7,8 +7,8 @@ html {
 }
 
 body {
-    background-color: #EBEBEB;
-    color: #001B2E;
+    background-color: #f8f8f8;
+    color: #333333;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -20,16 +20,16 @@ body {
     justify-content: space-between;
     padding: 2vh 15vw;
     margin: 1vh 0 1vh 0;
-    font-size: 1rem;
+    font-size: 1.7vh;
     font-weight: 900;
     z-index: 1;
     position: sticky;
+    font-size: 1.7vh;
 }
 
 .logoName {
     display: flex;
     gap: 0.5vw;
-    font-size: 3vh;
 }
 
 .navigation {
@@ -46,7 +46,9 @@ body {
     color: inherit;
     overflow: hidden;
     margin: 0;
-    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navigation p::before {
@@ -78,9 +80,9 @@ body {
 }
 
 .buttonNav div {
-    width: 12vh;
-    height: 3.3vh;
-    border-radius: 0.5vh;
+    width: 17vh;
+    height: 5vh;
+    border-radius: 0.2vh;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -99,7 +101,6 @@ body {
     outline: none;
     text-decoration: none;
     text-align: center;
-    font-size: 2vh;
     color: white;
     position: relative;
 }
@@ -116,16 +117,16 @@ body {
     background-size: 20%;
     width: 100%;
     background-color: #c8d5d8;
-    color: #001B2E;
     text-align: center;
-    padding: 0 0 10vh 0;
+    padding: 0 0 5vh 0;
+    color: #333;
 }
 
 .heroSection h1 {
     font-weight: 900;
     letter-spacing: -0.075em;
-    font-size: 6vw;
-    line-height: 5vw;
+    font-size: 11vh;
+    line-height: 8vh;
     margin-bottom: 1vh;
 }
 
@@ -139,9 +140,9 @@ body {
 
 /* SUBTITLE */
 
-.heroSection h2 {
-    color: #636363;
-    font-size: 1.4vw;
+.heroSection p {
+    font-size: 2vh;
+    font-weight: 900;
 }
 
 /* BUTTON */
@@ -157,9 +158,9 @@ body {
 }
 
 .button div {
-    width: 20vh;
-    height: 4vh;
-    border-radius: 0.5vh;
+    width: 25vh;
+    height: 7vh;
+    border-radius: 0.4vh;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -178,10 +179,9 @@ body {
     outline: none;
     text-decoration: none;
     text-align: center;
-    font-size: 1vw;
     color: white;
     position: relative;
-    font-size: 2.5vh;
+    font-size: 1.7vh;
 }
 
 .button div:hover {
@@ -199,18 +199,19 @@ body {
 #choroplethMap {
     height: 70vh;
     width: 80vw;
-    border-radius: 1vw;
+    border-radius: 0.5vw;
 }
 
 /* SERVICES SECTION */
-/* BLOCKS */
 
 #serviceSection {
-    padding: 10vh 10vw;
+    padding: 3vh 10vw;
     display: flex;
     flex-direction: column;
-    margin: 5vh 0 5vh 0;
+    margin: 4vh 0 5vh 0;
 }
+
+/* BLOCKS */
 
 .blocks {
     display: flex;
@@ -221,13 +222,13 @@ body {
 
 .block {
     flex: 1;
-    background-color: #fafafabd;
+    /* background-color: #fafafabd; */
     padding: 1vw;
     border-radius: 1vh;
 }
 
 .block p {
-    color: #294C60;
+    line-height: 3.5vh;
 }
 
 /* PLOTTED MAP */
@@ -245,48 +246,11 @@ body {
 
 /* CONTACT FORM */
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    padding: 5vh 5vw; /* Using vh and vw for padding */
-}
-
-.contact-form h2 {
-    margin-bottom: 2vh; /* Converted from 15px to vh */
-    font-size: 2.4vh; /* Converted from 24px to vh */
-}
-
-.contact-form label {
-    margin-bottom: 1vh; /* Converted from 5px to vh */
-    font-weight: bold;
-}
-
-.contact-form input,
-.contact-form textarea {
-    margin-bottom: 2vh; /* Converted from 15px to vh */
-    padding: 1.2vh; /* Converted from 10px to vh */
-    border: 0.1vh solid #EBEBEB; /* Converted from 1px to vh */
-    border-radius: 0.3vh; /* Converted from 3px to vh */
-    font-size: 1.6vh; /* Converted from 16px to vh */
-    width: 100%;
-    background-color: #EBEBEB;
-}
-
-.contact-form button {
-    padding: 1.2vh; /* Converted from 10px to vh */
-    background-color: #a9bdc2;
-    border: none;
-    border-radius: 0.5vh; /* Converted from 5px to vh */
-    font-size: 1.6vh; /* Converted from 16px to vh */
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-weight: 900;
-    color: black;
-}
-
-.contact-form button:hover {
-    background-color: #869fa5;
-}
+.formSet input {
+    width: 20vw;
+    height: 3vw;
+    border-radius: 0.5vh;
+} 
 
 /* FOOTER */
 

@@ -3,7 +3,8 @@
 <html>
 
 <head>
-    <title>deX1fra</title>
+    <title>dexifra</title>
+    <link rel="icon" href="/images/logo.png" type="image/png">
     <meta charset="UTF-8">
     <link href='./landingPageStyle.css' rel='stylesheet'>
     <!-- Leaflet -->
@@ -25,25 +26,25 @@
         <!-- HEADER -->
         <div class="header">
             <div class="logoName">
-                <img src="./images/logo.png" alt="Logo" style="width: 1.5rem; height: 1.5rem;">
-                <p style="margin: 0;">dexifra</p>
+                <!-- <img src="./images/logo.png" alt="Logo" style="width: 1.5rem; height: 1.5rem;"> -->
+                <p style="margin: 0; font-size: 2vh;">dexifra</p>
             </div>
             <div class="navigation">
-                <div id="queOferim">
+                <!-- <div id="queOferim">
                     <p><a style="text-decoration: none; color: inherit;">Què oferim</a></p>
-                </div>
+                </div> -->
                 <div class="buttonNav">
-                    <div><a>Contacte</a></div>
+                    <div><a>CONTACTA'M</a></div>
                 </div>
             </div>
         </div>
         <!-- HEADER END -->
 
     
-        <h1>MAPES<br><span class=" highlight">INTERACTIUS</span></h1>
-        <h2>Captiva a l’usuari amb une experiencia dinàmica</h2>
+        <h1>MAPES INTERACTIUS<br><span class=" highlight">PEL WEB</span></h1>
+        <p>Faig mapes interactius customitzats per aquells que volen<br> portar l'experiencia dels seus usuaris un pas més enllà</p>
         <div class="button">
-            <div><a>Contacte</a></div>
+            <div><a>CONTACTA'M</a></div>
         </div>
         <div class="choroplethMap">
             <div id="choroplethMap"></div>
@@ -51,45 +52,49 @@
     </div>
 
     <div id="serviceSection">
+        <div id="sectinTitle">
+            <h1 style="display: flex; justify-content: center; margin-bottom: 3vw; font-size: 4vh;">Mapes dissenyats per captivar</h1>
+        </div>
         <div class="blocks">
             <div class="block">
-                <img src="./images/webNative.png" alt="database" style="height: 10vh;">
-                <h3>Implentats al web</h3>
+                <img src="./images/webNative2.png" alt="database" style="height: 10vh;">
+                <h2>Implentats al web</h2>
                 <p>El mapa carrega dinàmicament la informació geogràfica a mesura que l'usuari s'apropa, fa clic o passa el ratolí per sobre dels elements de la pàgina. Oferim una interfície que sigui fàcil de navegar.</p>
             </div>
             <div class="block">
-                <img src="./images/mobileFriendly.png" alt="database" style="height: 10vh;">
-                <h3>Mobile-Friendly</h3>
+                <img src="./images/mobileFriendly2.png" alt="database" style="height: 10vh;">
+                <h2>Mobile-Friendly</h2>
                 <p>Els mapes de 'dexifra' estan suportats pels buscadors web a l'ordinador i al mòbil. És un recurs universal que permet que l'usuari interaccioni amb el mapa des de tota mena de dispositius.</p>
             </div>
             <div class="block">
-                <img src="./images/realTimeUpdates.png" alt="database" style="height: 10vh;">
-                <h3>Actualizats en temps real</h3>
+                <img src="./images/realTimeUpdates2.png" alt="database" style="height: 10vh;">
+                <h2>Actualizats en temps real</h2>
                 <p>Quan les dades que sustenten el mapa s'actualitzen, el mateix mapa es renova automàticament per reflectir aquests canvis. D'aquesta manera, es poden fer canvis recurrents en les bases de dades sense modificar la tecnologia dels mapes.</p>
             </div>
         </div>
         <div id="plottedMap"></div>
     </div>
-    
-    <div style="
-        background-color: #001b2ed3;
-        color: #EBEBEB;
-        ">
-        <form class="contact-form" action="your-backend-endpoint" method="post">
-            <h2>Contacta amb nosaltres!</h2>
-            <label for="name">Nom:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="subject">Tema:</label>
-            <input type="text" id="subject" name="subject" required>
-
-            <label for="message">Missatge:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Enviar</button>
+      
+    <div style="background-color: #333; padding: 4vh 10vw; color: rgb(248, 248, 248);">
+        <h1 style="display: flex; justify-content: center; text-align: center; margin: 4vh;">Comencem un projecte cartogràfic!</h1>
+        <form action="" method="get" style="line-height: 5vh;">
+            <div style="display: flex;justify-content: center; gap: 1vw;" class="formSet">
+                <div>
+                    <label for="name">NAME*</label><br>
+                    <input type="text" name="name" id="name" required placeholder="Name"/>
+                </div>
+                <div>
+                    <label for="name">EMAIL*</label><br>
+                    <input type="text" name="name" id="name" required placeholder="Email"/>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <div>
+                    <label for="name">MESSAGE*</label><br>
+                    <input type="text" name="name" id="name" required style="width: 41vw; height: 10vw; border-radius: 0.5vh;" placeholder="Comenta'ns coses del projecte: Ideés, objectius o exemples."/>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center;"><p><input style="justify-content: center; width: 41vw; height: 6vh;" type="submit" value="Enviar missatge (contestaré!)"></p></div>
         </form>
     </div>
 
