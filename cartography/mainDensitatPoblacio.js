@@ -93,7 +93,7 @@ legend.onAdd = function (map2) {
 
     // Add inline CSS for the legend container
     div.style.color = '#333'; // Set text color
-    div.style.fontSize = '0.7vw'; // Set font size
+    div.style.fontSize = '10p5'; // Set font size
     div.style.backgroundColor = 'rgb(248, 248, 248, 0.8)'; // Set background color with transparency
 	div.style.padding = '0.7vh'
     div.style.borderRadius = '0.4vh'; // Rounded corners

@@ -127,9 +127,10 @@ body {
 .heroSection h1 {
     font-weight: 900;
     letter-spacing: -0.070em;
-    font-size: 11vh;
-    line-height: 9vh;
+    font-size: 8vw;
+    line-height: 6vw;
     margin-bottom: 1vh;
+    margin: 5vh 20vw;
 }
 
 .highlight {
@@ -273,4 +274,36 @@ body {
     .heroSection .header .navigation #queOferim {
         display: none;
     }
+
+    .formSet {
+        flex-direction: column;
+        justify-content: center; 
+        gap: 1vw;
+        text-align: center
+    }
+
+    .formSet input {
+        width: 41vw; 
+        height: 10vh; 
+        border-radius: 0.5vh;
+    }
+
+    .heroSection h1 {
+        font-size: 6vh;
+        margin: 4vh 12vw;
+        line-height: 5vh;
+    }
+    
+    .heroSection p {
+        font-size: 2vh;
+    }
+
+    .info.legend.leaflet-control i {
+        font-size: 4vh;
+    }
+
+    textarea {
+        height: 40vh;
+    }
+
 }
