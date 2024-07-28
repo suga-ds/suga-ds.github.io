@@ -289,21 +289,17 @@ body {
     }
 
     .heroSection h1 {
-        font-size: 6vh;
+        font-size: 12vw;
         margin: 4vh 12vw;
         line-height: 5vh;
     }
     
     .heroSection p {
-        font-size: 2vh;
-    }
-
-    .info.legend.leaflet-control i {
-        font-size: 4vh;
+        font-size: 3vw;
     }
 
     textarea {
-        height: 40vh;
+        height: 35vw;
     }
 
 }
