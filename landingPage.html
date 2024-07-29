@@ -21,39 +21,38 @@
 
 <body>
 
-    <div class="heroSection">
+    <div class="coolBackground">
         
         <!-- HEADER -->
         <div class="header">
             <div class="logoName">
-                <!-- <img src="./images/logo.png" alt="Logo" style="width: 1.5rem; height: 1.5rem;"> -->
-                <p style="margin: 0; font-size: 2vh;">dexifra</p>
+                <img src="./images/logo.png" alt="Logo" style="width: 1.5rem; height: 1.5rem;">
+                <p>dexifra</p>
             </div>
-            <div class="navigation">
-                <!-- <div id="queOferim">
-                    <p><a style="text-decoration: none; color: inherit;">Què oferim</a></p>
-                </div> -->
-                <div class="buttonNav">
-                    <div><a>CONTACTE</a></div>
-                </div>
+            <div class="buttonNav">
+                <div id="scrollToContactSection1"><a>CONTACTE</a></div>
             </div>
         </div>
         <!-- HEADER END -->
 
-    
-        <h1>MAPES INTERACTIUS <span class=" highlight">PEL WEB</span></h1>
-        <p style="margin: 0 20vw;">Mapes interactius customitzats per aquells que volen portar l'experiència web dels seus usuaris un pas més enllà</p>
-        <div class="button">
-            <div><a>CONTACTE</a></div>
+        <!-- LANDING SECTION -->
+        <div class="heroSection">
+            <h1>MAPES INTERACTIUS <span class="highlight">PEL WEB</span></h1>
+            <p>Mapes interactius customitzats per aquells que volen portar l'experiència web dels seus usuaris un pas més enllà</p>
+            <div class="button">
+                <div id="scrollToContactSection2"><a>CONTACTE</a></div>
+            </div>
+            <div class="choroplethMap">
+                <div id="choroplethMap"></div>
+            </div>
         </div>
-        <div class="choroplethMap">
-            <div id="choroplethMap"></div>
-        </div>
+        <!-- LANDING SECTION END -->
     </div>
 
+    <!-- SERVICE SECTION -->
     <div id="serviceSection">
-        <div id="sectionTitle">
-            <h1 style="display: flex; justify-content: center; margin-bottom: 3vw; font-size: 4vh;">Mapes dissenyats per captivar</h1>
+        <div class="sectionTitle">
+            <h1>Mapes dissenyats per captivar</h1>
         </div>
         <div class="blocks">
             <div class="block">
@@ -69,16 +68,18 @@
             <div class="block">
                 <img src="./images/realTimeUpdates2.png" alt="database" style="height: 10vh;">
                 <h2>Actualizacions automàtiques</h2>
-                <p>Quan les dades que sustenten el mapa canvien, el mateix mapa es renova automàticament per reflectir les noves dades.</p>
+                <p>Quan les dades que sustenten el mapa canvien, el mateix mapa es renova automàticament per reflectir les modificacionses.</p>
             </div>
         </div>
         <div id="plottedMap"></div>
     </div>
-      
-    <div style="background-color: #333; padding: 4vh 10vw; color: rgb(248, 248, 248);">
-        <h1 style="display: flex; justify-content: center; text-align: center; margin: 4vh;">Comencem un projecte cartogràfic!</h1>
-        <form action="" method="get" style="line-height: 5vh;">
-            <div style="display: flex;justify-content: center; gap: 1vw;" class="formSet">
+    <!-- SERVICE SECTION END -->
+
+    <!-- CONTACT SECTION -->
+    <div class="contactSection" id="section1">
+        <h1 class="contactTitle">Comencem un projecte cartogràfic!</h1>
+        <form action="" method="get" class="form">
+            <div class="nameEmail">
                 <div>
                     <label for="name">NOM*</label><br>
                     <input type="text" name="name" id="name" required placeholder="Nom"/>
@@ -88,15 +89,14 @@
                     <input type="text" name="name" id="name" required placeholder="Email"/>
                 </div>
             </div>
-            <div style="display: flex; justify-content: center;">
-                <div>
+            <div class="message">
                     <label for="name">MISSATGE*</label><br>
-                    <textarea rows="10" maxlength="2000" type="text" name="name" id="name" required style="width: 41vw; border-radius: 0.5vh;" placeholder="Comenta'ns coses del projecte: Ideés, objectius o exemples."></textarea>
-                </div>
+                    <textarea rows="10" maxlength="2000" type="text" name="name" id="name" required placeholder="Comenta'ns coses del projecte: Ideés, objectius o exemples."></textarea>
             </div>
-            <div style="display: flex; justify-content: center;"><p><input style="justify-content: center; width: 41vw; height: 6vh; background-color: #7D3B58; color: #f8f8f8;" type="submit" value="ENVIAR MISSATGE"></p></div>
+            <div style="display: flex; justify-content: center;"><p><input class="sendMessageButton" type="submit" value="ENVIAR MISSATGE"></p></div>
         </form>
     </div>
+    <!-- CONTACT SECTION END -->      
 
     <div id="sectionFooter" style="display: flex; justify-content: space-between; padding: 2vh 5vw; background-color: #242424; color: #f8f8f8;"> 
         <p> Copyright 2024 | dexifra | All Rights Reserved</p>
@@ -171,10 +171,10 @@
     <script src="./cartography/mainDensitatPoblacio.js"></script>
     <script src="./cartography/mainRefugisClimàtics.js"></script>
     <script>
-        document.getElementById("scrollToSection1").addEventListener("click", function () {
+        document.getElementById("scrollToContactSection1").addEventListener("click", function () {
             document.getElementById("section1").scrollIntoView({ behavior: 'smooth' });
         });
-        document.getElementById("scrollToSection2").addEventListener("click", function () {
+        document.getElementById("scrollToContactSection2").addEventListener("click", function () {
             document.getElementById("section1").scrollIntoView({ behavior: 'smooth' });
         });
     </script>
