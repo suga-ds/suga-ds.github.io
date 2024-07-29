@@ -78,20 +78,20 @@
     <!-- CONTACT SECTION -->
     <div class="contactSection" id="section1">
         <h1 class="contactTitle">Comencem un projecte cartogràfic!</h1>
-        <form action="" method="get" class="form">
+        <form action="" method="POST" class="form">
             <div class="nameEmail">
                 <div>
                     <label for="name">NOM*</label><br>
-                    <input type="text" name="name" id="name" required placeholder="Nom"/>
+                    <input type="text" name="user_name" id="name" required placeholder="Nom"/>
                 </div>
                 <div>
                     <label for="name">EMAIL*</label><br>
-                    <input type="text" name="name" id="name" required placeholder="Email"/>
+                    <input type="text" name="user_email" id="email" required placeholder="Email"/>
                 </div>
             </div>
             <div class="message">
                     <label for="name">MISSATGE*</label><br>
-                    <textarea rows="10" maxlength="2000" type="text" name="name" id="name" required placeholder="Comenta'ns coses del projecte: Ideés, objectius o exemples."></textarea>
+                    <textarea rows="10" maxlength="2000" type="text" name="user_message" id="message" required placeholder="Comenta'ns coses del projecte: ideés, objectius o exemples."></textarea>
             </div>
             <div style="display: flex; justify-content: center;"><p><input class="sendMessageButton" type="submit" value="ENVIAR MISSATGE"></p></div>
         </form>

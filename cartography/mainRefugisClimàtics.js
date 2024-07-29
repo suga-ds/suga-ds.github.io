@@ -1,5 +1,5 @@
 var customIcon = L.icon({
-  iconUrl: './dot.png', // Path to your image
+  iconUrl: './images/dot.png', // Path to your image
   iconSize: [16, 16], // Size of the icon
   iconAnchor: [8, 8], // Point of the icon which will correspond to marker's location
   popupAnchor: [0, -8] // Point from which the popup should open relative to the iconAnchor
