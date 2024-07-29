@@ -227,7 +227,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 0 15vw;
     font-weight: 800;
-    line-height: 6vh;
+    line-height: 5vh;
 }
 
 .nameEmail {
@@ -257,17 +257,18 @@ body {
 }
 
 .message textarea{
-    width: 100%; 
+    width: 100%;
     border-radius: 5px;
     font-family: inherit;
     padding: 4vh 2vw;
     box-sizing: border-box;
+    margin: 0;
 }
 
 .sendMessageButton {
     justify-content: center; 
     width: 35vw; 
-    height: 6vh; 
+    height: 6vh;
     background-color: #7D3B58; 
     color: #f8f8f8;
     font-family: inherit;

@@ -38,7 +38,7 @@
         <!-- LANDING SECTION -->
         <div class="heroSection">
             <h1>MAPES INTERACTIUS <span class="highlight">PEL WEB</span></h1>
-            <p>Mapes interactius customitzats per aquells que volen portar l'experiència web dels seus usuaris un pas més enllà</p>
+            <p>Desenvolupem mapes interactius customitzats per aquells que volen portar l'experiència web dels seus usuaris un pas més enllà</p>
             <div class="button">
                 <div id="scrollToContactSection2"><a>CONTACTE</a></div>
             </div>
@@ -78,7 +78,7 @@
     <!-- CONTACT SECTION -->
     <div class="contactSection" id="section1">
         <h1 class="contactTitle">Comencem un projecte cartogràfic!</h1>
-        <form action="" method="POST" class="form">
+        <form action="https://formspree.io/f/mzzpenqp" method="POST" class="form">
             <div class="nameEmail">
                 <div>
                     <label for="name">NOM*</label><br>
@@ -90,7 +90,7 @@
                 </div>
             </div>
             <div class="message">
-                    <label for="name">MISSATGE*</label><br>
+                    <label for="name">MISSATGE*</label>
                     <textarea rows="10" maxlength="2000" type="text" name="user_message" id="message" required placeholder="Comenta'ns coses del projecte: ideés, objectius o exemples."></textarea>
             </div>
             <div style="display: flex; justify-content: center;"><p><input class="sendMessageButton" type="submit" value="ENVIAR MISSATGE"></p></div>
@@ -159,9 +159,7 @@
                         fillOpacity: 0
                     };
 
-                    // Add the polygon to map1
-                    L.polygon(latLngs, polygonStyle).addTo(map1);
-                    // Add the polygon to map3
+                    // Add the polygon to plottedMap
                     L.polygon(latLngs, polygonStyle).addTo(map3);
                 });
             })
