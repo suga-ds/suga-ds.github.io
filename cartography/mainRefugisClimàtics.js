@@ -41,10 +41,6 @@ localitzacioControl.onAdd = function (map) {
   div.style.padding = '1vh'; // Padding for better spacing
   div.style.borderRadius = '0.4vh'; // Rounded corners
   div.style.fontSize = '1.6vh'; // Font size
-
-
-
-
   return div;
 };
 
