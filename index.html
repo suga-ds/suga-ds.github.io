@@ -1,0 +1,197 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>dexifra</title>
+    <link rel="icon" href="../images/logo.png" type="image/png">
+    <meta charset="UTF-8">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const userLang = navigator.language || navigator.userLanguage; 
+            if (userLang.startsWith("es")) {
+                window.location.href = "/es/index.html";
+            } else if (userLang.startsWith("ca")) {
+                window.location.href = "/ca/index.html";
+            } else {
+                window.location.href = "/en/index.html";
+            }
+        });
+    </script>
+    <meta name="language" content="en">
+    <link rel="alternate" href="https://dexifra.com/es/index.html" hreflang="es">
+    <link rel="alternate" href="https://dexifra.com/ca/index.html" hreflang="ca">
+    <link rel="alternate" href="https://dexifra.com/en/index.html" hreflang="en">
+    <link href='./style.css' rel='stylesheet'>
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.umd.js"></script>
+    <link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.css" rel="stylesheet" />
+    <script src="https://cdn.maptiler.com/leaflet-maptilersdk/v2.0.0/leaflet-maptilersdk.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Mobile sizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+
+    <div class="coolBackground">
+        
+        <!-- HEADER -->
+        <div class="header">
+            <div class="logoName">
+                <img src="../images/logo.png" alt="Logo" style="width: 1.5rem; height: 1.5rem;">
+                <p>dexifra</p>
+            </div>
+            <div class="buttonNav">
+                <div id="scrollToContactSection1"><a>CONTACT</a></div>
+            </div>
+        </div>
+        <!-- HEADER END -->
+
+        <!-- LANDING SECTION -->
+        <div class="heroSection">
+            <h1>INTERACTIVE MAPS <span class="highlight">BUILT FOR THE WEB</span></h1>
+            <p>I create interactive maps for businesses that want effective, user-friendly, and beautiful cartography that your customers will love.</p>
+            <div class="button">
+                <div id="scrollToContactSection2"><a>CONTACT</a></div>
+            </div>
+            <div class="choroplethMap">
+                <div id="choroplethMap"></div>
+            </div>
+        </div>
+        <!-- LANDING SECTION END -->
+    </div>
+
+    <!-- SERVICE SECTION -->
+    <div id="serviceSection">
+        <div class="sectionTitle">
+            <h1>Maps designed to captivate</h1>
+        </div>
+        <div class="blocks">
+            <div class="block">
+                <img src="../images/webNative2.png" alt="image" style="height: 10vh;">
+                <h2>Web native</h2>
+                <p>Maps are designed and developed to maximize the capabilities and reach on the web, offering users a seamless and versatile experience.</p>
+            </div>
+            <div class="block">
+                <img src="../images/mobileFriendly2.png" alt="image" style="height: 10vh;">
+                <h2>Mobile-Friendly</h2>
+                <p>Dexifra maps are supported by web browsers on both computers and mobile devices. They are a universal resource that allows users to interact with the map from any type of device.</p>
+            </div>
+            <div class="block">
+                <img src="../images/realTimeUpdates2.png" alt="image" style="height: 10vh;">
+                <h2>Automatic updates</h2>
+                <p>When the data underlying the map changes, the map itself is automatically updated to reflect the modifications.</p>
+            </div>
+        </div>
+        <div id="plottedMap"></div>
+    </div>
+    <!-- SERVICE SECTION END -->
+
+    <!-- CONTACT SECTION -->
+    <div class="contactSection" id="section1">
+        <h1 class="contactTitle">Let's start the discussion for your map project!</h1>
+        <form action="https://formspree.io/f/mzzpenqp" method="POST" class="form">
+            <div class="nameEmail">
+                <div>
+                    <label for="name">NAME*</label><br>
+                    <input type="text" name="user_name" id="name" required placeholder="Name"/>
+                </div>
+                <div>
+                    <label for="name">EMAIL*</label><br>
+                    <input type="text" name="user_email" id="email" required placeholder="Email"/>
+                </div>
+            </div>
+            <div class="message">
+                    <label for="name">MESSAGE*</label>
+                    <textarea rows="10" maxlength="2000" type="text" name="user_message" id="message" required placeholder="Talk about your map project. Any requirements, ideas, goals, or examples to get the discussion started."></textarea>
+            </div>
+            <div style="display: flex; justify-content: center;"><input class="sendMessageButton" type="submit" value="SEND MESSAGE (I'LL REPLY BACK!)"></div>
+        </form>
+    </div>
+    <!-- CONTACT SECTION END -->      
+
+    <div id="sectionFooter" style="display: flex; justify-content: space-between; padding: 2vh 5vw; background-color: #242424; color: #f8f8f8;"> 
+        <p> Copyright 2024 | dexifra | All Rights Reserved</p>
+        <p>dexifra</p>
+    </div>
+
+    <script>
+        // Initialize the choropleth map map
+        const map2 = L.map('choroplethMap').setView([41.3851, 2.1734], 12); // Centered on Barcelona
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        }).addTo(map2);
+
+        // Initialize the plotted map map
+        const map3 = L.map('plottedMap').setView([41.3851, 2.1734], 12); // Centered on Barcelona
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        }).addTo(map3);
+
+        // Fetch and display the districtes data
+        fetch('./cartography/barcelonaDistrictes.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    style: {
+                        color: "#000",
+                        // fillColor: "#3867A8",
+                        weight: 1,
+                        opacity: 0.2,
+                        fillOpacity: 0
+                    },
+                    onEachFeature: function (feature, layer) {
+                        if (feature.properties && feature.properties.name) {
+                            layer.bindPopup(feature.properties.name);
+                        }
+                    }
+                }).addTo(map3);
+            })
+            .catch(error => console.error('Error fetching districts data:', error));
+
+        fetch('./cartography/barcelonaBarris.json')
+            .then(response => response.json())
+            .then(data => {
+                // Loop through the records in the JSON file
+                data.result.records.forEach(function (record) {
+                    // Parse the WGS84 geometry
+                    var wgs84Coordinates = record.geometria_wgs84
+                        .replace('POLYGON ((', '')
+                        .replace('))', '')
+                        .split(', ')
+                        .map(coord => coord.split(' ').map(Number));
+
+                    // Create an array of LatLng objects
+                    var latLngs = wgs84Coordinates.map(coord => [coord[1], coord[0]]);
+
+                    // Define style options
+                    var polygonStyle = {
+                        color: "#000",
+                        // fillColor: "#3867A8",
+                        weight: 1,
+                        opacity: 0.1,
+                        fillOpacity: 0
+                    };
+
+                    // Add the polygon to plottedMap
+                    L.polygon(latLngs, polygonStyle).addTo(map3);
+                });
+            })
+            .catch(error => console.error('Error fetching the JSON data:', error));
+    </script>
+    <script type="text/javascript" src="./cartography/densitatPoblació.js"></script>
+    <script src="./cartography/mainDensitatPoblacio.js"></script>
+    <script src="./cartography/mainRefugisClimàtics.js"></script>
+    <script>
+        document.getElementById("scrollToContactSection1").addEventListener("click", function () {
+            document.getElementById("section1").scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById("scrollToContactSection2").addEventListener("click", function () {
+            document.getElementById("section1").scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
