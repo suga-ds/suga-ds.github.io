@@ -1,16 +1,16 @@
 var customIcon = L.icon({
-  iconUrl: './images/dot.png', // Path to your image
+  iconUrl: '../images/dot.png', // Path to your image
   iconSize: [16, 16], // Size of the icon
   iconAnchor: [8, 8], // Point of the icon which will correspond to marker's location
   popupAnchor: [0, -8] // Point from which the popup should open relative to the iconAnchor
 });
 
 var enlargedIcon = L.icon({
-  iconUrl: './images/dot.png', // Path to your image
+  iconUrl: '../images/dot.png', // Path to your image
   iconSize: [20, 20], // Enlarged size of the icon
 });
 
-fetch('./cartography/refugisClimàtics.json')
+fetch('/js/refugisClimàtics.json')
   .then(response => response.json())  // Parse the JSON from the response
   .then(data => {
     // Assuming the relevant data is in data.result.records
