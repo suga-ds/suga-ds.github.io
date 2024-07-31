@@ -1,17 +1,16 @@
 <!-- public/index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 
 <head>
     <title>dexifra</title>
-    <link rel="icon" href="../images/logo.png" type="image/png">
+    <link rel="icon" href="./images/logo.png" type="image/png">
     <meta charset="UTF-8">
-    <link href='./en/style.css' rel='stylesheet'>
-    <meta name="language" content="en">
+    <meta name="language" content="ca">
     <link rel="alternate" href="https://dexifra.com/es/index.html" hreflang="es">
     <link rel="alternate" href="https://dexifra.com/ca/index.html" hreflang="ca">
     <link rel="alternate" href="https://dexifra.com/en/index.html" hreflang="en">
-    <link href='./style.css' rel='stylesheet'>
+    <link href='./ca/style.css' rel='stylesheet'>
     <!-- Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -31,21 +30,21 @@
         <!-- HEADER -->
         <div class="header">
             <div class="logoName">
-                <img src="./images/" alt="Logo" style="width: 1.5rem; height: 1.5rem;">
+                <img src="./images/logo.png" alt="Logo" style="width: 1.5rem; height: 1.5rem;">
                 <p>dexifra</p>
             </div>
             <div class="buttonNav">
-                <div id="scrollToContactSection1"><a>CONTACT</a></div>
+                <div id="scrollToContactSection1"><a>CONTACTE</a></div>
             </div>
         </div>
         <!-- HEADER END -->
 
         <!-- LANDING SECTION -->
         <div class="heroSection">
-            <h1>INTERACTIVE MAPS <span class="highlight">BUILT FOR THE WEB</span></h1>
-            <p>I create interactive maps for businesses that want effective, user-friendly, and beautiful cartography that your customers will love.</p>
+            <h1>MAPES INTERACTIUS <span class="highlight">PEL WEB</span></h1>
+            <p>Desenvolupem mapes interactius customitzats per aquells que volen portar l'experiència web dels seus usuaris un pas més enllà</p>
             <div class="button">
-                <div id="scrollToContactSection2"><a>CONTACT</a></div>
+                <div id="scrollToContactSection2"><a>CONTACTE</a></div>
             </div>
             <div class="choroplethMap">
                 <div id="choroplethMap"></div>
@@ -57,23 +56,23 @@
     <!-- SERVICE SECTION -->
     <div id="serviceSection">
         <div class="sectionTitle">
-            <h1>Maps designed to captivate</h1>
+            <h1>Mapes dissenyats per captivar</h1>
         </div>
         <div class="blocks">
             <div class="block">
-                <img src="./images/webNative2.png" alt="image" style="height: 10vh;">
-                <h2>Web native</h2>
-                <p>Maps are designed and developed to maximize the capabilities and reach on the web, offering users a seamless and versatile experience.</p>
+                <img src="./images/webNative2.png" alt="database" style="height: 10vh;">
+                <h2>Implentats al web</h2>
+                <p>El mapa carrega dinàmicament la informació geogràfica a mesura que l'usuari s'apropa, fa clic o passa el ratolí per sobre dels elements de la pàgina.</p>
             </div>
             <div class="block">
-                <img src="./images/mobileFriendly2.png" alt="image" style="height: 10vh;">
+                <img src="./images/mobileFriendly2.png" alt="database" style="height: 10vh;">
                 <h2>Mobile-Friendly</h2>
-                <p>Dexifra maps are supported by web browsers on both computers and mobile devices. They are a universal resource that allows users to interact with the map from any type of device.</p>
+                <p>Els mapes de 'dexifra' estan suportats pels navegadors web a l'ordinador i al mòbil. És un recurs universal que permet que l'usuari interaccioni amb el mapa des de tota mena de dispositius.</p>
             </div>
             <div class="block">
-                <img src="./images/realTimeUpdates2.png" alt="image" style="height: 10vh;">
-                <h2>Automatic updates</h2>
-                <p>When the data underlying the map changes, the map itself is automatically updated to reflect the modifications.</p>
+                <img src="./images/realTimeUpdates2.png" alt="database" style="height: 10vh;">
+                <h2>Actualizacions automàtiques</h2>
+                <p>Quan les dades que sustenten el mapa canvien, el mateix mapa es renova automàticament per reflectir les modificacionses.</p>
             </div>
         </div>
         <div id="plottedMap"></div>
@@ -82,12 +81,12 @@
 
     <!-- CONTACT SECTION -->
     <div class="contactSection" id="section1">
-        <h1 class="contactTitle">Let's start the discussion for your map project!</h1>
+        <h1 class="contactTitle">Comencem un projecte cartogràfic!</h1>
         <form action="https://formspree.io/f/mzzpenqp" method="POST" class="form">
             <div class="nameEmail">
                 <div>
-                    <label for="name">NAME*</label><br>
-                    <input type="text" name="user_name" id="name" required placeholder="Name"/>
+                    <label for="name">NOM*</label><br>
+                    <input type="text" name="user_name" id="name" required placeholder="Nom"/>
                 </div>
                 <div>
                     <label for="name">EMAIL*</label><br>
@@ -95,10 +94,10 @@
                 </div>
             </div>
             <div class="message">
-                    <label for="name">MESSAGE*</label>
-                    <textarea rows="10" maxlength="2000" type="text" name="user_message" id="message" required placeholder="Talk about your map project. Any requirements, ideas, goals, or examples to get the discussion started."></textarea>
+                    <label for="name">MISSATGE*</label>
+                    <textarea rows="10" maxlength="2000" type="text" name="user_message" id="message" required placeholder="Comenta'ns coses del projecte: ideés, objectius o exemples."></textarea>
             </div>
-            <div style="display: flex; justify-content: center;"><input class="sendMessageButton" type="submit" value="SEND MESSAGE (I'LL REPLY BACK!)"></div>
+            <div style="display: flex; justify-content: center;"><input class="sendMessageButton" type="submit" value="ENVIAR MISSATGE"></div>
         </form>
     </div>
     <!-- CONTACT SECTION END -->      
