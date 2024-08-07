@@ -4,20 +4,18 @@
 
 <head>
     <title>dexifra</title>
-    <link rel="icon" href="../images/logo.png" type="image/png">
     <meta charset="UTF-8">
-    <link href='./en/style.css' rel='stylesheet'>
+    <link href='./css/index.css' rel='stylesheet'>
     <meta name="language" content="en">
     <link rel="alternate" href="https://dexifra.com/es/index.html" hreflang="es">
     <link rel="alternate" href="https://dexifra.com/ca/index.html" hreflang="ca">
     <link rel="alternate" href="https://dexifra.com/en/index.html" hreflang="en">
-    <link href='./style.css' rel='stylesheet'>
-    <!-- Leaflet -->
+    <!-- Leaflet
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.umd.js"></script>
     <link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.0.3/maptiler-sdk.css" rel="stylesheet" />
-    <script src="https://cdn.maptiler.com/leaflet-maptilersdk/v2.0.0/leaflet-maptilersdk.js"></script>
+    <script src="https://cdn.maptiler.com/leaflet-maptilersdk/v2.0.0/leaflet-maptilersdk.js"></script> -->
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Mobile sizing -->
@@ -25,39 +23,40 @@
 </head>
 
 <body>
-
-    <div class="coolBackground">
         
-        <!-- HEADER -->
-        <div class="header">
-            <div class="logoName">
-                <img src="./images/" alt="Logo" style="width: 1.5rem; height: 1.5rem;">
-                <p>dexifra</p>
-            </div>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="logoName">
+            <p><a href="./index.html" style="text-decoration: none; color: inherit;">dexifra</a></p>
+        </div>
+        <div class="navigation">
+            <!-- <div><p><a href="./gallery.html" style="text-decoration: none; color: inherit;">GALLERY</a></p></div> -->
             <div class="buttonNav">
                 <div id="scrollToContactSection1"><a>CONTACT</a></div>
             </div>
         </div>
-        <!-- HEADER END -->
+    </div>
+    <!-- HEADER END -->
 
-        <!-- LANDING SECTION -->
+    <!-- LANDING SECTION -->
+    <div class="coolBackground">
         <div class="heroSection">
-            <h1>INTERACTIVE MAPS <span class="highlight">BUILT FOR THE WEB</span></h1>
-            <p>I create interactive maps for businesses that want effective, user-friendly, and beautiful cartography that your customers will love.</p>
+            <h1>Interactive Maps <span class="highlight">Built For The Web</span></h1>
+            <p>We create interactive maps for businesses that want effective, user-friendly, and beautiful cartography that your customers will love.</p>
             <div class="button">
                 <div id="scrollToContactSection2"><a>CONTACT</a></div>
             </div>
-            <div class="choroplethMap">
-                <div id="choroplethMap"></div>
-            </div>
+            <!-- <div class="choroplethMap">
+                 <div id="choroplethMap"></div> 
+            </div> -->
         </div>
-        <!-- LANDING SECTION END -->
     </div>
+    <!-- LANDING SECTION END -->
 
     <!-- SERVICE SECTION -->
     <div id="serviceSection">
         <div class="sectionTitle">
-            <h1>Maps designed to captivate</h1>
+            <h1>Designed to Captivate.</h1>
         </div>
         <div class="blocks">
             <div class="block">
@@ -76,13 +75,51 @@
                 <p>When the data underlying the map changes, the map itself is automatically updated to reflect the modifications.</p>
             </div>
         </div>
-        <div id="plottedMap"></div>
     </div>
     <!-- SERVICE SECTION END -->
 
+    <!-- PORTFOLIO -->
+    <div class="portfolio">
+        <h1>Completed Client Maps.</h1>
+
+        <div class="projects">
+
+            <div class="project">
+                <div class="portfolioTextDiv">
+                    <span>Markers</span>
+                    <div class="button2">
+                        <div id="scrollToContactSection2"><a>Filt3rs</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="portfolioTextDiv">
+                    <span>Marker</span>
+                    <div class="button2">
+                        <div id="scrollToContactSection2"><a>Clínica Dental Ortego</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="portfolioTextDiv">
+                    <span>Choropleth</span>
+                    <div class="button2">
+                        <div id="scrollToContactSection2"><a>Barcelona Maps</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- PORTFOLIO END -->
+
     <!-- CONTACT SECTION -->
     <div class="contactSection" id="section1">
-        <h1 class="contactTitle">Let's start the discussion for your map project!</h1>
+        <div class="sectionTitle">
+            <h1>Let's start the discussion for your project!</h1>
+        </div>
         <form action="https://formspree.io/f/mzzpenqp" method="POST" class="form">
             <div class="nameEmail">
                 <div>
@@ -103,12 +140,14 @@
     </div>
     <!-- CONTACT SECTION END -->      
 
+    <!-- FOOTER SECTIOn -->
     <div id="sectionFooter" style="display: flex; justify-content: space-between; padding: 2vh 5vw; background-color: #242424; color: #f8f8f8;"> 
         <p> Copyright 2024 | dexifra | All Rights Reserved</p>
         <p>dexifra</p>
     </div>
+    <!-- FOOTER SECTION END -->      
 
-    <script>
+    <!-- <script>
         // Initialize the choropleth map map
         const map2 = L.map('choroplethMap').setView([41.3851, 2.1734], 12); // Centered on Barcelona
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
@@ -172,7 +211,7 @@
     </script>
     <script type="text/javascript" src="./js/densitatPoblació.js"></script>
     <script src="./js/mainDensitatPoblacio.js"></script>
-    <script src="./js/mainRefugisClimàtics.js"></script>
+    <script src="./js/mainRefugisClimàtics.js"></script> -->
     <script>
         document.getElementById("scrollToContactSection1").addEventListener("click", function () {
             document.getElementById("section1").scrollIntoView({ behavior: 'smooth' });

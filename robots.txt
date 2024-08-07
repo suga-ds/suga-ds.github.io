@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://dexifra.com/sitemap.xml
