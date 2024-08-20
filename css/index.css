@@ -64,6 +64,7 @@ body {
     outline: none;
     text-decoration: none;
     color: #7D3B58;
+    font-size: 2vh;
 }
 
 .buttonNav div:hover {
@@ -92,7 +93,6 @@ body {
     letter-spacing: -0.070em;
     font-size: 7.5vw;
     line-height: 15vh;
-    margin-bottom: 1vh;
     margin: 0vh 25vw 7vh 10vw;
     text-align: left;
 }
@@ -445,41 +445,12 @@ body {
 
 /* FOOTER */
 
-@media (max-width: 1118px) {
+@media (max-width: 1000px) {
+
+    /* HEDEAR */
 
     .header {
         padding: 2vh 10vw;
-    }
-
-    .buttonNav div {
-        width: 25vw;
-        height: 3vh;
-    }
-
-    .buttonNav div a {
-        font-size: 3vw;
-    }
-
-    .button div {
-        width: 40vw;
-        height: 5vh;
-    }
-
-    .button div a {
-        font-size: 3.5vw;
-    }
-
-    .blocks {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .heroSection {
-        padding: 4vh 0;
-    }
-
-    .header {
         padding-top: 0.5vw;
         padding-bottom: 0.5vw;
     }
@@ -488,19 +459,109 @@ body {
         font-size: 2vh;
     }
 
+    .buttonNav div {
+        width: 25vw;
+        height: 3vh;
+    }
+
+    .buttonNav div a {
+        font-size: 1.3vh;
+    }
+
+    /* HERO */
+
+    .heroSection {
+        padding: 4vh 0;
+    }
 
     .heroSection h1 {
         font-size: 12vw;
-        margin: 3vh 12vw;
         line-height: 10vw;
+        margin-right: 15vw;
+        margin-bottom: 5vh;
     }
 
     .heroSection p {
         font-size: 3vw;
     }
 
+    .buttonHero div {
+        width: 40vw;
+        height: 5vh;
+    }
+
+    .buttonHero div a {
+        font-size:  1.8vh;
+    }
+
+    /* SERVICE */
+
+    #serviceSubtitle {
+        font-size: 1.5vh;
+        justify-content: flex-start;
+    }
+
+    .mediaTitle {
+        justify-content: flex-start;
+    }
+
+    .sectionTitle h1 {
+        font-size: 4vh;
+    }
+
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* PORTFOLIO */
+
+    #portfolioSubtitle {
+        font-size: 1.5vh;
+    }
+
+    #portfolioTitle {
+        font-size: 4vh;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .project .portfolioTextDiv {
+        opacity: 1;
+    }    
+
+    /* PRICING */
+
+    #pricingSubtitle {
+        font-size: 1.5vh;
+    }
+
     .sectionTitle {
-        font-size: 4vw;
+        font-size: 2vh;
+    }
+
+    .pricingBlocks {
+        flex-direction: column;
+    }
+
+    .pricingBlock {
+        margin-bottom: 4vh;
+    }
+
+    /* CONTACT */
+
+    .contactTitle {
+        font-size: 2vh;
+        margin: 0 15vw;
     }
 
     .form {
@@ -518,6 +579,6 @@ body {
     }
 
     .sendMessageButton {
-        font-size: 3vw;
+        font-size: 1.5vh;
     }
 }
