@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Clínica Dental Ortego</title>
+    <meta charset="UTF-8">
+    <link href='./css/index.css' rel='stylesheet'>
+    <meta name="language" content="en">
+
+    <!-- Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Mobile sizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: relative;
+            width: 100.0%;
+            height: 100.0%;
+            left: 0.0%;
+            top: 0.0%;
+        }
+
+        p {
+            font-size: larger;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <script>
+        // Initialize the map centered on the specified location
+        const map = L.map('map').setView([41.396669, 2.145122], 16.5);
+
+        // Add a tile layer to the map
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(map);
+
+        const customIcon = L.icon({
+            iconUrl: '../images/marker.png', // Replace with your parking icon path
+            iconSize: [32, 32], // size of the icon
+            iconAnchor: [16, 32], // point of the icon which will correspond to marker's location
+            popupAnchor: [0, -32] // point from which the popup should open relative to the iconAnchor
+        });
+
+        // Custom icon for parking
+        const parkingIcon = L.icon({
+            iconUrl: '../images/parking.png', // Replace with your parking icon path
+            iconSize: [32, 32], // size of the icon
+            iconAnchor: [16, 32], // point of the icon which will correspond to marker's location
+            popupAnchor: [0, -32] // point from which the popup should open relative to the iconAnchor
+        });
+
+        // Custom icon for public transport
+        const transportIcon = L.icon({
+            iconUrl: '../images/bus.png', // Replace with your parking icon path
+            iconSize: [32, 32], // size of the icon
+            iconAnchor: [16, 32], // point of the icon which will correspond to marker's location
+            popupAnchor: [0, -32] // point from which the popup should open relative to the iconAnchor
+        });
+
+        // Custom icon for public transport
+        const ferrocarril = L.icon({
+            iconUrl: '../images/ferrocarril.png', // Replace with your parking icon path
+            iconSize: [32, 32], // size of the icon
+            iconAnchor: [16, 32], // point of the icon which will correspond to marker's location
+            popupAnchor: [0, -32] // point from which the popup should open relative to the iconAnchor
+        });
+
+
+        // Add marker to the map at the specified location
+        L.marker([41.39645494355214, 2.1438778521907897], { icon: customIcon }).addTo(map)
+            .bindPopup("<div><h2>Clínica dental ortego</h2></div><p>All the important information here</p>");
+
+        // Add Parking Locations
+        L.marker([41.397138984450145, 2.1432663083478674], { icon: parkingIcon }).addTo(map)
+            .bindPopup("<p>Parking - Galvany</p>");
+        L.marker([41.39511880428882, 2.142762052865205], { icon: parkingIcon }).addTo(map)
+            .bindPopup("<p>Parking públic</p>");
+        L.marker([41.39581907070673, 2.146055805714616], { icon: parkingIcon }).addTo(map)
+            .bindPopup("<p>Parking - Les Amèriques</p>");
+
+        // Add Transportation Stations
+        L.marker([41.39836637660563, 2.141828644509833], { icon: ferrocarril }).addTo(map)
+            .bindPopup("<p>Ferrocarril - Muntaner</p>");
+        L.marker([41.397030161852506, 2.145798313081693], { icon: transportIcon }).addTo(map)
+            .bindPopup("<p>Bus - Laforja</p>");
+        L.marker([41.397110643665584, 2.144231903021904], { icon: transportIcon }).addTo(map)
+            .bindPopup("<p>Bus - Mercat Galvany</p>");
+    </script>
+
+</body>
+
+</html>

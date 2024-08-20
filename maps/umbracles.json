@@ -1,0 +1,260 @@
+{
+    "help": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/help_show?name=datastore_search",
+    "success": true,
+    "result": {
+        "resource_id": "2cad94ea-569f-465e-b57a-b7358d89acef",
+        "fields": [
+            {
+                "type": "int4",
+                "id": "_id"
+            },
+            {
+                "type": "text",
+                "id": "register_id"
+            },
+            {
+                "type": "text",
+                "id": "name"
+            },
+            {
+                "type": "numeric",
+                "id": "institution_id"
+            },
+            {
+                "type": "text",
+                "id": "institution_name"
+            },
+            {
+                "type": "timestamp",
+                "id": "created"
+            },
+            {
+                "type": "timestamp",
+                "id": "modified"
+            },
+            {
+                "type": "text",
+                "id": "addresses_roadtype_id"
+            },
+            {
+                "type": "text",
+                "id": "addresses_roadtype_name"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_road_id"
+            },
+            {
+                "type": "text",
+                "id": "addresses_road_name"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_start_street_number"
+            },
+            {
+                "type": "text",
+                "id": "addresses_end_street_number"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_neighborhood_id"
+            },
+            {
+                "type": "text",
+                "id": "addresses_neighborhood_name"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_district_id"
+            },
+            {
+                "type": "text",
+                "id": "addresses_district_name"
+            },
+            {
+                "type": "numeric",
+                "id": "addresses_zip_code"
+            },
+            {
+                "type": "text",
+                "id": "addresses_town"
+            },
+            {
+                "type": "text",
+                "id": "addresses_main_address"
+            },
+            {
+                "type": "text",
+                "id": "addresses_type"
+            },
+            {
+                "type": "text",
+                "id": "values_id"
+            },
+            {
+                "type": "text",
+                "id": "values_attribute_id"
+            },
+            {
+                "type": "text",
+                "id": "values_category"
+            },
+            {
+                "type": "text",
+                "id": "values_attribute_name"
+            },
+            {
+                "type": "text",
+                "id": "values_value"
+            },
+            {
+                "type": "text",
+                "id": "values_outstanding"
+            },
+            {
+                "type": "text",
+                "id": "values_description"
+            },
+            {
+                "type": "text",
+                "id": "secondary_filters_id"
+            },
+            {
+                "type": "text",
+                "id": "secondary_filters_name"
+            },
+            {
+                "type": "text",
+                "id": "secondary_filters_fullpath"
+            },
+            {
+                "type": "text",
+                "id": "secondary_filters_tree"
+            },
+            {
+                "type": "text",
+                "id": "secondary_filters_asia_id"
+            },
+            {
+                "type": "numeric",
+                "id": "geo_epgs_25831_x"
+            },
+            {
+                "type": "numeric",
+                "id": "geo_epgs_25831_y"
+            },
+            {
+                "type": "numeric",
+                "id": "geo_epgs_4326_lat"
+            },
+            {
+                "type": "numeric",
+                "id": "geo_epgs_4326_lon"
+            },
+            {
+                "type": "text",
+                "id": "estimated_dates"
+            },
+            {
+                "type": "text",
+                "id": "start_date"
+            },
+            {
+                "type": "text",
+                "id": "end_date"
+            }
+        ],
+        "records": [
+            {
+                "addresses_roadtype_name": "",
+                "addresses_end_street_number": "",
+                "geo_epgs_4326_lon": "2.1874316095651793",
+                "values_attribute_name": "",
+                "estimated_dates": "",
+                "addresses_road_name": "Pl Gl\u00f2ries Catalanes",
+                "values_category": "",
+                "addresses_zip_code": "8038",
+                "secondary_filters_id": "",
+                "values_value": "",
+                "addresses_town": "BARCELONA",
+                "secondary_filters_name": "",
+                "secondary_filters_tree": "",
+                "start_date": "",
+                "addresses_district_name": "Sant Mart\u00ed",
+                "end_date": "",
+                "geo_epgs_25831_x": "432079.19281223475",
+                "addresses_start_street_number": "38",
+                "register_id": "\ufeff99400378262",
+                "institution_id": null,
+                "addresses_main_address": "True",
+                "addresses_district_id": "10",
+                "addresses_roadtype_id": "",
+                "addresses_type": "",
+                "addresses_neighborhood_id": "66",
+                "_id": 1,
+                "name": "La P\u00e8rgola - Umbracle",
+                "addresses_road_id": "146902",
+                "created": "2015-02-19T18:48:13",
+                "geo_epgs_25831_y": "4583791.787531213",
+                "institution_name": "",
+                "modified": "2022-09-17T08:14:37.984917",
+                "secondary_filters_asia_id": "",
+                "secondary_filters_fullpath": "",
+                "geo_epgs_4326_lat": "41.40280001716486",
+                "values_description": "",
+                "values_id": "",
+                "addresses_neighborhood_name": "el Parc i la Llacuna del Poblenou",
+                "values_outstanding": "",
+                "values_attribute_id": ""
+            },
+            {
+                "addresses_roadtype_name": "",
+                "addresses_end_street_number": "",
+                "geo_epgs_4326_lon": "2.1851123651891657",
+                "values_attribute_name": "",
+                "estimated_dates": "",
+                "addresses_road_name": "Pg Picasso",
+                "values_category": "",
+                "addresses_zip_code": "8003",
+                "secondary_filters_id": "",
+                "values_value": "",
+                "addresses_town": "BARCELONA",
+                "secondary_filters_name": "",
+                "secondary_filters_tree": "",
+                "start_date": "",
+                "addresses_district_name": "Ciutat Vella",
+                "end_date": "",
+                "geo_epgs_25831_x": "431868.6352169331",
+                "addresses_start_street_number": "13",
+                "register_id": "\ufeff92086008801",
+                "institution_id": "92086011921",
+                "addresses_main_address": "True",
+                "addresses_district_id": "1",
+                "addresses_roadtype_id": "",
+                "addresses_type": "",
+                "addresses_neighborhood_id": "4",
+                "_id": 2,
+                "name": "Umbracle",
+                "addresses_road_id": "201400",
+                "created": "1984-12-07T00:00:00",
+                "geo_epgs_25831_y": "4582018.477788593",
+                "institution_name": "Parc de la Ciutadella",
+                "modified": "2024-07-19T08:40:48.588885",
+                "secondary_filters_asia_id": "",
+                "secondary_filters_fullpath": "",
+                "geo_epgs_4326_lat": "41.3868105211568",
+                "values_description": "",
+                "values_id": "",
+                "addresses_neighborhood_name": "Sant Pere, Santa Caterina i la Ribera",
+                "values_outstanding": "",
+                "values_attribute_id": ""
+            }
+        ],
+        "_links": {
+            "start": "/api/action/datastore_search?resource_id=2cad94ea-569f-465e-b57a-b7358d89acef",
+            "next": "/api/action/datastore_search?offset=100&resource_id=2cad94ea-569f-465e-b57a-b7358d89acef"
+        },
+        "total": 2
+    }
+}

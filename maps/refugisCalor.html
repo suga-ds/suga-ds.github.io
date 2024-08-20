@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>dexifra</title>
+    <meta charset="UTF-8">
+    <meta name="language" content="en">
+
+    <!-- Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Mobile sizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: relative;
+            width: 100.0%;
+            height: 100.0%;
+            left: 0.0%;
+            top: 0.0%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+    <script type="text/javascript" src="./densitatPoblació.js"></script>
+
+    <script>
+        // Define tile layers
+        var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        });
+
+        var carto = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+            attribution: '© CartoDB'
+        });
+
+        // Initialize the map
+        var map = L.map('map', {
+            center: [41.400364661813924, 2.157115264612793],
+            zoom: 13,
+            layers: [carto] // Default base layer
+        });
+
+        // Create LayerGroups for different types of data
+        var refugis = L.layerGroup();
+        var umbracles = L.layerGroup();
+        var parcs = L.layerGroup();
+
+        // Fetch and plot the refugis climàtics data
+        fetch('./refugisClimatics.json')
+            .then(response => response.json())
+            .then(data => {
+                data.result.records.forEach(record => {
+                    const lat = parseFloat(record.geo_epgs_4326_lat);
+                    const lon = parseFloat(record.geo_epgs_4326_lon);
+                    const name = record.name;
+                    if (lat && lon) {
+                        // Create a circle marker
+                        var marker = L.circleMarker([lat, lon], {
+                            radius: 4,
+                            fillColor: "#7D3B58",
+                            color: "#7D3B58",
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        }).bindPopup(`<b>${name}</b>`);
+
+                        // Add the marker to the refugis layer group
+                        refugis.addLayer(marker);
+                    }
+                });
+
+                // Add the refugis layer group to the map
+                refugis.addTo(map);
+            });
+
+        // Fetch and plot the umbracles data
+        fetch('./umbracles.json')
+            .then(response => response.json())
+            .then(data => {
+                data.result.records.forEach(record => {
+                    const lat = parseFloat(record.geo_epgs_4326_lat);
+                    const lon = parseFloat(record.geo_epgs_4326_lon);
+                    const name = record.name;
+                    if (lat && lon) {
+                        // Create a circle marker
+                        var marker = L.circleMarker([lat, lon], {
+                            radius: 4,
+                            fillColor: "#3B7D58",
+                            color: "#3B7D58",
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        }).bindPopup(`<b>${name}</b>`);
+
+                        // Add the marker to the umbracles layer group
+                        umbracles.addLayer(marker);
+                    }
+                });
+
+                // Add the umbracles layer group to the map
+                umbracles.addTo(map);
+            });
+
+        // Fetch and plot the parcs data
+        fetch('./parcs.json')
+            .then(response => response.json())
+            .then(data => {
+                data.result.records.forEach(record => {
+                    const lat = parseFloat(record.geo_epgs_4326_lat);
+                    const lon = parseFloat(record.geo_epgs_4326_lon);
+                    const name = record.name;
+                    if (lat && lon) {
+                        // Create a circle marker
+                        var marker = L.circleMarker([lat, lon], {
+                            radius: 4   ,
+                            fillColor: "#583B7D",
+                            color: "#583B7D",
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        }).bindPopup(`<b>${name}</b>`);
+                        console.log(name)
+
+                        // Add the marker to the parcs layer group
+                        parcs.addLayer(marker);
+                    }
+                });
+
+                // Add the parcs layer group to the map
+                parcs.addTo(map);
+            });
+
+        // Layer control configuration
+        var baseMaps = {
+            "OpenStreetMap": osm,
+            "CartoDB": carto
+        };
+
+        var overlayMaps = {
+            "Refugis Climàtics": refugis,
+            "Umbracles": umbracles,
+            "Parcs": parcs
+        };
+
+        // Add layer control to the map
+        L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+        // Fetch and display the districtes data
+        fetch('./barcelonaDistrictes.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    style: {
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.4,
+                        fillOpacity: 0
+                    }
+                }).addTo(map);
+            });
+
+        // Fetch and display the barris data
+        const geojson = L.geoJson(statesData, {
+            style,
+        }).addTo(map);
+
+        function style(feature) {
+            return {
+                weight: 1,
+                opacity: 0.2,
+                color: 'black',
+                fillOpacity: 0
+            };
+        }
+    </script>
+</body>
+
+</html>
