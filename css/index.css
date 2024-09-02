@@ -365,7 +365,7 @@ body {
 }
 
 .buttonPricing div:hover {
-    bottom: 1px;
+    bottom: 2px;
 }
 
 
@@ -534,6 +534,7 @@ body {
 
     .project {
         width: 100%;
+        cursor: pointer;
     }
 
     .project .portfolioTextDiv {
