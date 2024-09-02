@@ -482,7 +482,8 @@ body {
     }
 
     .heroSection p {
-        font-size: 3vw;
+        font-size: 3.5vw;
+        margin: 0 25vw 0 10vw;
     }
 
     .buttonHero div {
