@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>dexifra</title>
+    <meta charset="UTF-8">
+    <meta name="language" content="en">
+
+    <!-- Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- Leaflet.heat Plugin -->
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Mobile sizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: relative;
+            width: 100.0%;
+            height: 100.0%;
+            left: 0.0%;
+            top: 0.0%;
+        }
+    </style>
+</head>
+<body>
+    <!-- The div element where the map will be rendered -->
+    <div id="map"></div>
+
+    <!-- Include your JSON data file -->
+    <script src="./arbratViari.json"></script>
+    <script>
+        // Initialize the map centered on Barcelona
+        const map = L.map('map').setView([41.3851, 2.1734], 12);
+
+        // Add a tile layer to the map
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(map);
+
+
+        // Parse the JSON data and prepare it for the heatmap
+        var heatData = [];
+
+        // Assuming your JSON data is loaded as a global variable
+        var records = arbratViari.result.records; // Access the records in the JSON data
+
+        // Extract latitude, longitude, and intensity information from each record
+        for (var i = 0; i < records.length; i++) {
+            var record = records[i];
+            var lat = parseFloat(record.latitud);
+            var lng = parseFloat(record.longitud);
+
+            // Assuming a default intensity value (modify based on your data)
+            var intensity = 0.5; 
+
+            // Add to heatmap data
+            heatData.push([lat, lng, intensity]);
+        }
+
+        // Create and add the heatmap layer to the map
+        L.heatLayer(heatData, {
+            radius: 20,
+            blur: 15,
+            maxZoom: 17,
+            gradient: {
+                0.1: '#DEBACA',
+                0.2: '#D19EB5',
+                0.3: '#C482A0',
+                0.4: '#B7668B',
+                0.5: '#A64E75',
+                0.6: '#8B4161',
+                0.7: '#6F344E',
+                1.0: '#53273A'
+            }
+        }).addTo(map);
+
+        fetch('./barcelonaDistrictes.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    style: {
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.4,
+                        fillOpacity: 0
+                    }
+                }).addTo(map);
+            });
+
+        // Fetch and display the barris data
+        const geojson = L.geoJson(statesData, {
+            style,
+        }).addTo(map);
+
+        function style(feature) {
+            return {
+                weight: 1,
+                opacity: 0.2,
+                color: 'black',
+                fillOpacity: 0
+            };
+        }
+
+    </script>
+</body>
+</html>
