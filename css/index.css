@@ -76,7 +76,7 @@ body {
 .coolBackground {
     background-image: url("../images/background.svg");
     background-color: #c8d5d8;
-    background-size: 20%;
+    background-size: 50%;
 }
 
 .heroSection {
