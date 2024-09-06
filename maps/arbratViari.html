@@ -29,10 +29,10 @@
     </style>
 </head>
 
-<script type="text/javascript" src="./densitatPoblació.js"></script>
 <body>
     <div id="map"></div>
 
+    <script src="./densitatPoblació.js"></script>
     <script>
         const map = L.map('map').setView([41.3851, 2.1734], 12);
 
@@ -41,7 +41,7 @@
         }).addTo(map);
 
         // Fetch the JSON data dynamically
-        fetch('esport.json')
+        fetch('arbratViari.json')
             .then(response => response.json())
             .then(data => {
                 // Extract the records from the JSON structure
@@ -49,16 +49,16 @@
 
                 // Map the data to extract coordinates for the heatmap
                 const heatPoints = records.map(item => [
-                    parseFloat(item.geo_epgs_4326_lat),
-                    parseFloat(item.geo_epgs_4326_lon),
-                    0.5 // intensity
+                    parseFloat(item.latitud),
+                    parseFloat(item.longitud),
+                    1 // intensity
                 ]);
 
                 // Create the heatmap layer
                 L.heatLayer(heatPoints, {
-                    radius: 30,
-                    blur: 5,
-                    maxZoom: 19,
+                    radius: 25,
+                    blur: 45,
+                    maxZoom: 15,
                 }).addTo(map);
             })
             .catch(error => console.error('Error loading the data:', error));

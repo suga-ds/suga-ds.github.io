@@ -33,6 +33,15 @@
             left: 0.0%;
             top: 0.0%;
         }
+
+        /* Force the layer control to be always visible */
+        .leaflet-control-layers-expanded {
+            display: block !important; /* Force the panel to be expanded */
+            font-size: 16px; /* Increase font size */
+            padding: 10px; /* Increase padding */
+            width: 200px; /* Increase width */
+        }
+
     </style>
 
 </head>
@@ -163,7 +172,9 @@
         };
 
         // Add layer control to the map
-        L.control.layers(baseMaps, overlayMaps).addTo(map);
+        var layerControl = L.control.layers(baseMaps, overlayMaps, {
+            collapsed: false  // Ensure the layer control is not collapsible
+        }).addTo(map);
 
         // Fetch and display the districtes data
         fetch('./barcelonaDistrictes.geojson')
