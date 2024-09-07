@@ -24,7 +24,18 @@
         #map {
             position: relative;
             width: 100%;
-            height: 100%;
+            height: 100%; /* Adjusted to make room for slider */
+        }
+
+        #sliderContainer {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -32,36 +43,86 @@
 <body>
     <div id="map"></div>
 
-    <script src="./densitatPoblació.js"></script>
+    <!-- Slider Container -->
+    <div id="sliderContainer">
+        <label for="yearSlider">Selecciona un any: </label>
+        <input type="range" id="yearSlider" min="2018" max="2024" step="1" value="2024" />
+        <span id="sliderValue">2024</span>
+    </div>
+
     <script>
-        const map = L.map('map').setView([41.3851, 2.1734], 12);
+        const map = L.map('map').setView([41.3851, 2.1734], 13);
 
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
             maxZoom: 19,
         }).addTo(map);
 
-        // Fetch the JSON data dynamically
-        fetch('arbratViari.json')
-            .then(response => response.json())
-            .then(data => {
-                // Extract the records from the JSON structure
-                const records = data.result.records;
+        // Create LayerGroups for each dataset
+        var heatmap2018_1T = L.layerGroup();
+        var heatmap2019_1T = L.layerGroup();
+        var heatmap2020_1T = L.layerGroup();
+        var heatmap2021_1T = L.layerGroup();
+        var heatmap2022_1T = L.layerGroup();
+        var heatmap2023_1T = L.layerGroup();
+        var heatmap2024_1T = L.layerGroup();
 
-                // Map the data to extract coordinates for the heatmap
-                const heatPoints = records.map(item => [
-                    parseFloat(item.latitud),
-                    parseFloat(item.longitud),
-                    1 // intensity
-                ]);
+        // Function to create a heatmap layer from a given JSON file
+        function createHeatmapLayer(jsonFilePath, layerGroup) {
+            fetch(jsonFilePath)
+                .then(response => response.json())
+                .then(data => {
+                    const heatPoints = data.map(item => [
+                        parseFloat(item.latitude),
+                        parseFloat(item.longitude),
+                        1 // intensity
+                    ]);
 
-                // Create the heatmap layer
-                L.heatLayer(heatPoints, {
-                    radius: 25,
-                    blur: 45,
-                    maxZoom: 15,
-                }).addTo(map);
-            })
-            .catch(error => console.error('Error loading the data:', error));
+                    L.heatLayer(heatPoints, {
+                        radius: 5,
+                        blur: 10,
+                        maxZoom: 15
+                    }).addTo(layerGroup);
+                })
+                .catch(error => console.error('Error loading the data:', error));
+        }
+
+        // Create heatmap layers for each JSON file
+        createHeatmapLayer('./arbratViari/extracted_2018_1T_OD_Arbrat_Viari_BCN.json', heatmap2018_1T);
+        createHeatmapLayer('./arbratViari/extracted_2019_1T_OD_Arbrat_Viari_BCN.json', heatmap2019_1T);
+        createHeatmapLayer('./arbratViari/extracted_2020_1T_OD_Arbrat_Viari_BCN.json', heatmap2020_1T);
+        createHeatmapLayer('./arbratViari/extracted_2021_1T_OD_Arbrat_Viari_BCN.json', heatmap2021_1T);
+        createHeatmapLayer('./arbratViari/extracted_2022_1T_OD_Arbrat_Viari_BCN.json', heatmap2022_1T);
+        createHeatmapLayer('./arbratViari/extracted_2023_1T_OD_Arbrat_Viari_BCN.json', heatmap2023_1T);
+        createHeatmapLayer('./arbratViari/extracted_2024_1T_OD_Arbrat_Viari_BCN.json', heatmap2024_1T);
+
+        // Add all layers to the map initially
+        var layers = {
+            "2018": heatmap2018_1T,
+            "2019": heatmap2019_1T,
+            "2020": heatmap2020_1T,
+            "2021": heatmap2021_1T,
+            "2022": heatmap2022_1T,
+            "2023": heatmap2023_1T,
+            "2024": heatmap2024_1T
+        };
+
+        // Initially add only the latest year's data
+        layers["2024"].addTo(map);
+
+        // Slider control logic
+        const slider = document.getElementById('yearSlider');
+        const sliderValueDisplay = document.getElementById('sliderValue');
+
+        slider.addEventListener('input', function () {
+            const year = this.value;
+            sliderValueDisplay.textContent = year;
+
+            // Remove all layers
+            Object.values(layers).forEach(layer => map.removeLayer(layer));
+
+            // Add the selected layer
+            layers[year].addTo(map);
+        });
 
         fetch('./barcelonaDistrictes.geojson')
             .then(response => response.json())
@@ -75,20 +136,6 @@
                     }
                 }).addTo(map);
             });
-
-        // Fetch and display the barris data
-        const geojson = L.geoJson(statesData, {
-            style,
-        }).addTo(map);
-
-        function style(feature) {
-            return {
-                weight: 1,
-                opacity: 0.2,
-                color: 'black',
-                fillOpacity: 0
-            };
-        }
 
     </script>
 </body>
