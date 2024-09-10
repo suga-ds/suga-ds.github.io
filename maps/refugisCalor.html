@@ -75,13 +75,13 @@
         var parcs = L.layerGroup();
 
         // Fetch and plot the refugis climàtics data
-        fetch('./refugisClimatics.json')
+        fetch('./refugisClimàtics.json') // Use the new file name
             .then(response => response.json())
             .then(data => {
-                data.result.records.forEach(record => {
-                    const lat = parseFloat(record.geo_epgs_4326_lat);
-                    const lon = parseFloat(record.geo_epgs_4326_lon);
-                    const name = record.name;
+                data.forEach(record => {
+                    const lat = parseFloat(record.latitud);  // Get latitude from the new data structure
+                    const lon = parseFloat(record.longitud);  // Get longitude from the new data structure
+
                     if (lat && lon) {
                         // Create a circle marker
                         var marker = L.circleMarker([lat, lon], {
@@ -91,7 +91,7 @@
                             weight: 1,
                             opacity: 1,
                             fillOpacity: 0.8
-                        }).bindPopup(`<b>${name}</b>`);
+                        });
 
                         // Add the marker to the refugis layer group
                         refugis.addLayer(marker);
@@ -100,7 +100,8 @@
 
                 // Add the refugis layer group to the map
                 refugis.addTo(map);
-            });
+            })
+            .catch(error => console.error('Error loading data:', error));
 
         // Fetch and plot the umbracles data
         fetch('./umbracles.json')
@@ -148,7 +149,6 @@
                             opacity: 1,
                             fillOpacity: 0.8
                         }).bindPopup(`<b>${name}</b>`);
-                        console.log(name)
 
                         // Add the marker to the parcs layer group
                         parcs.addLayer(marker);
