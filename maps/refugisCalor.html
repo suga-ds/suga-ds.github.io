@@ -75,12 +75,13 @@
         var parcs = L.layerGroup();
 
         // Fetch and plot the refugis climàtics data
-        fetch('./refugisClimàtics.json') // Use the new file name
+        fetch('./refugisClimàtics.json') // Use the converted file with WGS84 coordinates
             .then(response => response.json())
             .then(data => {
                 data.forEach(record => {
-                    const lat = parseFloat(record.latitud);  // Get latitude from the new data structure
-                    const lon = parseFloat(record.longitud);  // Get longitude from the new data structure
+                    const lat = parseFloat(record.latitude);  // Get latitude from the converted data
+                    const lon = parseFloat(record.longitude); // Get longitude from the converted data
+                    const name = record.name; // Get the name from the converted data
 
                     if (lat && lon) {
                         // Create a circle marker
@@ -91,7 +92,7 @@
                             weight: 1,
                             opacity: 1,
                             fillOpacity: 0.8
-                        });
+                        }).bindPopup(`<b>${name}</b>`);
 
                         // Add the marker to the refugis layer group
                         refugis.addLayer(marker);

@@ -1,1566 +1,1942 @@
 [
     {
-        "latitud": 4580607.877194091,
-        "longitud": 430093.26976782805
+        "latitude": 41.373953365750175,
+        "longitude": 2.164042903949161,
+        "name": "Biblioteca Poble-sec - Francesc Boix"
     },
     {
-        "latitud": 4581456.214120483,
-        "longitud": 426358.9428975676
+        "latitude": 41.381260940678544,
+        "longitude": 2.1192890199468386,
+        "name": "CRAI - Biblioteca Campus Diagonal Sud"
     },
     {
-        "latitud": 4582059.327475302,
-        "longitud": 427471.55495053215
+        "latitude": 41.386794007741514,
+        "longitude": 2.1325216465394625,
+        "name": "Centre C\u00edvic Can Deu"
     },
     {
-        "latitud": 4581233.086052541,
-        "longitud": 429906.97744922026
+        "latitude": 41.37956821941282,
+        "longitude": 2.161743115837759,
+        "name": "Mercat Sant Antoni"
     },
     {
-        "latitud": 4581760.084345993,
-        "longitud": 427241.37925264693
+        "latitude": 41.38407806063042,
+        "longitude": 2.1298048647400445,
+        "name": "Mercat Les Corts"
     },
     {
-        "latitud": 4583520.346202765,
-        "longitud": 427382.4545013339
+        "latitude": 41.39994475791636,
+        "longitude": 2.131280890433586,
+        "name": "Mercat Tres Torres"
     },
     {
-        "latitud": 4588141.776,
-        "longitud": 431540.731
+        "latitude": 41.44193318571637,
+        "longitude": 2.1804979230525,
+        "name": "Casal C\u00edvic i Comunitari  Prosperitat"
     },
     {
-        "latitud": 4585076.912114388,
-        "longitud": 432651.79399200366
+        "latitude": 41.41442292582599,
+        "longitude": 2.194138228628761,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4584733.7584449155,
-        "longitud": 427733.1428334839
+        "latitude": 41.41090504207735,
+        "longitude": 2.1353308120104346,
+        "name": "Jardins de la Tamarita"
     },
     {
-        "latitud": 4580914.3323903,
-        "longitud": 428074.97663729003
+        "latitude": 41.37653564822331,
+        "longitude": 2.139874006322372,
+        "name": "Parc de l'Espanya Industrial"
     },
     {
-        "latitud": 4581751.678131161,
-        "longitud": 425874.88153858547
+        "latitude": 41.38387760418612,
+        "longitude": 2.1134644021130615,
+        "name": "Biblioteca"
     },
     {
-        "latitud": 4586876.849222638,
-        "longitud": 430921.7324244287
+        "latitude": 41.4304874584176,
+        "longitude": 2.173233437180801,
+        "name": "Centre C\u00edvic Can Bast\u00e9"
     },
     {
-        "latitud": 4585076.912114388,
-        "longitud": 432651.79399200366
+        "latitude": 41.41442292582599,
+        "longitude": 2.194138228628761,
+        "name": "Piscina Descoberta"
     },
     {
-        "latitud": 4585417.490935598,
-        "longitud": 433365.80799030967
+        "latitude": 41.41754994106159,
+        "longitude": 2.2026435212982443,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4581904.730002864,
-        "longitud": 427560.00512404495
+        "latitude": 41.38540957993892,
+        "longitude": 2.1335979261241165,
+        "name": "Centre Esportiu Municipal Les Corts"
     },
     {
-        "latitud": 4585841.258000116,
-        "longitud": 429397.7144340334
+        "latitude": 41.42102779561162,
+        "longitude": 2.1551159636410184,
+        "name": "Biblioteca El Carmel - Juan Mars\u00e9"
     },
     {
-        "latitud": 4586611.9403178515,
-        "longitud": 428580.5062050304
+        "latitude": 41.42789677307303,
+        "longitude": 2.1452465998415344,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4587546.819864842,
-        "longitud": 431757.272178684
+        "latitude": 41.43659306940482,
+        "longitude": 2.183157005742885,
+        "name": "Centre Esportiu Municipal Can Drag\u00f3"
     },
     {
-        "latitud": 4589191.15002029,
-        "longitud": 432605.87961451133
+        "latitude": 41.451474639572886,
+        "longitude": 2.1931301317422927,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4581290.034017233,
-        "longitud": 432464.18757394917
+        "latitude": 41.38029983799815,
+        "longitude": 2.192316001321932,
+        "name": "Casal de Gent Gran Mediterr\u00e0nia"
     },
     {
-        "latitud": 4580728.6605295725,
-        "longitud": 427784.3541956293
+        "latitude": 41.37483734331482,
+        "longitude": 2.136421053260438,
+        "name": "Casal de Gent Gran Cotxeres de Sants"
     },
     {
-        "latitud": 4581977.8100680085,
-        "longitud": 431288.34786604624
+        "latitude": 41.38639488164491,
+        "longitude": 2.1781771121189712,
+        "name": "Mercat Santa Caterina"
     },
     {
-        "latitud": 4581058.3734327955,
-        "longitud": 428356.35456304916
+        "latitude": 41.37785807405671,
+        "longitude": 2.1432215181756806,
+        "name": "Centre C\u00edvic Casinet d'Hostafrancs"
     },
     {
-        "latitud": 4582633.490999706,
-        "longitud": 432929.1547852954
+        "latitude": 41.39243891008078,
+        "longitude": 2.1977274463120198,
+        "name": "Biblioteca Xavier Benguerel"
     },
     {
-        "latitud": 4583438.492534409,
-        "longitud": 429909.7609627547
+        "latitude": 41.39943181174806,
+        "longitude": 2.1615212113893216,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4580758.575369845,
-        "longitud": 428406.2821413866
+        "latitude": 41.37516234439833,
+        "longitude": 2.143853943380838,
+        "name": "Mercat Hostafrancs"
     },
     {
-        "latitud": 4588255.695035676,
-        "longitud": 432133.99837997276
+        "latitude": 41.44300958069959,
+        "longitude": 2.1875862343257317,
+        "name": "Casal de Gent Gran Moss\u00e8n Clap\u00e9s"
     },
     {
-        "latitud": 4581483.70569651,
-        "longitud": 432593.3004536
+        "latitude": 41.38205501687279,
+        "longitude": 2.193838416918405,
+        "name": "Parc de la Barceloneta"
     },
     {
-        "latitud": 4584342.780512195,
-        "longitud": 428936.65922686737
+        "latitude": 41.407490969397124,
+        "longitude": 2.149775202551298,
+        "name": "Biblioteca Jaume Fuster"
     },
     {
-        "latitud": 4582604.521,
-        "longitud": 430949.445
+        "latitude": 41.39201045387201,
+        "longitude": 2.1740526407985583,
+        "name": "Ecos Grup Cooperatiu"
     },
     {
-        "latitud": 4586112.587984551,
-        "longitud": 432478.7274650504
+        "latitude": 41.42373640875645,
+        "longitude": 2.191951961584244,
+        "name": "Casal de Barri Torre de la Sagrera"
     },
     {
-        "latitud": 4585413.81029287,
-        "longitud": 430005.2806238761
+        "latitude": 41.41723109674814,
+        "longitude": 2.162435309864241,
+        "name": "Casal de Barri Can Bar\u00f3 - El Pirineu"
     },
     {
-        "latitud": 4586200.03567975,
-        "longitud": 430247.9471045558
+        "latitude": 41.424333431530485,
+        "longitude": 2.1652481090205704,
+        "name": "Casal de Barri Font d'en Fargues"
     },
     {
-        "latitud": 4586958.92620854,
-        "longitud": 429879.47952368326
+        "latitude": 41.43113637814168,
+        "longitude": 2.160750937257298,
+        "name": "Biblioteca Horta - Can Mariner"
     },
     {
-        "latitud": 4583769.22076164,
-        "longitud": 432130.6633167254
+        "latitude": 41.402601111692825,
+        "longitude": 2.1880498461023428,
+        "name": "Biblioteca El Clot - Josep Benet"
     },
     {
-        "latitud": 4582044.054369566,
-        "longitud": 426293.53040473606
+        "latitude": 41.3865493743482,
+        "longitude": 2.1184352989192647,
+        "name": "Jardins del Palau de Pedralbes"
     },
     {
-        "latitud": 4582566.646435081,
-        "longitud": 431844.8993366278
+        "latitude": 41.39174570900244,
+        "longitude": 2.184766821590944,
+        "name": "Centre C\u00edvic  Parc Sandaru"
     },
     {
-        "latitud": 4589212.153783754,
-        "longitud": 432445.2091687139
+        "latitude": 41.45165030524977,
+        "longitude": 2.1912043537124344,
+        "name": "Centre C\u00edvic Trinitat Vella"
     },
     {
-        "latitud": 4583671.987053265,
-        "longitud": 428933.5563986452
+        "latitude": 41.40144911965885,
+        "longitude": 2.149816841793133,
+        "name": "Centre C\u00edvic  Vil\u00b7la Ur\u00e0nia"
     },
     {
-        "latitud": 4581178.59680859,
-        "longitud": 430996.75386449846
+        "latitude": 41.3791716461909,
+        "longitude": 2.17478087321263,
+        "name": "Centro Galego de Barcelona"
     },
     {
-        "latitud": 4580994.34459017,
-        "longitud": 429992.6664602
+        "latitude": 41.377425411135064,
+        "longitude": 2.162795360343474,
+        "name": "Jardins Interior d'Illa C\u00e0ndida P\u00e9rez"
     },
     {
-        "latitud": 4584223.659595128,
-        "longitud": 433466.16225176683
+        "latitude": 41.40680575086896,
+        "longitude": 2.2039755474775147,
+        "name": "Casal de Gent Gran Quatre Cantons"
     },
     {
-        "latitud": 4587241.156585184,
-        "longitud": 430492.20751830377
+        "latitude": 41.43373157668339,
+        "longitude": 2.168051272300547,
+        "name": "Casal de Barri La Cosa Nostra"
     },
     {
-        "latitud": 4581838.82156696,
-        "longitud": 431993.74203711667
+        "latitude": 41.38520299354419,
+        "longitude": 2.1866287315897024,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4589021.940607657,
-        "longitud": 432303.98257675004
+        "latitude": 41.44992522636068,
+        "longitude": 2.1895350129614184,
+        "name": "Casal de Gent Gran de la Trinitat Vella"
     },
     {
-        "latitud": 4581379.621529794,
-        "longitud": 429462.20574299723
+        "latitude": 41.3808491471351,
+        "longitude": 2.1564074948215346,
+        "name": "Centre C\u00edvic Casa Golferichs"
     },
     {
-        "latitud": 4583003.473907231,
-        "longitud": 430536.809959866
+        "latitude": 41.39556815947775,
+        "longitude": 2.169071648271845,
+        "name": "Mercat Concepci\u00f3"
     },
     {
-        "latitud": 4579282.385645893,
-        "longitud": 427759.39574896777
+        "latitude": 41.361809032820304,
+        "longitude": 2.1362949238017817,
+        "name": "Biblioteca Francesc Candel"
     },
     {
-        "latitud": 4587273.674458581,
-        "longitud": 431424.47246389056
+        "latitude": 41.43410459884157,
+        "longitude": 2.179204888711285,
+        "name": "Centre C\u00edvic Can Verdaguer"
     },
     {
-        "latitud": 4582067.202631845,
-        "longitud": 428567.7572932908
+        "latitude": 41.386963025329585,
+        "longitude": 2.145630465264087,
+        "name": "Espai de Gent Gran Montserrat Olivella"
     },
     {
-        "latitud": 4588362.404601604,
-        "longitud": 430192.91719055106
+        "latitude": 41.44380423947468,
+        "longitude": 2.1643398502586457,
+        "name": "Biblioteca Canyelles - M. \u00c0ngels Rivas"
     },
     {
-        "latitud": 4583653.677525185,
-        "longitud": 425646.9193343908
+        "latitude": 41.40098699374353,
+        "longitude": 2.1105047906383008,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4582889.5419638995,
-        "longitud": 430270.6195702426
+        "latitude": 41.394518975814755,
+        "longitude": 2.165900883899018,
+        "name": "Centre Cultural La Casa Elizalde"
     },
     {
-        "latitud": 4585321.292806155,
-        "longitud": 433025.44031465036
+        "latitude": 41.41665521642997,
+        "longitude": 2.198581654422569,
+        "name": "Centre C\u00edvic Sant Mart\u00ed"
     },
     {
-        "latitud": 4584183.691819175,
-        "longitud": 427783.0244670277
+        "latitude": 41.40595531098417,
+        "longitude": 2.1359932205138352,
+        "name": "Biblioteca Sant Gervasi - Joan Maragall"
     },
     {
-        "latitud": 4586481.486086898,
-        "longitud": 430979.19494772446
+        "latitude": 41.42693150965028,
+        "longitude": 2.173966250593847,
+        "name": "Centre C\u00edvic Torre Llobeta"
     },
     {
-        "latitud": 4585005.688323276,
-        "longitud": 430255.9022747529
+        "latitude": 41.41357708464317,
+        "longitude": 2.1654810232921857,
+        "name": "Parc de les Aig\u00fces"
     },
     {
-        "latitud": 4587826.426994833,
-        "longitud": 431035.69212384324
+        "latitude": 41.43904973751512,
+        "longitude": 2.1744888744706907,
+        "name": "Parc de la Guineueta"
     },
     {
-        "latitud": 4586446.784,
-        "longitud": 431207.217
+        "latitude": 41.42663852034721,
+        "longitude": 2.1766988721888403,
+        "name": "Centre Esportiu Municipal Cotxeres Borb\u00f3"
     },
     {
-        "latitud": 4586433.368608781,
-        "longitud": 431239.40243160387
+        "latitude": 41.42652044840267,
+        "longitude": 2.1770855499017805,
+        "name": "Mercat Vall d'Hebron -Taxonera"
     },
     {
-        "latitud": 4586188.534393698,
-        "longitud": 428342.80660247395
+        "latitude": 41.42406217314219,
+        "longitude": 2.142452280248374,
+        "name": "Mercat Bon Pastor"
     },
     {
-        "latitud": 4587464.588048085,
-        "longitud": 433679.4865410602
+        "latitude": 41.43601348746426,
+        "longitude": 2.206172152917636,
+        "name": "Casal de Gent Gran Bar\u00f3 de Viver"
     },
     {
-        "latitud": 4588613.399764037,
-        "longitud": 433200.10596540855
+        "latitude": 41.44632071908157,
+        "longitude": 2.20030768852695,
+        "name": "Aula Ambiental de la Casa de l'Aigua de Trinitat Nova"
     },
     {
-        "latitud": 4589360.638285403,
-        "longitud": 432182.0066917208
+        "latitude": 41.45296545224615,
+        "longitude": 2.188036804130217,
+        "name": "Centre C\u00edvic La Sedeta"
     },
     {
-        "latitud": 4584115.699037433,
-        "longitud": 430431.78075060085
+        "latitude": 41.405576512012246,
+        "longitude": 2.1676875917974754,
+        "name": "Biblioteca Les Corts - Miquel Llongueras"
     },
     {
-        "latitud": 4581092.716713978,
-        "longitud": 426568.77093692764
+        "latitude": 41.37800624869995,
+        "longitude": 2.1218422207694956,
+        "name": "Centre C\u00edvic El Coll - La Bruguera"
     },
     {
-        "latitud": 4585576.701487252,
-        "longitud": 428960.4827350506
+        "latitude": 41.41860650477411,
+        "longitude": 2.149915320833742,
+        "name": "Jardins de Joan Brossa"
     },
     {
-        "latitud": 4580020.648,
-        "longitud": 430168.733
+        "latitude": 41.36867092135471,
+        "longitude": 2.1650128504069532,
+        "name": "Mercat Fort Pienc"
     },
     {
-        "latitud": 4580023.435983771,
-        "longitud": 430498.64694635477
+        "latitude": 41.36872458576189,
+        "longitude": 2.1689569823067547,
+        "name": "Parc del Clot"
     },
     {
-        "latitud": 4583015.567018728,
-        "longitud": 431663.0410129589
+        "latitude": 41.39577357186832,
+        "longitude": 2.182541089615223,
+        "name": "Piscines Esportives Cobertes"
     },
     {
-        "latitud": 4584419.492454296,
-        "longitud": 432301.05353049666
+        "latitude": 41.408472280039156,
+        "longitude": 2.1900153665666733,
+        "name": "Casal de Gent Gran Parc del Clot"
     },
     {
-        "latitud": 4580931.759653831,
-        "longitud": 428286.229271899
+        "latitude": 41.37671146324603,
+        "longitude": 2.142397968303214,
+        "name": "Piscina Esportiva Coberta"
     },
     {
-        "latitud": 4584430.53037623,
-        "longitud": 432448.94609171036
+        "latitude": 41.408584137563416,
+        "longitude": 2.1917834271355217,
+        "name": "Casal C\u00edvic Barcelona - Verdum"
     },
     {
-        "latitud": 4580525.060421101,
-        "longitud": 432147.0588116628
+        "latitude": 41.37338323649785,
+        "longitude": 2.188609349331411,
+        "name": "Casal de Gent Gran del Baix Guinard\u00f3"
     },
     {
-        "latitud": 4588400.982417355,
-        "longitud": 431127.4891156054
+        "latitude": 41.4442324140213,
+        "longitude": 2.175522086803598,
+        "name": "Casal de Barri Transformadors"
     },
     {
-        "latitud": 4584602.82928584,
-        "longitud": 430424.57471991004
+        "latitude": 41.4099632983294,
+        "longitude": 2.1675453838467686,
+        "name": "Casal de Barri La Llacuna"
     },
     {
-        "latitud": 4582762.059424705,
-        "longitud": 431331.53628616966
+        "latitude": 41.39346206793517,
+        "longitude": 2.178604706991611,
+        "name": "Piscina Recreativa Coberta"
     },
     {
-        "latitud": 4583794.518,
-        "longitud": 432349.452
+        "latitude": 41.40284739623898,
+        "longitude": 2.190664231327776,
+        "name": "Casal de Barri del Raval"
     },
     {
-        "latitud": 4580880.163531718,
-        "longitud": 430072.44891370524
+        "latitude": 41.376403955256784,
+        "longitude": 2.1637625392356434,
+        "name": "Bibiblioteca Rector Gabriel Ferrat\u00e9"
     },
     {
-        "latitud": 4580940.1240065275,
-        "longitud": 430363.6660694855
+        "latitude": 41.376969254254014,
+        "longitude": 2.1672378540759167,
+        "name": "Parc de Sant Mart\u00ed"
     },
     {
-        "latitud": 4582197.376805042,
-        "longitud": 425980.2854158732
+        "latitude": 41.38790151896209,
+        "longitude": 2.114670433495852,
+        "name": "Centre C\u00edvic Cotxeres Borrell"
     },
     {
-        "latitud": 4585681.547286327,
-        "longitud": 432984.48964060727
+        "latitude": 41.41989650584673,
+        "longitude": 2.198051769477209,
+        "name": "Centre C\u00edvic del Bon Pastor"
     },
     {
-        "latitud": 4580828.679024282,
-        "longitud": 430024.0673948785
+        "latitude": 41.375936044781604,
+        "longitude": 2.1631899655131503,
+        "name": "Centre Esportiu Municipal Perill"
     },
     {
-        "latitud": 4587332.201317221,
-        "longitud": 433574.42558674986
+        "latitude": 41.434812438103414,
+        "longitude": 2.2049292862975705,
+        "name": "Centre C\u00edvic Josep Maria Trias i Peitx"
     },
     {
-        "latitud": 4583438.492534409,
-        "longitud": 429909.7609627547
+        "latitude": 41.39943181174806,
+        "longitude": 2.1615212113893216,
+        "name": "Parc del Poblenou"
     },
     {
-        "latitud": 4581070.895925771,
-        "longitud": 426563.2739951393
+        "latitude": 41.37780921625306,
+        "longitude": 2.1217791346210215,
+        "name": "Jardins Interior d'Illa de Montserrat Roig"
     },
     {
-        "latitud": 4583163.413991481,
-        "longitud": 433748.6157166563
+        "latitude": 41.39727971819072,
+        "longitude": 2.207470604184096,
+        "name": "Casal de Gent Gran Pati Llimona"
     },
     {
-        "latitud": 4584469.633770393,
-        "longitud": 431333.8119156561
+        "latitude": 41.40884184106481,
+        "longitude": 2.178438240083388,
+        "name": "Associaci\u00f3 de Ve\u00efnes i Ve\u00efns del Clot-Camp de l'Arpa de Barcelona"
     },
     {
-        "latitud": 4584408.649,
-        "longitud": 431416.685
+        "latitude": 41.4082996465394,
+        "longitude": 2.1794365952160417,
+        "name": "Biblioteca"
     },
     {
-        "latitud": 4581452.246222505,
-        "longitud": 431413.6127555085
+        "latitude": 41.381671969708705,
+        "longitude": 2.1797346825803365,
+        "name": "Biblioteca Barceloneta -  La Fraternitat"
     },
     {
-        "latitud": 4584628.357350336,
-        "longitud": 431965.31374952313
+        "latitude": 41.41032511357463,
+        "longitude": 2.185975310373501,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4584858.970695247,
-        "longitud": 434982.80739594856
+        "latitude": 41.412651947747435,
+        "longitude": 2.2220511148010376,
+        "name": "Casal C\u00edvic i Comunitari Sants"
     },
     {
-        "latitud": 4581174.244089535,
-        "longitud": 432175.07040835434
+        "latitude": 41.379232628875926,
+        "longitude": 2.1888716402624535,
+        "name": "Espai de Gent Gran  El Polvor\u00ed"
     },
     {
-        "latitud": 4581122.301946236,
-        "longitud": 429007.8082151845
+        "latitude": 41.37849159415273,
+        "longitude": 2.1510038683628,
+        "name": "Casal de Gent Gran de Sant Ildefons"
     },
     {
-        "latitud": 4581309.844805536,
-        "longitud": 427545.8953893179
+        "latitude": 41.38005041258113,
+        "longitude": 2.1335003201135647,
+        "name": "Museu Reial Monestir de Santa Maria de Pedralbes"
     },
     {
-        "latitud": 4579479.601807136,
-        "longitud": 428168.75872427796
+        "latitude": 41.36362191725007,
+        "longitude": 2.1411653630200176,
+        "name": "Piscina Descoberta"
     },
     {
-        "latitud": 4583169.588911196,
-        "longitud": 428731.8644646129
+        "latitude": 41.39690636103055,
+        "longitude": 2.147463352453342,
+        "name": "Centre Esportiu Municipal Can Toda"
     },
     {
-        "latitud": 4583054.846393712,
-        "longitud": 425772.0582506743
+        "latitude": 41.395605165759946,
+        "longitude": 2.112075084546918,
+        "name": "Piscina Esportiva Coberta"
     },
     {
-        "latitud": 4585212.054185329,
-        "longitud": 429646.9791453448
+        "latitude": 41.415382668167865,
+        "longitude": 2.1581717417338337,
+        "name": "Parc de Josep Maria Serra Mart\u00ed"
     },
     {
-        "latitud": 4585212.054185329,
-        "longitud": 429646.9791453448
+        "latitude": 41.415382668167865,
+        "longitude": 2.1581717417338337,
+        "name": "Casal C\u00edvic Barcelona - La Barceloneta"
     },
     {
-        "latitud": 4579600.26381443,
-        "longitud": 429047.4761505396
+        "latitude": 41.364786603454995,
+        "longitude": 2.1516563299538305,
+        "name": "Casal de Gent Gran Carlit"
     },
     {
-        "latitud": 4588267.555552975,
-        "longitud": 430326.867910607
+        "latitude": 41.44296160942353,
+        "longitude": 2.1659541496737007,
+        "name": "Centre d'Urg\u00e8ncies i Emerg\u00e8ncies Socials de Barcelona"
     },
     {
-        "latitud": 4581309.095768196,
-        "longitud": 432149.62862853345
+        "latitude": 41.380445057622765,
+        "longitude": 2.188552309684918,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4583202.787060101,
-        "longitud": 431011.45830649
+        "latitude": 41.39740416859099,
+        "longitude": 2.174726182535123,
+        "name": "Biblioteca Bon Pastor -  Josefina Castellv\u00ed"
     },
     {
-        "latitud": 4583379.685781369,
-        "longitud": 433237.71263839694
+        "latitude": 41.399185366080964,
+        "longitude": 2.2013356678161964,
+        "name": "Biblioteca G\u00f2tic - Andreu Nin"
     },
     {
-        "latitud": 4584010.071133216,
-        "longitud": 430751.8846627029
+        "latitude": 41.40465279519628,
+        "longitude": 2.1715290067400095,
+        "name": "Casal de Barri Can Portabella"
     },
     {
-        "latitud": 4587374.891897248,
-        "longitud": 433553.71377933485
+        "latitude": 41.43519522535179,
+        "longitude": 2.2046767086897296,
+        "name": "Fundaci\u00f3 Privada Festa Major de Gr\u00e0cia"
     },
     {
-        "latitud": 4581101.855579399,
-        "longitud": 431103.3728435385
+        "latitude": 41.37848959636991,
+        "longitude": 2.176064541270459,
+        "name": "Piscina Descoberta"
     },
     {
-        "latitud": 4586709.9311975185,
-        "longitud": 432650.15068128804
+        "latitude": 41.4291308751184,
+        "longitude": 2.1939367005254655,
+        "name": "Espai de Gent Gran de l'Esquerra de l'Eixample"
     },
     {
-        "latitud": 4584183.813182837,
-        "longitud": 429512.3996675845
+        "latitude": 41.406109902619455,
+        "longitude": 2.1566813430892,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4581838.82156696,
-        "longitud": 431993.74203711667
+        "latitude": 41.38520299354419,
+        "longitude": 2.1866287315897024,
+        "name": "Espai Jove La Fontana"
     },
     {
-        "latitud": 4582055.443805111,
-        "longitud": 428845.28659806866
+        "latitude": 41.386881714541005,
+        "longitude": 2.148950899891363,
+        "name": "Biblioteca Vallcarca i els Penitents - M. Antonieta Cot"
     },
     {
-        "latitud": 4586433.368608781,
-        "longitud": 431239.40243160387
+        "latitude": 41.42652044840267,
+        "longitude": 2.1770855499017805,
+        "name": "Jardins Constan\u00e7a d'Arag\u00f3"
     },
     {
-        "latitud": 4583870.521,
-        "longitud": 429145.107
+        "latitude": 41.40325591053634,
+        "longitude": 2.152324162753602,
+        "name": "Museu Ol\u00edmpic i de l'Esport Joan Antoni Samaranch de Barcelona"
     },
     {
-        "latitud": 4585744.199674154,
-        "longitud": 428106.2949934537
+        "latitude": 41.42003911577112,
+        "longitude": 2.13967498940329,
+        "name": "Cl\u00ednica Sant Antoni"
     },
     {
-        "latitud": 4583370.142394142,
-        "longitud": 430847.43386595347
+        "latitude": 41.39889739448143,
+        "longitude": 2.172745125885269,
+        "name": "Casal de Barri Cardener"
     },
     {
-        "latitud": 4579761.724333253,
-        "longitud": 429503.8926767652
+        "latitude": 41.366280925076076,
+        "longitude": 2.1570941364707474,
+        "name": "Centre C\u00edvic Convent de Sant Agust\u00ed"
     },
     {
-        "latitud": 4578640.233041299,
-        "longitud": 428338.5142517392
+        "latitude": 41.356077131946996,
+        "longitude": 2.1432939430344455,
+        "name": "Parc del Centre del Poblenou"
     },
     {
-        "latitud": 4584628.288855789,
-        "longitud": 429546.2572456499
+        "latitude": 41.41011609494813,
+        "longitude": 2.157034629500613,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4582088.723046084,
-        "longitud": 431586.1399487076
+        "latitude": 41.38741922402338,
+        "longitude": 2.181725967522791,
+        "name": "El Centre de la Platja"
     },
     {
-        "latitud": 4584225.555507102,
-        "longitud": 433113.5806764498
+        "latitude": 41.40679356695045,
+        "longitude": 2.1997573736435094,
+        "name": "Piscina Descoberta"
     },
     {
-        "latitud": 4580943.642030315,
-        "longitud": 430646.4063194292
+        "latitude": 41.377025357932496,
+        "longitude": 2.1706183254169114,
+        "name": "Disseny Hub Barcelona"
     },
     {
-        "latitud": 4581636.269678139,
-        "longitud": 432665.4765475348
+        "latitude": 41.38343516582271,
+        "longitude": 2.1946845834907176,
+        "name": "Parc de Can Sabat\u00e9"
     },
     {
-        "latitud": 4585376.728848994,
-        "longitud": 430952.44243399217
+        "latitude": 41.416979061801,
+        "longitude": 2.1737722486271203,
+        "name": "Casal de Gent Gran del Taulat"
     },
     {
-        "latitud": 4583769.22076164,
-        "longitud": 432130.6633167254
+        "latitude": 41.402601111692825,
+        "longitude": 2.1880498461023428,
+        "name": "Centre Esportiu Municipal Parc de la Ciutadella"
     },
     {
-        "latitud": 4579565.986902864,
-        "longitud": 427883.8954769356
+        "latitude": 41.36437449049291,
+        "longitude": 2.137749555318519,
+        "name": "Biblioteca Zona Nord - M\u00e0ria S\u00e1nchez"
     },
     {
-        "latitud": 4583677.952,
-        "longitud": 433422.877
+        "latitude": 41.4018871248243,
+        "longitude": 2.2035177464180573,
+        "name": "Casal de Persones Grans del Casc Antic"
     },
     {
-        "latitud": 4581875.0,
-        "longitud": 431975.8
+        "latitude": 41.38552732576979,
+        "longitude": 2.1864100992429276,
+        "name": "Jardins de Piscines i Esports"
     },
     {
-        "latitud": 4590288.80711458,
-        "longitud": 431510.5060158566
+        "latitude": 41.46126807109292,
+        "longitude": 2.17989262234208,
+        "name": "Centre C\u00edvic Font de la Guatlla"
     },
     {
-        "latitud": 4582075.373122602,
-        "longitud": 431321.0085286429
+        "latitude": 41.38727639232559,
+        "longitude": 2.178556649761494,
+        "name": "Casal C\u00edvic Barcelona - Horta"
     },
     {
-        "latitud": 4582761.42091923,
-        "longitud": 427736.66602043004
+        "latitude": 41.39314134177889,
+        "longitude": 2.1356084071087156,
+        "name": "Jardins de la Torre de Les Aig\u00fces"
     },
     {
-        "latitud": 4580247.651421676,
-        "longitud": 428708.30231272907
+        "latitude": 41.370587440986846,
+        "longitude": 2.147525318360155,
+        "name": "Centre C\u00edvic  Teixonera"
     },
     {
-        "latitud": 4586458.356008374,
-        "longitud": 429505.063262549
+        "latitude": 41.42659517360453,
+        "longitude": 2.156328511065911,
+        "name": "Centre Esportiu Municipal Mundet"
     },
     {
-        "latitud": 4582728.34524999,
-        "longitud": 430540.97697704
+        "latitude": 41.39309052605406,
+        "longitude": 2.169153046082549,
+        "name": "Centre Comercial Arenas de Barcelona"
     },
     {
-        "latitud": 4586031.698959307,
-        "longitud": 428518.21093291335
+        "latitude": 41.422665250088244,
+        "longitude": 2.1445697223611817,
+        "name": "Centre Esportiu Municipal Ol\u00edmpics Vall Hebron"
     },
     {
-        "latitud": 4587573.668907303,
-        "longitud": 428389.08085866366
+        "latitude": 41.43654158784715,
+        "longitude": 2.1428419118859967,
+        "name": "Piscina Polivalent Coberta"
     },
     {
-        "latitud": 4580850.788577912,
-        "longitud": 428919.128134815
+        "latitude": 41.376038338441205,
+        "longitude": 2.1499752959539173,
+        "name": "Biblioteca Sofia Barat"
     },
     {
-        "latitud": 4586611.9403178515,
-        "longitud": 428580.5062050304
+        "latitude": 41.42789677307303,
+        "longitude": 2.1452465998415344,
+        "name": "Centre C\u00edvic Casa Orlandai"
     },
     {
-        "latitud": 4583879.2838958185,
-        "longitud": 433173.2731653361
+        "latitude": 41.40367975860696,
+        "longitude": 2.20050971216533,
+        "name": "Casal de Gent Gran Navas"
     },
     {
-        "latitud": 4582905.756902333,
-        "longitud": 430740.74499818846
+        "latitude": 41.394705643823904,
+        "longitude": 2.1715220785730867,
+        "name": "Centre Esportiu Municipal Can Caralleu"
     },
     {
-        "latitud": 4583349.96874513,
-        "longitud": 426828.2269232857
+        "latitude": 41.3983599977031,
+        "longitude": 2.124672031870665,
+        "name": "Casal de Gent Gran de la Verneda Alta"
     },
     {
-        "latitud": 4585367.230074294,
-        "longitud": 431605.70809224
+        "latitude": 41.416949376341556,
+        "longitude": 2.1815895746695557,
+        "name": "Biblioteca Camp de l'Arpa - Caterina Albert"
     },
     {
-        "latitud": 4583653.677525185,
-        "longitud": 425646.9193343908
+        "latitude": 41.40098699374353,
+        "longitude": 2.1105047906383008,
+        "name": "Museu Frederic Mar\u00e8s"
     },
     {
-        "latitud": 4586271.985638606,
-        "longitud": 433526.72425898875
+        "latitude": 41.4252594528991,
+        "longitude": 2.204474971878569,
+        "name": "Centre C\u00edvic Zona Nord"
     },
     {
-        "latitud": 4585238.780338199,
-        "longitud": 431663.7085550855
+        "latitude": 41.415797406903124,
+        "longitude": 2.182298054802049,
+        "name": "Museu Etnol\u00f2gic i de Cultures del M\u00f3n *c.  Montcada"
     },
     {
-        "latitud": 4581735.716409316,
-        "longitud": 431184.0139297747
+        "latitude": 41.38420549734736,
+        "longitude": 2.17695685162379,
+        "name": "Biblioteca Francesca Bonnemaison"
     },
     {
-        "latitud": 4590227.012690122,
-        "longitud": 431382.3852707189
+        "latitude": 41.46070056717623,
+        "longitude": 2.1783656547350856,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4581827.984576506,
-        "longitud": 431517.09467293386
+        "latitude": 41.38506495287382,
+        "longitude": 2.18092969589886,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4582043.322388524,
-        "longitud": 431090.83977256936
+        "latitude": 41.38696803670604,
+        "longitude": 2.17580760715867,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4581771.944367396,
-        "longitud": 432732.4958688532
+        "latitude": 41.38466275981191,
+        "longitude": 2.195470990559355,
+        "name": "Fundaci\u00f3 Privada Enlla\u00e7"
     },
     {
-        "latitud": 4585376.728848994,
-        "longitud": 430952.44243399217
+        "latitude": 41.416979061801,
+        "longitude": 2.1737722486271203,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4586785.319445305,
-        "longitud": 432561.68152494356
+        "latitude": 41.429802449252996,
+        "longitude": 2.1928695656197794,
+        "name": "Ateneu el Poblet"
     },
     {
-        "latitud": 4583734.837777873,
-        "longitud": 430558.7055961782
+        "latitude": 41.40215719944182,
+        "longitude": 2.1692496575664832,
+        "name": "Jardins Interior d'Illa de Paula Montal"
     },
     {
-        "latitud": 4584224.528292769,
-        "longitud": 431988.53360558616
+        "latitude": 41.406689916501364,
+        "longitude": 2.1862984907086447,
+        "name": "Casal de Barri de Vallbona"
     },
     {
-        "latitud": 4583758.75156432,
-        "longitud": 430654.62365935196
+        "latitude": 41.402380861626945,
+        "longitude": 2.170394303734641,
+        "name": "Jardins de Carme Biada"
     },
     {
-        "latitud": 4581481.649,
-        "longitud": 429294.217
+        "latitude": 41.381753328658114,
+        "longitude": 2.1543867487969446,
+        "name": "Institut Catal\u00e0 de la Salut"
     },
     {
-        "latitud": 4590566.091507007,
-        "longitud": 431963.1715707483
+        "latitude": 41.46380397420252,
+        "longitude": 2.1852811454732106,
+        "name": "Centre Esportiu Municipal Can Felipa"
     },
     {
-        "latitud": 4583306.08583936,
-        "longitud": 429974.6253600556
+        "latitude": 41.39824492278454,
+        "longitude": 2.162312408547999,
+        "name": "Centre C\u00edvic Cotxeres de Sants"
     },
     {
-        "latitud": 4582161.910053793,
-        "longitud": 430225.09716351656
+        "latitude": 41.387961488793266,
+        "longitude": 2.165440226280434,
+        "name": "Museu Etnol\u00f2gic i de Cultures del M\u00f3n *Parc Montju\u00efc"
     },
     {
-        "latitud": 4583879.2838958185,
-        "longitud": 433173.2731653361
+        "latitude": 41.40367975860696,
+        "longitude": 2.20050971216533,
+        "name": "Casal de Gent Gran Joan Casanelles"
     },
     {
-        "latitud": 4580779.459042303,
-        "longitud": 427824.72279217
+        "latitude": 41.375298488024725,
+        "longitude": 2.136897693555585,
+        "name": "Centre C\u00edvic del Bes\u00f2s i el Maresme"
     },
     {
-        "latitud": 4580074.878257027,
-        "longitud": 429415.5354705268
+        "latitude": 41.369093660609174,
+        "longitude": 2.156001328720349,
+        "name": "Casal de Gent Gran del Poble-sec"
     },
     {
-        "latitud": 4584770.485080481,
-        "longitud": 432544.15109880094
+        "latitude": 41.411654002846696,
+        "longitude": 2.1928845041999008,
+        "name": "Parc de la Trinitat"
     },
     {
-        "latitud": 4585276.455455159,
-        "longitud": 434104.5268444355
+        "latitude": 41.41634059080285,
+        "longitude": 2.211497717250588,
+        "name": "Centre Esportiu Municipal Bac de Roda"
     },
     {
-        "latitud": 4580403.151166491,
-        "longitud": 429966.28604534914
+        "latitude": 41.37209842165101,
+        "longitude": 2.162548215783544,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4588944.298465399,
-        "longitud": 432814.485640381
+        "latitude": 41.449268825219306,
+        "longitude": 2.1956548753915466,
+        "name": "Centre Esportiu Municipal Sardenya"
     },
     {
-        "latitud": 4585073.028151414,
-        "longitud": 432647.5780337247
+        "latitude": 41.41438759082952,
+        "longitude": 2.1940882193496254,
+        "name": "Fabra i Coats - F\u00e0brica de Creaci\u00f3"
     },
     {
-        "latitud": 4584794.955176769,
-        "longitud": 434244.9065752414
+        "latitude": 41.41201534303293,
+        "longitude": 2.2132296768547914,
+        "name": "CRAI - Biblioteca de Grau"
     },
     {
-        "latitud": 4584859.145695778,
-        "longitud": 429983.7839479856
+        "latitude": 41.412233568929814,
+        "longitude": 2.1622422992641552,
+        "name": "Centre C\u00edvic El Carmel"
     },
     {
-        "latitud": 4587230.04407906,
-        "longitud": 432395.62904746283
+        "latitude": 41.433793974354174,
+        "longitude": 2.1908326284827284,
+        "name": "Biblioteca La Sagrera-Marina Clotet"
     },
     {
-        "latitud": 4582093.594842675,
-        "longitud": 426094.38332964433
+        "latitude": 41.386977291918406,
+        "longitude": 2.116047632518847,
+        "name": "Casal de Gent Gran de Sant Mart\u00ed"
     },
     {
-        "latitud": 4585760.072,
-        "longitud": 429067.69
+        "latitude": 41.42026751883118,
+        "longitude": 2.1511765613690907,
+        "name": "Casal C\u00edvic i Comunitari Barcelona - La Pau"
     },
     {
-        "latitud": 4586323.205,
-        "longitud": 432630.483
+        "latitude": 41.425646108743635,
+        "longitude": 2.193744428022945,
+        "name": "Casal C\u00edvic i Comunitari Barcelona - Sant Mart\u00ed"
     },
     {
-        "latitud": 4585321.286806213,
-        "longitud": 433025.44631459325
+        "latitude": 41.41665516289034,
+        "longitude": 2.1985817268755223,
+        "name": "Biblioteca Joan Mir\u00f3"
     },
     {
-        "latitud": 4586036.094004392,
-        "longitud": 433867.60499599576
+        "latitude": 41.42316297915157,
+        "longitude": 2.2085799180268304,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4584530.899241235,
-        "longitud": 431670.7476304185
+        "latitude": 41.40942235217983,
+        "longitude": 2.182462220061655,
+        "name": "Piscina Esportiva Coberta"
     },
     {
-        "latitud": 4581163.331514975,
-        "longitud": 428861.4016300584
+        "latitude": 41.37884820283017,
+        "longitude": 2.149248360001305,
+        "name": "Biblioteca Montbau - Albert P\u00e9rez Bar\u00f3"
     },
     {
-        "latitud": 4586271.978638671,
-        "longitud": 433526.7192590386
+        "latitude": 41.425259389439034,
+        "longitude": 2.204474912816305,
+        "name": "Interior d'Illa Jardins de Maria Matilde Almendros"
     },
     {
-        "latitud": 4590148.453280351,
-        "longitud": 430526.9625813584
+        "latitude": 41.45991940406089,
+        "longitude": 2.1681328086399776,
+        "name": "CRAI - Biblioteca"
     },
     {
-        "latitud": 4586757.384843004,
-        "longitud": 428308.10781821585
+        "latitude": 41.4291824617034,
+        "longitude": 2.1419696195097804,
+        "name": "Biblioteca"
     },
     {
-        "latitud": 4581185.33468025,
-        "longitud": 429431.84906843
+        "latitude": 41.37909660891617,
+        "longitude": 2.1560671072867783,
+        "name": "Casal C\u00edvic Barcelona - Verdum Artesania"
     },
     {
-        "latitud": 4581787.985879826,
-        "longitud": 426346.04695031093
+        "latitude": 41.38424788636903,
+        "longitude": 2.1190944805898617,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4581863.652071393,
-        "longitud": 426025.30305167846
+        "latitude": 41.38489994951897,
+        "longitude": 2.1152495646604175,
+        "name": "Centre Esportiu Municipal Piscines Bernat Picornell"
     },
     {
-        "latitud": 4588203.034294285,
-        "longitud": 430877.45358200674
+        "latitude": 41.442428084710706,
+        "longitude": 2.17255184212102,
+        "name": "Museu d'Art Contemporani de Barcelona"
     },
     {
-        "latitud": 4580426.444531724,
-        "longitud": 428027.1248994957
+        "latitude": 41.37213714280085,
+        "longitude": 2.139359752043456,
+        "name": "Biblioteca Vilapicina i la Torre Llobeta - Carmen Laforet"
     },
     {
-        "latitud": 4579772.230120345,
-        "longitud": 428976.9847999505
+        "latitude": 41.36632923206704,
+        "longitude": 2.1507934502236252,
+        "name": "Casal de Gent Gran d'Horta *Feliu i Codina"
     },
     {
-        "latitud": 4581628.85329612,
-        "longitud": 430421.3493661358
+        "latitude": 41.383177415641065,
+        "longitude": 2.1678485289915796,
+        "name": "Museu de Ci\u00e8ncies Naturals de Barcelona"
     },
     {
-        "latitud": 4586477.784165574,
-        "longitud": 431188.352918094
+        "latitude": 41.42691611188821,
+        "longitude": 2.1764696039707148,
+        "name": "Jardins Interior d'Illa de Safo"
     },
     {
-        "latitud": 4587304.295857637,
-        "longitud": 429947.0687958168
+        "latitude": 41.43425288014582,
+        "longitude": 2.16151977853595,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4584655.793650954,
-        "longitud": 434851.28671265487
+        "latitude": 41.41081133082032,
+        "longitude": 2.220499449653222,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4581401.506,
-        "longitud": 428494.819
+        "latitude": 41.3809608611564,
+        "longitude": 2.1448367370116634,
+        "name": "Torre Jussana - Centre de Serveis a les Associacions"
     },
     {
-        "latitud": 4581294.71,
-        "longitud": 428572.2
+        "latitude": 41.38000586142933,
+        "longitude": 2.145774660696453,
+        "name": "Casal de Gent Gran Parc Sandaru"
     },
     {
-        "latitud": 4587503.806,
-        "longitud": 428389.616
+        "latitude": 41.435912412192934,
+        "longitude": 2.1428565953667067,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4587546.819864842,
-        "longitud": 431757.272178684
+        "latitude": 41.43659306940482,
+        "longitude": 2.183157005742885,
+        "name": "Casal de Gent Gran Joan Maragall"
     },
     {
-        "latitud": 4586806.246531563,
-        "longitud": 429089.4952233808
+        "latitude": 41.42969190027591,
+        "longitude": 2.15131477992075,
+        "name": "Centre Esportiu Municipal Can Cuy\u00e0s"
     },
     {
-        "latitud": 4582566.646435081,
-        "longitud": 431844.8993366278
+        "latitude": 41.39174570900244,
+        "longitude": 2.184766821590944,
+        "name": "Biblioteca Ramon d'Al\u00f2s - Moner"
     },
     {
-        "latitud": 4587747.403214492,
-        "longitud": 433279.9963619279
+        "latitude": 41.438527619932216,
+        "longitude": 2.2013596464176812,
+        "name": "Casal de Gent Gran Josep Tarradellas"
     },
     {
-        "latitud": 4584950.265732601,
-        "longitud": 434606.4400336464
+        "latitude": 41.41344368370047,
+        "longitude": 2.2175383082564677,
+        "name": "Piscina Descoberta"
     },
     {
-        "latitud": 4590148.453280351,
-        "longitud": 430526.9625813584
+        "latitude": 41.45991940406089,
+        "longitude": 2.1681328086399776,
+        "name": "Jardins de Vil\u00b7la Am\u00e8lia"
     },
     {
-        "latitud": 4585276.455455198,
-        "longitud": 434104.7368423961
+        "latitude": 41.41634060802333,
+        "longitude": 2.211500229848388,
+        "name": "Parc de la Ciutadella"
     },
     {
-        "latitud": 4581495.605584512,
-        "longitud": 430362.8289626414
+        "latitude": 41.38197223223625,
+        "longitude": 2.167164016816572,
+        "name": "Park G\u00fcell"
     },
     {
-        "latitud": 4589312.889849504,
-        "longitud": 432679.007880878
+        "latitude": 41.45257724316688,
+        "longitude": 2.1939919970432924,
+        "name": "Jardins de Ramon Margalef i L\u00f3pez"
     },
     {
-        "latitud": 4582858.46247544,
-        "longitud": 426531.9039098267
+        "latitude": 41.39390619967619,
+        "longitude": 2.1211872573336934,
+        "name": "Parc del Castell de l'Oreneta"
     },
     {
-        "latitud": 4581965.649308547,
-        "longitud": 431890.6660134717
+        "latitude": 41.38633657544665,
+        "longitude": 2.185381778970792,
+        "name": "Tur\u00f3 Park - Parc del Poeta Eduard Marquina"
     },
     {
-        "latitud": 4585008.1790845245,
-        "longitud": 429223.3603020286
+        "latitude": 41.41350924872243,
+        "longitude": 2.1531271963876577,
+        "name": "Mercat Ciutat Meridiana"
     },
     {
-        "latitud": 4579744.284431306,
-        "longitud": 429158.3870412853
+        "latitude": 41.366093518468645,
+        "longitude": 2.1529654736615242,
+        "name": "Casal C\u00edvic i Comunitari Barcelona - Sant Andreu"
     },
     {
-        "latitud": 4583476.280286147,
-        "longitud": 425786.80201446573
+        "latitude": 41.39940218424315,
+        "longitude": 2.112199777559347,
+        "name": "Piscines Municipals Montju\u00efc"
     },
     {
-        "latitud": 4582863.1898014555,
-        "longitud": 428265.0380661559
+        "latitude": 41.39410523623182,
+        "longitude": 2.1419158924657906,
+        "name": "Centre C\u00edvic Bar\u00f3 de Viver"
     },
     {
-        "latitud": 4590340.3365779165,
-        "longitud": 431337.1846859035
+        "latitude": 41.46171736162206,
+        "longitude": 2.1778115794473596,
+        "name": "Casal de Barri Congr\u00e9s-Indians"
     },
     {
-        "latitud": 4586627.511946929,
-        "longitud": 432380.8233121503
+        "latitude": 41.42836592457911,
+        "longitude": 2.1907228362855546,
+        "name": "Biblioteca Oriol Bohigas"
     },
     {
-        "latitud": 4580067.858475231,
-        "longitud": 430135.864465765
+        "latitude": 41.36909327982442,
+        "longitude": 2.1646144350061163,
+        "name": "Centre C\u00edvic Matas i Ramis"
     },
     {
-        "latitud": 4588613.399764037,
-        "longitud": 433200.10596540855
+        "latitude": 41.44632071908157,
+        "longitude": 2.20030768852695,
+        "name": "Mercat Sant Mart\u00ed"
     },
     {
-        "latitud": 4586153.329377242,
-        "longitud": 431433.31260623236
+        "latitude": 41.42401480894652,
+        "longitude": 2.179437759725011,
+        "name": "Piscina Esportiva Descoberta"
     },
     {
-        "latitud": 4581812.363537365,
-        "longitud": 425867.66359538154
+        "latitude": 41.384423505592665,
+        "longitude": 2.113370660627247,
+        "name": "Mercat Bes\u00f2s"
     },
     {
-        "latitud": 4587142.492419921,
-        "longitud": 429878.96649043774
+        "latitude": 41.43278963946825,
+        "longitude": 2.160723502038599,
+        "name": "Parc de la Pegaso"
     },
     {
-        "latitud": 4585538.2798024,
-        "longitud": 433590.8407812579
+        "latitude": 41.41865648109575,
+        "longitude": 2.2053227925569847,
+        "name": "Centre Esportiu Municipal Claror"
     },
     {
-        "latitud": 4580784.672771973,
-        "longitud": 431578.00829296757
+        "latitude": 41.375673317019455,
+        "longitude": 2.1817759597609996,
+        "name": "Parc del Laberint d'Horta"
     },
     {
-        "latitud": 4585594.718412233,
-        "longitud": 434410.91780702176
+        "latitude": 41.419232167534055,
+        "longitude": 2.2151291359475485,
+        "name": "Parc del Guinard\u00f3"
     },
     {
-        "latitud": 4586463.426545867,
-        "longitud": 432380.66434664535
+        "latitude": 41.42688804853377,
+        "longitude": 2.190739286407059,
+        "name": "Parc del Tur\u00f3 de la Peira"
     },
     {
-        "latitud": 4584010.071133216,
-        "longitud": 430751.8846627029
+        "latitude": 41.40465279519628,
+        "longitude": 2.1715290067400095,
+        "name": "Centre Esportiu Municipal J\u00fapiter"
     },
     {
-        "latitud": 4587726.919497975,
-        "longitud": 428784.9119850791
+        "latitude": 41.43795704876439,
+        "longitude": 2.1475613087947547,
+        "name": "Biblioteca"
     },
     {
-        "latitud": 4585658.752029341,
-        "longitud": 430607.59972452524
+        "latitude": 41.41948943678852,
+        "longitude": 2.169613897166294,
+        "name": "Hospital de la Santa Creu i Sant Pau"
     },
     {
-        "latitud": 4587214.961,
-        "longitud": 430107.247
+        "latitude": 41.433462233436245,
+        "longitude": 2.1634471242007622,
+        "name": "Parc de l'Estaci\u00f3 del Nord"
     },
     {
-        "latitud": 4585438.673718891,
-        "longitud": 433313.9564896275
+        "latitude": 41.41773642679194,
+        "longitude": 2.2020207794886266,
+        "name": "CRAI - Biblioteca de F\u00edsica i Qu\u00edmica"
     },
     {
-        "latitud": 4581533.647508763,
-        "longitud": 431812.67085920763
+        "latitude": 41.38243904810674,
+        "longitude": 2.184497630278131,
+        "name": "Mercat Lesseps"
     },
     {
-        "latitud": 4585205.834517813,
-        "longitud": 430966.4933325924
+        "latitude": 41.415441083959905,
+        "longitude": 2.1739598683555683,
+        "name": "Jardins del Tur\u00f3 del Putxet"
     },
     {
-        "latitud": 4582781.090329668,
-        "longitud": 431779.279930913
+        "latitude": 41.39367157911195,
+        "longitude": 2.1839578397165673,
+        "name": "Parc de Monterols"
     },
     {
-        "latitud": 4581863.652071393,
-        "longitud": 426025.30305167846
+        "latitude": 41.38489994951897,
+        "longitude": 2.1152495646604175,
+        "name": "Mercat Clot"
     },
     {
-        "latitud": 4584523.136793965,
-        "longitud": 429129.2763178683
+        "latitude": 41.40913237323212,
+        "longitude": 2.1520583716061497,
+        "name": "Parc de la Creueta del Coll"
     },
     {
-        "latitud": 4584377.223048406,
-        "longitud": 428330.3421091046
+        "latitude": 41.407747349305964,
+        "longitude": 2.1425177258809422,
+        "name": "Biblioteca Montserrat Abell\u00f3"
     },
     {
-        "latitud": 4583698.474617503,
-        "longitud": 428094.2115477828
+        "latitude": 41.401613054797835,
+        "longitude": 2.1397735122452017,
+        "name": "Parc de les Tretze Roses"
     },
     {
-        "latitud": 4584325.60634667,
-        "longitud": 432185.5746711287
+        "latitude": 41.40761694241932,
+        "longitude": 2.1886443723650215,
+        "name": "Biblioteca Vila de Gr\u00e0cia - Rosa M. Arquimbau"
     },
     {
-        "latitud": 4585652.736681833,
-        "longitud": 428655.06968450494
+        "latitude": 41.419264262411424,
+        "longitude": 2.1462520569914068,
+        "name": "Refugi Clim\u00e0tic"
     },
     {
-        "latitud": 4581716.986865175,
-        "longitud": 427700.9467943118
+        "latitude": 41.383731330276355,
+        "longitude": 2.1353058454350444,
+        "name": "Refugi clim\u00e0tic"
     },
     {
-        "latitud": 4578147.723,
-        "longitud": 428198.037
+        "latitude": 41.351628742955796,
+        "longitude": 2.1416730073529306,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola Bressol"
     },
     {
-        "latitud": 4578007.36,
-        "longitud": 428121.898
+        "latitude": 41.35035774793784,
+        "longitude": 2.1407795566090835,
+        "name": "Llac"
     },
     {
-        "latitud": 4583670.574214133,
-        "longitud": 429636.99156457355
+        "latitude": 41.40149826362453,
+        "longitude": 2.158231476359067,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4581861.03560742,
-        "longitud": 428396.30300377763
+        "latitude": 41.38509091288339,
+        "longitude": 2.1436043622794205,
+        "name": "Centre C\u00edvic Tomasa Cuevas - Les Corts"
     },
     {
-        "latitud": 4584306.869,
-        "longitud": 429410.964
+        "latitude": 41.40720931893807,
+        "longitude": 2.1554535333458538,
+        "name": "Casal d'Entitats Mas Guinard\u00f3"
     },
     {
-        "latitud": 4581342.955509334,
-        "longitud": 432507.433142859
+        "latitude": 41.38078011718044,
+        "longitude": 2.192827246697062,
+        "name": "Jardins Pedro Mu\u00f1oz Seca"
     },
     {
-        "latitud": 4585586.575332809,
-        "longitud": 428683.88141876436
+        "latitude": 41.418670932627016,
+        "longitude": 2.1466045964890514,
+        "name": "Espai  amb Jocs d'Aigua a la Pla\u00e7a del Can\u00f2drom"
     },
     {
-        "latitud": 4587359.232311038,
-        "longitud": 429892.06731816585
+        "latitude": 41.43474287058415,
+        "longitude": 2.1608551476985176,
+        "name": "Piscina Municipal Descoberta de La Clota"
     },
     {
-        "latitud": 4581843.53650543,
-        "longitud": 427119.86541584134
+        "latitude": 41.38481868130682,
+        "longitude": 2.1283416789870513,
+        "name": "Centre Esportiu Municipal Artesania"
     },
     {
-        "latitud": 4585508.345577088,
-        "longitud": 431006.826878907
+        "latitude": 41.418169158350054,
+        "longitude": 2.1744079393214104,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4586596.965384154,
-        "longitud": 428204.3088599446
+        "latitude": 41.427728364374765,
+        "longitude": 2.140746507324218,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4585538.4091796875,
-        "longitud": 437199.4079589844
+        "latitude": 41.42612610564026,
+        "longitude": 2.149453739437044,
+        "name": "Centre d'Educaci\u00f3 Ambiental La F\u00e0brica del Sol"
     },
     {
-        "latitud": 4586411.900340798,
-        "longitud": 428930.1088536795
+        "latitude": 41.443976329517824,
+        "longitude": 2.1712906441052957,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4588375.927589197,
-        "longitud": 430773.74155271717
+        "latitude": 41.443976329517824,
+        "longitude": 2.1712906441052957,
+        "name": "Jardins de Can Sentmenat"
     },
     {
-        "latitud": 4588375.927589197,
-        "longitud": 430773.74155271717
+        "latitude": 41.423207170456166,
+        "longitude": 2.1585765552190233,
+        "name": "Biblioteca Nou Barris - Aurora D\u00edaz Plaja"
     },
     {
-        "latitud": 4586080.394730111,
-        "longitud": 429689.25055349036
+        "latitude": 41.40367975860696,
+        "longitude": 2.20050971216533,
+        "name": "Biblioteca Guinard\u00f3 - Merc\u00e8 Rodoreda"
     },
     {
-        "latitud": 4583879.2838958185,
-        "longitud": 433173.2731653361
+        "latitude": 41.383031580266,
+        "longitude": 2.19128019638455,
+        "name": "La Lleialtat Santsenca"
     },
     {
-        "latitud": 4581594.115032651,
-        "longitud": 432380.406327429
+        "latitude": 41.378000077038344,
+        "longitude": 2.176265682413314,
+        "name": "Piscina Descoberta"
     },
     {
-        "latitud": 4581047.350114752,
-        "longitud": 431119.67569617927
+        "latitude": 41.4026202835971,
+        "longitude": 2.1151022927218386,
+        "name": "Jardins Laribal"
     },
     {
-        "latitud": 4583831.067879802,
-        "longitud": 426033.0815436047
+        "latitude": 41.4368445525108,
+        "longitude": 2.1712296246319656,
+        "name": "Espai Jove Palau Al\u00f2s"
     },
     {
-        "latitud": 4587584.210298242,
-        "longitud": 430761.06383847794
+        "latitude": 41.41434434997389,
+        "longitude": 2.165335563039016,
+        "name": "Espai L\u00fadic Ambiental per a Fam\u00edlies LaLudo"
     },
     {
-        "latitud": 4585090.986489356,
-        "longitud": 430244.5663671695
+        "latitude": 41.37291765088582,
+        "longitude": 2.1366981790746196,
+        "name": "Centre C\u00edvic Joan Oliver - Pere Quart"
     },
     {
-        "latitud": 4580515.308616876,
-        "longitud": 427805.40603670315
+        "latitude": 41.429574574701185,
+        "longitude": 2.145185072860007,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4586798.259501635,
-        "longitud": 428577.204197562
+        "latitude": 41.36812384413011,
+        "longitude": 2.158482875531215,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4579965.193371069,
-        "longitud": 429622.02648506215
+        "latitude": 41.38822070726499,
+        "longitude": 2.178542012071502,
+        "name": "Biblioteca Vapor Vell"
     },
     {
-        "latitud": 4582180.221099458,
-        "longitud": 431320.7785094772
+        "latitude": 41.38737945873459,
+        "longitude": 2.186898929399237,
+        "name": "Jardins Interior d'Illa d'Emma de Barcelona"
     },
     {
-        "latitud": 4582080.237216116,
-        "longitud": 432018.60074668005
+        "latitude": 41.37933180540104,
+        "longitude": 2.127776128826079,
+        "name": "Parc de Can Drag\u00f3"
     },
     {
-        "latitud": 4581234.867434238,
-        "longitud": 427066.4480670649
+        "latitude": 41.40972803896788,
+        "longitude": 2.141295887779283,
+        "name": "Centre C\u00edvic Can Castell\u00f3"
     },
     {
-        "latitud": 4584598.12887321,
-        "longitud": 428230.39803281566
+        "latitude": 41.39367157911195,
+        "longitude": 2.1839578397165673,
+        "name": "Centre C\u00edvic Pere Pruna"
     },
     {
-        "latitud": 4582781.090329668,
-        "longitud": 431779.279930913
+        "latitude": 41.37692859666653,
+        "longitude": 2.134751788846474,
+        "name": "Biblioteca Fort Pienc \u2013 Ana Mar\u00eda Moix"
     },
     {
-        "latitud": 4580962.220220291,
-        "longitud": 427647.08048029605
+        "latitude": 41.38263747374257,
+        "longitude": 2.15552474177204,
+        "name": "Casal de Barri La Barraca del Carmel"
     },
     {
-        "latitud": 4581578.87757009,
-        "longitud": 429390.327400016
+        "latitude": 41.43659306940482,
+        "longitude": 2.183157005742885,
+        "name": "Biblioteca Sagrada Fam\u00edlia - Josep M. Ainaud de Lasarte"
     },
     {
-        "latitud": 4587546.819864842,
-        "longitud": 431757.272178684
+        "latitude": 41.39904051559379,
+        "longitude": 2.140179532716965,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4583412.537413015,
-        "longitud": 428125.31630664924
+        "latitude": 41.40320904460329,
+        "longitude": 2.13132023534547,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4583882.710670082,
-        "longitud": 427389.37735589105
+        "latitude": 41.39558658720726,
+        "longitude": 2.182465058010549,
+        "name": "Casal de Gent Gran Can Castell\u00f3"
     },
     {
-        "latitud": 4582994.868219327,
-        "longitud": 431656.4890808327
+        "latitude": 41.424837719718624,
+        "longitude": 2.1573066342147516,
+        "name": "Piscines Descobertes"
     },
     {
-        "latitud": 4586262.448934149,
-        "longitud": 429584.8945285626
+        "latitude": 41.40541560676076,
+        "longitude": 2.1767746457391186,
+        "name": "Centre C\u00edvic Can Felipa"
     },
     {
-        "latitud": 4584090.577437759,
-        "longitud": 431191.1523788591
+        "latitude": 41.40729090540173,
+        "longitude": 2.179320759601953,
+        "name": "Centre Esportiu Municipal Nova Ic\u00e0ria"
     },
     {
-        "latitud": 4584296.751470833,
-        "longitud": 431405.9422502555
+        "latitude": 41.415382668167865,
+        "longitude": 2.1581717417338337,
+        "name": "Espai de Gent Gran Maria Aur\u00e8lia Capmany"
     },
     {
-        "latitud": 4585212.054185329,
-        "longitud": 429646.9791453448
+        "latitude": 41.39904051559379,
+        "longitude": 2.140179532716965,
+        "name": "Centre C\u00edvic Navas"
     },
     {
-        "latitud": 4583412.537413015,
-        "longitud": 428125.31630664924
+        "latitude": 41.364786603454995,
+        "longitude": 2.1516563299538305,
+        "name": "Centre de Cultura Contempor\u00e0nia de Barcelona"
     },
     {
-        "latitud": 4579600.26381443,
-        "longitud": 429047.4761505396
+        "latitude": 41.40367975860696,
+        "longitude": 2.20050971216533,
+        "name": "Casal de Gent Gran de Sant Gen\u00eds dels Agudells"
     },
     {
-        "latitud": 4583879.2838958185,
-        "longitud": 433173.2731653361
+        "latitude": 41.392393882467395,
+        "longitude": 2.1980208136874495,
+        "name": "Font amb Jocs d'Aigua *Canyelles"
     },
     {
-        "latitud": 4582628.2650555475,
-        "longitud": 432953.6345484193
+        "latitude": 41.390308658077956,
+        "longitude": 2.1589209139122594,
+        "name": "Centre Comercial Diagonal Mar"
     },
     {
-        "latitud": 4582427.759347407,
-        "longitud": 429682.5623815156
+        "latitude": 41.41693998158291,
+        "longitude": 2.184931573020558,
+        "name": "Casal de Gent Gran Sant Crist\u00f2fol"
     },
     {
-        "latitud": 4585363.553166486,
-        "longitud": 431884.9903809375
+        "latitude": 41.417027027411606,
+        "longitude": 2.185353573562574,
+        "name": "Biblioteca Clar\u00e0"
     },
     {
-        "latitud": 4585372.885082633,
-        "longitud": 431920.34803569963
+        "latitude": 41.38391450226559,
+        "longitude": 2.1668129104163323,
+        "name": "Parc de la Font Florida"
     },
     {
-        "latitud": 4581711.515471728,
-        "longitud": 430335.5441832022
+        "latitude": 41.425999650571484,
+        "longitude": 2.1380944709813,
+        "name": "Jardins Interior d'Illa de Clotilde Cerd\u00e0"
     },
     {
-        "latitud": 4586407.2471854035,
-        "longitud": 427980.80307008576
+        "latitude": 41.44322967220403,
+        "longitude": 2.1626888902366415,
+        "name": "Casal C\u00edvic Barcelona - Trinitat Vella"
     },
     {
-        "latitud": 4588299.949181276,
-        "longitud": 430054.38554752833
+        "latitude": 41.41045744398306,
+        "longitude": 2.2164227599409685,
+        "name": "Jardins Interiors d'Illa del Carlit"
     },
     {
-        "latitud": 4584619.5799381975,
-        "longitud": 434510.2090325903
+        "latitude": 41.35803481074543,
+        "longitude": 2.1352119680510184,
+        "name": "Centre Esportiu Municipal Vintr\u00f3 - Joan Alentorn"
     },
     {
-        "latitud": 4578864.281709222,
-        "longitud": 427664.6367607806
+        "latitude": 41.39994044899448,
+        "longitude": 2.1294738021393327,
+        "name": "Jardins de la Maternitat"
     },
     {
-        "latitud": 4583521.384160167,
-        "longitud": 427231.39096885273
+        "latitude": 41.368634514222805,
+        "longitude": 2.14105045396157,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4580036.186371264,
-        "longitud": 428164.66164525656
+        "latitude": 41.4005493193399,
+        "longitude": 2.178975150453768,
+        "name": "Centre C\u00edvic La Sagrera La Barraca"
     },
     {
-        "latitud": 4583548.582760089,
-        "longitud": 431369.9617523292
+        "latitude": 41.399827410444196,
+        "longitude": 2.17824004475295,
+        "name": "Casal de Gent Gran La Capa"
     },
     {
-        "latitud": 4583469.02,
-        "longitud": 431307.753
+        "latitude": 41.449753652075714,
+        "longitude": 2.1912585244409777,
+        "name": "Mercat Poblenou - Uni\u00f3"
     },
     {
-        "latitud": 4589001.54583497,
-        "longitud": 432447.76618614706
+        "latitude": 41.39730692489514,
+        "longitude": 2.1752703802550597,
+        "name": "Centre d'Arts Santa M\u00f2nica"
     },
     {
-        "latitud": 4583191.558,
-        "longitud": 431056.848
+        "latitude": 41.406689916501364,
+        "longitude": 2.1862984907086447,
+        "name": "Castell de Torre Bar\u00f3"
     },
     {
-        "latitud": 4584224.528292769,
-        "longitud": 431988.53360558616
+        "latitude": 41.38132376004671,
+        "longitude": 2.1262516820863993,
+        "name": "Parc de Cervantes"
     },
     {
-        "latitud": 4581457.295236274,
-        "longitud": 426941.20523647795
+        "latitude": 41.43575541409688,
+        "longitude": 2.147158169831797,
+        "name": "Centre Esportiu Municipal Can Ricart"
     },
     {
-        "latitud": 4587482.826868194,
-        "longitud": 428748.82438690326
+        "latitude": 41.42397425702554,
+        "longitude": 2.1891508567064406,
+        "name": "Casal C\u00edvic i Comunitari Barcelona - Mag\u00f2ria"
     },
     {
-        "latitud": 4586141.181659135,
-        "longitud": 432244.9097293351
+        "latitude": 41.35996359173739,
+        "longitude": 2.1427257715980694,
+        "name": "Piscina Descoberta"
     },
     {
-        "latitud": 4579072.1698131235,
-        "longitud": 428295.25358059094
+        "latitude": 41.40102174848232,
+        "longitude": 2.2054291963991535,
+        "name": "Centre C\u00edvic El Sortidor"
     },
     {
-        "latitud": 4583580.411891241,
-        "longitud": 433581.77325563296
+        "latitude": 41.37725882473504,
+        "longitude": 2.175614994736913,
+        "name": "Persones Grans de Ca l'Isidret"
     },
     {
-        "latitud": 4580965.574901734,
-        "longitud": 431064.4822496146
+        "latitude": 41.45079189503227,
+        "longitude": 2.1761305165721443,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4589128.729342259,
-        "longitud": 431185.24640658265
+        "latitude": 41.38456852873157,
+        "longitude": 2.1094394046493576,
+        "name": "Espai amb Jocs d'Aigua"
     },
     {
-        "latitud": 4581831.834275153,
-        "longitud": 425539.12778479233
+        "latitude": 41.37731084646637,
+        "longitude": 2.1708804895915366,
+        "name": "Parc de Diagonal Mar"
     },
     {
-        "latitud": 4580975.126727538,
-        "longitud": 430668.6320968196
+        "latitude": 41.36986934117719,
+        "longitude": 2.14126001076402,
+        "name": "Piscina Descoberta"
     },
     {
-        "latitud": 4580173.101038462,
-        "longitud": 428183.5454323506
+        "latitude": 41.373041732818,
+        "longitude": 2.188636851155566,
+        "name": "Jardins Interior d'Illa de Flora Tristan"
     },
     {
-        "latitud": 4580487.125791841,
-        "longitud": 432149.0038003993
+        "latitude": 41.372098413253546,
+        "longitude": 2.162548299594534,
+        "name": "Sala Polivalent de Montbau"
     },
     {
-        "latitud": 4580403.150166503,
-        "longitud": 429966.2930452813
+        "latitude": 41.415848037532804,
+        "longitude": 2.2068153447737964,
+        "name": "Casal de Gent Gran Vall d'Hebron"
     },
     {
-        "latitud": 4585225.346,
-        "longitud": 433712.71499999997
+        "latitude": 41.412233568929814,
+        "longitude": 2.1622422992641552,
+        "name": "Casal de Barri Can Travi de la Vall d'Hebron"
     },
     {
-        "latitud": 4584859.145695778,
-        "longitud": 429983.7839479856
+        "latitude": 41.43107919974659,
+        "longitude": 2.154259435001784,
+        "name": "Casal de Barri Verdun"
     },
     {
-        "latitud": 4586957.856106121,
-        "longitud": 429337.03778882115
+        "latitude": 41.40849031137141,
+        "longitude": 2.212231951523546,
+        "name": "Centre Esportiu Municipal Putxet"
     },
     {
-        "latitud": 4584404.36848959,
-        "longitud": 434157.96080684004
+        "latitude": 41.438527619932216,
+        "longitude": 2.2013596464176812,
+        "name": "Jardins de Tete Montoliu"
     },
     {
-        "latitud": 4587747.403214492,
-        "longitud": 433279.9963619279
+        "latitude": 41.40409793289094,
+        "longitude": 2.179799017458388,
+        "name": "Jardins de la Pla\u00e7a Sagrada Fam\u00edlia"
     },
     {
-        "latitud": 4583941.892938824,
-        "longitud": 431442.5599668346
+        "latitude": 41.429597327073374,
+        "longitude": 2.1425126809884425,
+        "name": "Casal de Gent Gran Bon Pastor"
     },
     {
-        "latitud": 4586802.9934083065,
-        "longitud": 428353.9393636479
+        "latitude": 41.43280895696014,
+        "longitude": 2.1471299773501786,
+        "name": "Casal de Gent Gran La Palmera"
     },
     {
-        "latitud": 4587155.736053634,
-        "longitud": 428743.246510245
+        "latitude": 41.43290624371183,
+        "longitude": 2.1514916527557846,
+        "name": "Casal C\u00edvic i Comunitari Bac de Roda"
     },
     {
-        "latitud": 4587162.956059859,
-        "longitud": 429107.770970892
+        "latitude": 41.44384506469325,
+        "longitude": 2.174979662227258,
+        "name": "Mercat Ninot"
     },
     {
-        "latitud": 4588358.410822659,
-        "longitud": 431081.76756789454
+        "latitude": 41.40972803896788,
+        "longitude": 2.141295887779283,
+        "name": "Mercat Abaceria Central"
     },
     {
-        "latitud": 4584598.12887321,
-        "longitud": 428230.39803281566
+        "latitude": 41.37904847535037,
+        "longitude": 2.1571451648239623,
+        "name": "Centre Esportiu Municipal del Carmel"
     },
     {
-        "latitud": 4581179.1137424605,
-        "longitud": 429521.94316748
+        "latitude": 41.40197393230216,
+        "longitude": 2.1728272813678537,
+        "name": "Piscina Descoberta"
     },
     {
-        "latitud": 4583711.630065452,
-        "longitud": 430857.5626973769
+        "latitude": 41.43801228301035,
+        "longitude": 2.204991748427383,
+        "name": "Biblioteca Les Roquetes \u2013 Rafa Juncadella"
     },
     {
-        "latitud": 4587687.3978586,
-        "longitud": 433582.9064343914
+        "latitude": 41.42278079150254,
+        "longitude": 2.1850490251688464,
+        "name": "Centre Esportiu Municipal Piscina Sant Jordi"
     },
     {
-        "latitud": 4586011.901850049,
-        "longitud": 431900.9080952186
+        "latitude": 41.414434230336326,
+        "longitude": 2.195883886759014,
+        "name": "Mercat Carmel"
     },
     {
-        "latitud": 4585076.811144387,
-        "longitud": 432797.6965750654
+        "latitude": 41.38785716567697,
+        "longitude": 2.1544122344047527,
+        "name": "Espai  amb Jocs d'Aigua a la Pla\u00e7a de la Lluita per les Llibertats"
     },
     {
-        "latitud": 4582159.266888027,
-        "longitud": 429302.9601274389
+        "latitude": 41.40318652868216,
+        "longitude": 2.1641791642522206,
+        "name": "CRAI - Biblioteca"
     },
     {
-        "latitud": 4583853.189536537,
-        "longitud": 430135.96867873694
+        "latitude": 41.42320763393713,
+        "longitude": 2.158570959948397,
+        "name": "Biblioteca Sant Pau - Santa Creu"
     },
     {
-        "latitud": 4586080.4507286,
-        "longitud": 429688.78349906
+        "latitude": 41.40098699374353,
+        "longitude": 2.1105047906383008,
+        "name": "Casal de Gent Gran Josep Trueta"
     },
     {
-        "latitud": 4583653.677525185,
-        "longitud": 425646.9193343908
+        "latitude": 41.44540260061121,
+        "longitude": 2.1771207332794797,
+        "name": "Casal de Gent Gran Can Novell"
     },
     {
-        "latitud": 4588529.625191903,
-        "longitud": 431262.2677817648
+        "latitude": 41.38795885151004,
+        "longitude": 2.14824894371729,
+        "name": "Casal de Barri del Maresme"
     },
     {
-        "latitud": 4582175.602620509,
-        "longitud": 428787.77213170566
+        "latitude": 41.42374046652592,
+        "longitude": 2.1558097621188934,
+        "name": "Biblioteca Gabriel Garc\u00eda M\u00e1rquez"
     },
     {
-        "latitud": 4586141.851083153,
-        "longitud": 429458.62777962926
+        "latitude": 41.43746894566953,
+        "longitude": 2.206954396711888,
+        "name": "Casal C\u00edvic i Comunitari Guineueta"
     },
     {
-        "latitud": 4587625.573,
-        "longitud": 433746.32
+        "latitude": 41.38537847387165,
+        "longitude": 2.1170443890573285,
+        "name": "Centre Informaci\u00f3"
     },
     {
-        "latitud": 4581915.246600833,
-        "longitud": 426175.9125762919
+        "latitude": 41.38152415484547,
+        "longitude": 2.168975056388426,
+        "name": "Centre Esportiu Municipal Sagrada Fam\u00edlia"
     },
     {
-        "latitud": 4581444.407115266,
-        "longitud": 430513.78250561224
+        "latitude": 41.376969254254014,
+        "longitude": 2.1672378540759167,
+        "name": "Casal de Barri Can Carol"
     },
     {
-        "latitud": 4580940.1240065275,
-        "longitud": 430363.6660694855
+        "latitude": 41.38224275042145,
+        "longitude": 2.1339080954786303,
+        "name": "Sal\u00f3 del Tinell"
     },
     {
-        "latitud": 4581552.894,
-        "longitud": 427582.425
+        "latitude": 41.41392469582458,
+        "longitude": 2.2115234429679,
+        "name": "Piscines Cobertes"
     },
     {
-        "latitud": 4585008.226,
-        "longitud": 434104.235
+        "latitude": 41.41707455085268,
+        "longitude": 2.200138583889526,
+        "name": "Casal de Gent Gran de Sant Ramon"
     },
     {
-        "latitud": 4585366.644,
-        "longitud": 433155.984
+        "latitude": 41.44034614709153,
+        "longitude": 2.1665504640758444,
+        "name": "Jardins Interior d'Illa de Tres Tombs"
     },
     {
-        "latitud": 4587976.7083954895,
-        "longitud": 430373.88651455427
+        "latitude": 41.420985861121345,
+        "longitude": 2.0995879296735516,
+        "name": "Parc del Mirador del Migdia"
     },
     {
-        "latitud": 4585883.362589489,
-        "longitud": 424757.44847770885
+        "latitude": 41.40729090540173,
+        "longitude": 2.179320759601953,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4584296.751470833,
-        "longitud": 431405.9422502555
+        "latitude": 41.41236403095899,
+        "longitude": 2.1457730218797497,
+        "name": "Jard\u00ed del Passeig Santa Madrona"
     },
     {
-        "latitud": 4584887.074,
-        "longitud": 428607.482
+        "latitude": 41.3842954888128,
+        "longitude": 2.177260142864737,
+        "name": "Piscina Coberta"
     },
     {
-        "latitud": 4581745.466319346,
-        "longitud": 431209.4676803316
+        "latitude": 41.38540957993892,
+        "longitude": 2.1335979261241165,
+        "name": "Jardins del Doctor Pla i Armengol"
     },
     {
-        "latitud": 4581904.730002864,
-        "longitud": 427560.00512404495
+        "latitude": 41.37701762396752,
+        "longitude": 2.113853253307032,
+        "name": "Padell\u00e0s"
     },
     {
-        "latitud": 4580989.7605729,
-        "longitud": 425899.60746603954
+        "latitude": 41.37637095451235,
+        "longitude": 2.1603511701180986,
+        "name": "Biblioteca Esquerra de l'Eixample - Agust\u00ed Centelles"
     },
     {
-        "latitud": 4580879.25774105,
-        "longitud": 429787.14651542
+        "latitude": 41.37615314593758,
+        "longitude": 2.1610600411424263,
+        "name": "Refugi clim\u00e0tic"
     },
     {
-        "latitud": 4580854.503,
-        "longitud": 429846.19
+        "latitude": 41.359762298488135,
+        "longitude": 2.152843732558814,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola"
     },
     {
-        "latitud": 4579041.50411877,
-        "longitud": 429141.33697358
+        "latitude": 41.392393882467395,
+        "longitude": 2.1980208136874495,
+        "name": "Jardins de Lina \u00d2dena"
     },
     {
-        "latitud": 4582628.2650555475,
-        "longitud": 432953.6345484193
+        "latitude": 41.36737335320753,
+        "longitude": 2.1580189650091945,
+        "name": "Refugi Clim\u00e0tic"
     },
     {
-        "latitud": 4579882.252,
-        "longitud": 429582.419
+        "latitude": 41.43288641160291,
+        "longitude": 2.172200959455586,
+        "name": "Refugi clim\u00e0tic"
     },
     {
-        "latitud": 4587144.003602575,
-        "longitud": 430838.0121821679
+        "latitude": 41.416006230644655,
+        "longitude": 2.1699197153982093,
+        "name": "Refugi clim\u00e0tic"
     },
     {
-        "latitud": 4585271.804805748,
-        "longitud": 430629.4495921007
+        "latitude": 41.38392070170968,
+        "longitude": 2.1778263792249843,
+        "name": "Refugi clim\u00e0tic"
     },
     {
-        "latitud": 4581703.4087393405,
-        "longitud": 431256.4172325043
+        "latitude": 41.384049074744844,
+        "longitude": 2.177628370090827,
+        "name": "Refugi Clim\u00e0tic"
     },
     {
-        "latitud": 4581717.817595383,
-        "longitud": 431239.99638919695
+        "latitude": 41.38689535147527,
+        "longitude": 2.152049712385728,
+        "name": "Refugi clim\u00e0tic"
     },
     {
-        "latitud": 4582054.417869556,
-        "longitud": 429104.39007967105
+        "latitude": 41.35795616248951,
+        "longitude": 2.1433099583423423,
+        "name": "Refugi Cilm\u00e0tic"
     },
     {
-        "latitud": 4578848.826,
-        "longitud": 428341.915
+        "latitude": 41.36004942767377,
+        "longitude": 2.1384266320287693,
+        "name": "Refugi Clim\u00e0tic"
     },
     {
-        "latitud": 4579085.263608764,
-        "longitud": 427935.7530754827
+        "latitude": 41.39645533894941,
+        "longitude": 2.1833082836130293,
+        "name": "Punt d'Activitat de Creu Roja a Sants-Montju\u00efc"
     },
     {
-        "latitud": 4583090.651,
-        "longitud": 431727.89
+        "latitude": 41.39619285325478,
+        "longitude": 2.184174483274639,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola"
     },
     {
-        "latitud": 4583060.828,
-        "longitud": 431800.027
+        "latitude": 41.38506372270051,
+        "longitude": 2.1179021240670406,
+        "name": "Refugi Clim\u00e0tic"
     },
     {
-        "latitud": 4581879.573,
-        "longitud": 426247.273
+        "latitude": 41.383652411207244,
+        "longitude": 2.157854759563498,
+        "name": "Refugi Clim\u00e0tic *Pla\u00e7a de la Farga"
     },
     {
-        "latitud": 4581689.658529803,
-        "longitud": 429586.2454721281
+        "latitude": 41.42392588968036,
+        "longitude": 2.188192861522015,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola Bressol"
     },
     {
-        "latitud": 4586136.562,
-        "longitud": 432164.808
+        "latitude": 41.383905413518995,
+        "longitude": 2.1694092669132554,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola Bressol"
     },
     {
-        "latitud": 4581708.422546573,
-        "longitud": 430552.6230734909
+        "latitude": 41.43865912585508,
+        "longitude": 2.186087746309488,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola Bressol"
     },
     {
-        "latitud": 4587773.886,
-        "longitud": 432004.278
+        "latitude": 41.39525329288888,
+        "longitude": 2.168611342930838,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola"
     },
     {
-        "latitud": 4582968.887,
-        "longitud": 430497.994
+        "latitude": 41.399662946310215,
+        "longitude": 2.1214877060269433,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola Bressol"
     },
     {
-        "latitud": 4583497.315,
-        "longitud": 426563.502
+        "latitude": 41.37996377699716,
+        "longitude": 2.188318011021832,
+        "name": "Refugi clim\u00e0tic"
     },
     {
-        "latitud": 4581255.848283884,
-        "longitud": 432129.5368346253
+        "latitude": 41.36094076563209,
+        "longitude": 2.1354303913875237,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola"
     },
     {
-        "latitud": 4579186.713,
-        "longitud": 427686.124
+        "latitude": 41.39343515484429,
+        "longitude": 2.1944537641540434,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola Bressol"
     },
     {
-        "latitud": 4582746.631841681,
-        "longitud": 432656.49741259264
+        "latitude": 41.40104559920799,
+        "longitude": 2.144349344252954,
+        "name": "Nomdonalagana SCCL"
     },
     {
-        "latitud": 4583631.688349864,
-        "longitud": 428476.08385186526
+        "latitude": 41.37245167896608,
+        "longitude": 2.1388369863350984,
+        "name": "Refugi clim\u00e0tic"
     },
     {
-        "latitud": 4580461.798,
-        "longitud": 427983.754
+        "latitude": 41.382627987600735,
+        "longitude": 2.1677922200972835,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola"
     },
     {
-        "latitud": 4581567.901889886,
-        "longitud": 430416.0554302089
+        "latitude": 41.37213714280085,
+        "longitude": 2.139359752043456,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola"
     },
     {
-        "latitud": 4580426.444531724,
-        "longitud": 428027.1248994957
+        "latitude": 41.44255507316681,
+        "longitude": 2.1829332651530327,
+        "name": "Refugi clim\u00e0tic"
     },
     {
-        "latitud": 4588208.894413243,
-        "longitud": 431744.82716527424
+        "latitude": 41.445868894480135,
+        "longitude": 2.1857245692364806,
+        "name": "Biblioteca Trinitat Vella - Jos\u00e9 Barbero"
     },
     {
-        "latitud": 4588574.595899239,
-        "longitud": 431981.46679546504
+        "latitude": 41.43719278385573,
+        "longitude": 2.156219669127352,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola"
     },
     {
-        "latitud": 4587634.984544812,
-        "longitud": 429507.43499321165
+        "latitude": 41.40255553570605,
+        "longitude": 2.154436031679846,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola Bressol"
     },
     {
-        "latitud": 4583791.041,
-        "longitud": 429320.875
+        "latitude": 41.40844003176645,
+        "longitude": 2.1669119630500093,
+        "name": "Biblioteca Poblenou - Manuel Arranz"
     },
     {
-        "latitud": 4584434.226918608,
-        "longitud": 430370.00728480046
+        "latitude": 41.42024040427745,
+        "longitude": 2.204341750493709,
+        "name": "Biblioteca"
     },
     {
-        "latitud": 4585714.878065219,
-        "longitud": 433510.4725267833
+        "latitude": 41.41449002077333,
+        "longitude": 2.2063810653945004,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola"
     },
     {
-        "latitud": 4585074.913,
-        "longitud": 433675.04
+        "latitude": 41.383652411207244,
+        "longitude": 2.157854759563498,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola"
     },
     {
-        "latitud": 4581689.658529803,
-        "longitud": 429586.2454721281
+        "latitude": 41.40230396822658,
+        "longitude": 2.1458792280425274,
+        "name": "Refugi Clim\u00e0tic Pati d'Escola Bressol"
     },
     {
-        "latitud": 4583770.129026951,
-        "longitud": 428605.3455666174
+        "latitude": 41.40089123271555,
+        "longitude": 2.1778010071630134,
+        "name": "Espai Ajardinat Via Trajana *Refugi Clim\u00e0tic"
     },
     {
-        "latitud": 4583587.472360917,
-        "longitud": 431272.1736945114
+        "latitude": 41.383652411207244,
+        "longitude": 2.157854759563498,
+        "name": "Biblioteca Collserola - Josep Miracle"
     },
     {
-        "latitud": 4581689.658529803,
-        "longitud": 429586.2454721281
+        "latitude": 41.44931398700405,
+        "longitude": 2.1907655514008186
     },
     {
-        "latitud": 4588953.11929821,
-        "longitud": 432406.13259971066
+        "latitude": 41.42266294217902,
+        "longitude": 2.165237995113779
     },
     {
-        "latitud": 4586014.587486582,
-        "longitud": 430245.3141685381
+        "latitude": 41.377490329618915,
+        "longitude": 2.1407478666950324
     },
     {
-        "latitud": 4581019.594767327,
-        "longitud": 428149.1015865408
+        "latitude": 41.40140488846788,
+        "longitude": 2.204542879960712
     },
     {
-        "latitud": 4583623.627455254,
-        "longitud": 433508.0759631492
+        "latitude": 41.383756336159095,
+        "longitude": 2.1127595762315243
     },
     {
-        "latitud": 4581738.818243703,
-        "longitud": 425815.8111156599
+        "latitude": 41.38735392112421,
+        "longitude": 2.1770820552623897
     },
     {
-        "latitud": 4582085.150002151,
-        "longitud": 431197.8017242793
+        "latitude": 41.407923827017235,
+        "longitude": 2.150396876575529
     },
     {
-        "latitud": 4584390.326059583,
-        "longitud": 428989.0917075234
+        "latitude": 41.42708193501175,
+        "longitude": 2.1671727696722436
     },
     {
-        "latitud": 4586503.623754933,
-        "longitud": 430411.7084519772
+        "latitude": 41.42896119228946,
+        "longitude": 2.203713855844513
     },
     {
-        "latitud": 4586683.534,
-        "longitud": 433466.905
-    },
-    {
-        "latitud": 4585259.518723818,
-        "longitud": 424998.27227854927
+        "latitude": 41.41538974314011,
+        "longitude": 2.102546833751382
     }
 ]
