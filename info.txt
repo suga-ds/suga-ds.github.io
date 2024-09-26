@@ -1,0 +1,297 @@
+Count of each unique 'nom' (sorted in descending order):
+'Platanus × acerifolia': 40730
+'Celtis australis': 19457
+'Styphnolobium japonicum': 8316
+'Tipuana tipu': 6776
+'Melia azedarach': 5988
+'Brachychiton populneus': 5320
+'Prunus cerasifera 'Pissardii'': 3271
+'Ligustrum lucidum': 3234
+'Jacaranda mimosifolia': 3015
+'Ulmus pumila': 2932
+'Pyrus calleryana 'Chanticleer'': 2760
+'Cercis siliquastrum': 2742
+'Citrus × aurantium': 2535
+'Robinia pseudoacacia': 2412
+'Washingtonia filifera var. robusta': 1904
+'Magnolia grandiflora': 1746
+'Tilia x euchlora': 1334
+'Pinus pinea': 1300
+'Grevillea robusta': 1246
+'Gleditsia triacanthos': 1217
+'Celtis sinensis': 1104
+'Koelreuteria paniculata': 1090
+'Populus nigra 'Italica'': 1086
+'Washingtonia filifera': 1056
+'Quercus ilex': 1013
+'Firmiana simplex': 1007
+'Gleditsia triacanthos f. inermis': 1005
+'Phoenix dactylifera': 877
+'Koelreuteria paniculata 'Fastigiata'': 838
+'Tilia x europaea': 801
+'Hibiscus syriacus': 731
+'Catalpa bignonioides': 608
+'Casuarina cunninghamiana': 604
+'Pinus halepensis': 603
+'Fraxinus angustifolia': 560
+'Acer monspessulanum': 519
+'Populus alba 'Pyramidalis'': 499
+'Cupressus sempervirens': 493
+'Phoenix canariensis': 441
+'Albizia julibrissin': 411
+'Acer negundo': 406
+'Acer × freemanii AUTUMN BLAZE® 'Jeffersred'': 399
+'Robinia pseudoacacia 'Bessoniana'': 352
+'Brachychiton acerifolius': 350
+'Tilia tomentosa': 348
+'Populus nigra': 334
+'Fraxinus angustifolia 'Raywood'': 320
+'Morus alba': 311
+'Acer saccharinum': 301
+'Liriodendron tulipifera': 291
+'Populus alba': 248
+'Photinia x fraseri 'red robin'': 236
+'Schinus molle': 234
+'Ginkgo biloba 'Fastigiata'': 232
+'Corylus colurna': 229
+'Acer buergerianum': 223
+'Acer campestre': 216
+'Ginkgo biloba': 216
+'Acer campestre 'Pyramidale'': 205
+'Fraxinus excelsior': 190
+'Ligustrum japonicum 'Texanum'': 184
+'Phytolacca dioica': 173
+'Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II'': 171
+'Olea europaea': 165
+'Bauhinia purpurea': 165
+'Ligustrum japonicum': 159
+'Tilia cordata': 155
+'Prunus serrulata 'Kanzan'': 155
+'Gleditsia triacanthos 'skyline'': 149
+'Morus kagayamae': 145
+'Nerium oleander': 143
+'Washingtonia sp': 139
+'Styphnolobium japonicum 'Columnare'': 134
+'Morus alba 'Fruitless'': 124
+'Ficus microcarpa': 123
+'Tamarix ramosissima': 118
+'Parrotia persica 'Vanessa'': 117
+'Bauhinia variegata': 115
+'Prunus avium': 115
+'Crataegus x media 'Paul's Scarlet'': 114
+'Paulownia tomentosa': 107
+'X chitalpa tashkentensis 'minsum' SUMMER BELLS®': 104
+'Aesculus hippocastanum': 103
+'Ostrya carpinifolia': 102
+'Tamarix gallica': 102
+'Gleditsia triacanthos 'sunburst'': 98
+'Acer campestre 'Elsrijk'': 96
+'Ailanthus altissima': 92
+'Robinia pseudoacacia 'Pyramidalis'': 89
+'Cupressus sempervirens 'stricta'': 83
+'Handroanthus heptaphyllus': 79
+'Quercus robur 'Fastigiata'': 78
+'Chamaerops humilis': 74
+'Styphnolobium japonicum 'Dot'': 73
+'Parkinsonia aculeata': 72
+'Laurus nobilis': 71
+'Malus PERPETU® 'Evereste'': 69
+'Yucca gigantea': 64
+'Prunus cerasifera': 64
+'Brachychiton discolor': 63
+'Lagerstroemia indica': 63
+'Ginkgo biloba 'Fastigiata Blagon'': 61
+'Tilia platyphyllos': 60
+'Populus x canadensis': 54
+'Liquidambar styraciflua': 53
+'Zelkova serrata GREEN VASE® 'Flekova'': 52
+'Acer platanoides': 51
+'Nerium oleander (vermell)': 50
+'Fraxinus ornus': 49
+'Cordyline australis': 49
+'Acer platanoides 'Columnare'': 45
+'Platanus orientalis': 44
+'Acer pseudoplatanus': 44
+'Quercus suber': 42
+'Eucalyptus camaldulensis': 42
+'Cormus domestica': 41
+'Lagunaria patersonia': 40
+'Pyrus communis': 36
+'Archontophoenix cunninghamiana': 36
+'Eucalyptus globulus': 35
+'Podocarpus neriifolius': 34
+'Ulmus RESISTA® 'New Horizon'': 34
+'Fraxinus ornus 'Mecsek'': 33
+'Celtis occidentalis': 32
+'Salix alba': 32
+'Crataegus monogyna': 31
+'Syagrus romanzoffiana': 30
+'Styphnolobium japonicum 'Pyramidalis'': 29
+'Pistacia atlantica': 29
+'Magnolia grandiflora 'Goliath'': 27
+'Populus simonii': 26
+'Crataegus x lavalleei 'Carrierei'': 26
+'Trachycarpus fortunei': 25
+'X hesperotropsis leylandii': 25
+'Hesperocyparis macrocarpa': 24
+'Tilia americana': 23
+'Ceratonia siliqua': 23
+'Erythrina crista-galli': 23
+'Robinia pseudoacacia 'Umbraculifera'': 23
+'Quercus pubescens': 23
+'Livistona chinensis': 22
+'Prunus amygdalus': 22
+'Acacia retinodes': 22
+'Pistacia chinensis': 21
+'Ulmus 'Dodoens'': 21
+'Eugenia uniflora': 20
+'Leucaena leucocephala': 19
+'Ligustrum japonicum 'Variegatum'': 19
+'Ceiba chodatii': 18
+'Platycladus orientalis': 17
+'Ceiba speciosa': 16
+'Tabebuia rosea': 16
+'Tamarix africana': 15
+'Salix babylonica 'Tortuosa'': 15
+'Magnolia grandiflora 'Gallisoniensis'': 14
+'Broussonetia papyrifera': 14
+'Cedrus deodara': 14
+'Eriobotrya japonica': 13
+'Robinia × margaretta 'Pink Cascade'': 12
+'Acacia saligna': 11
+'Platanus × acerifolia PLATANOR® 'Vallis Clausa'': 11
+'Acer saccharinum 'Pyramidale'': 11
+'Ulmus RESISTA® 'Sapporo Autumn Gold'': 11
+'Carpinus betulus': 11
+'Ulmus americana': 10
+'Bauhinia forficata subsp. pruinosa': 10
+'Prunus serrulata': 10
+'Ulmus minor 'Umbraculifera'': 10
+'Quercus robur': 10
+'Ficus carica': 10
+'Quercus rubra': 9
+'Catalpa bignonioides 'Nana'': 9
+'Juglans nigra': 9
+'Morus nigra': 9
+'Heptapleurum actinophyllum': 9
+'Acacia dealbata': 8
+'Pinus pinaster': 8
+'Elaeagnus pungens': 8
+'Punica granatum': 8
+'Erythrina caffra': 8
+'Lophostemon confertus': 8
+'Tabebuia roseoalba': 8
+'Callistemon viminalis': 7
+'Casuarina equisetifolia': 7
+'Albizia julibrissin 'OMBRELLA'®': 7
+'Ligustrum lucidum 'Excelsum Superbum'': 6
+'Arbutus unedo': 6
+'Fraxinus pennsylvanica': 6
+'Cedrus atlantica': 5
+'Ficus elastica': 5
+'Cedrus libani': 5
+'Cinnamomum camphora': 5
+'Alnus glutinosa 'Pyramidalis'': 4
+'Acer platanoides 'Crimson King'': 4
+'Butia odorata': 4
+'Photinia serratifolia': 4
+'Butia yatay': 4
+'Malus x purpurea': 4
+'Platanus orientalis 'cuneata'': 4
+'Hesperocyparis glabra': 4
+'Crataegus × sinaica': 4
+'Tecoma stans': 4
+'Ficus rubiginosa': 4
+'Photinia x fraseri': 3
+'Cycas revoluta': 3
+'Myrtus communis': 3
+'Indeterminat Arbre': 3
+'Brachychiton rupestris': 3
+'Alnus glutinosa': 3
+'Prunus domestica': 3
+'Robinia × ambigua': 3
+'Corylus avellana': 3
+'Handroanthus chrysanthus': 3
+'Populus x canescens': 2
+'Feijoa sellowiana': 2
+'Photinia davidiana': 2
+'Ficus macrophylla': 2
+'Ficus rubiginosa f. glabrescens': 2
+'Sophora davidii': 2
+'Citrus × aurantiifolia': 2
+'Metrosideros excelsa': 2
+'Juglans regia': 2
+'Robinia hispida': 2
+'Parasenegalia visco': 2
+'Pinus sylvestris': 2
+'Cupressus pendula': 2
+'Pterocarya fraxinifolia': 2
+'Yucca aloifolia': 2
+'Ulmus minor': 2
+'Magnolia x soulangeana': 2
+'Populus alba 'Nivea'': 1
+'Phoenix reclinata': 1
+'Fraxinus americana': 1
+'Prunus serrulata 'Royal Burgundy'': 1
+'Pinus canariensis': 1
+'Maclura pomifera': 1
+'Eucalyptus gomphocephala': 1
+'Platanus × acerifolia 'Alphen's Globe'': 1
+'Styphnolobium japonicum 'Pendulum'': 1
+'Araucaria heterophylla': 1
+'Cocculus laurifolius': 1
+'Calocedrus decurrens': 1
+'Morus alba 'Pendula'': 1
+'Cercis siliquastrum 'Rosea'': 1
+'Ulmus parvifolia': 1
+'Prunus cerasifera 'Nigra'': 1
+'Citrus × deliciosa': 1
+'Acacia sophorae': 1
+'Prunus 'accolade'': 1
+'Nerium oleander (blanc)': 1
+'Pinus nigra subsp. salzmannii': 1
+'Prunus serrulata 'Amanogawa'': 1
+'Ligustrum ovalifolium': 1
+'Morus alba 'Fastigiata'': 1
+'Acacia baileyana': 1
+'Hesperocyparis macrocarpa 'Compacta'': 1
+'Fraxinus berlandieriana': 1
+'Populus tremula': 1
+'Cedrus atlantica 'Glauca'': 1
+'Picea abies': 1
+'Betula pendula': 1
+'Magnolia liliiflora': 1
+'Hibiscus rosa-sinensis': 1
+'Brachychiton bidwillii': 1
+'Elaeagnus angustifolia': 1
+'Hesperocyparis glabra 'Glauca'': 1
+'Ulmus pumila 'Pinnatoramosa'': 1
+'Beaucarnea recurvata': 1
+'Rhapis excelsa': 1
+'Ulmus pumila 'Latifolia'': 1
+'Taxus baccata': 1
+'Morus alba 'Multicaulis'': 1
+'Citrus x limon': 1
+'Parietaria judaica': 1
+'Laurus nobilis 'Crispa'': 1
+'Handroanthus impetiginosus': 1
+'Sambucus nigra': 1
+'Ginkgo biloba 'Autumn Gold'': 1
+'Rosa 'Jacarque'': 1
+
+Total distinct 'nom' values: 279
+
+--------------------------------------------------------------
+
+Count of each unique 'tipus_reg' (sorted in descending order):
+'SENSE INFORMAR': 128773
+'GOTEIG': 10784
+'MÀNEGA': 3392
+'GOTEIG AVARIAT': 2401
+'ASPERSIÓ': 329
+'DIFUSIÓ': 258
+'ROTATOR': 54
+'GOTEIG TANCAT SEQUERA': 32
+'None': 6
+
+Total distinct 'tipus_reg' values: 9

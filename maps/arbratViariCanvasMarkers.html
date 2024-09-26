@@ -17,8 +17,7 @@
     <script src="./canvasMarker.js"></script>
 
     <style>
-        html,
-        body {
+        html, body {
             width: 100%;
             height: 100%;
             margin: 0;
@@ -29,14 +28,46 @@
         #map {
             position: relative;
             width: 100%;
-            height: 100%; /* Adjusted to make room for slider */
+            height: 100%;
         }
 
+        #controls {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        #yearSlider {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            padding: 10px;
+            z-index: 1000;
+        }
     </style>
 </head>
 
 <body>
     <div id="map"></div>
+
+    <!-- Filter Controls -->
+    <div id="controls">
+        <label><input type="checkbox" value="GOTEIG" checked> GOTEIG</label><br>
+        <label><input type="checkbox" value="GOTEIG AVARIAT" checked> GOTEIG AVARIAT</label><br>
+        <label><input type="checkbox" value="ASPERSIÓ" checked> ASPERSIÓ</label><br>
+        <label><input type="checkbox" value="SENSE INFORMAR" checked> SENSE INFORMAR</label><br>
+    </div>
+
+    <!-- Year Slider -->
+    <div id="yearSlider">
+        <label for="yearRange">Year: <span id="yearLabel">2024</span></label><br>
+        <input type="range" id="yearRange" min="2021" max="2024" value="2024" step="1">
+    </div>
 
     <script>
         // Initialize the map
@@ -52,14 +83,6 @@
         window.layerFactory(L); // Call the factory to extend Leaflet with canvas markers
         var ciLayer = L.canvasIconLayer({}).addTo(map);
 
-        // Click and hover listeners
-        ciLayer.addOnClickListener(function (e, data) {
-            console.log(data);
-        });
-        ciLayer.addOnHoverListener(function (e, data) {
-            console.log(data[0].data._leaflet_id);
-        });
-
         // Define the icon for the markers
         var icon = L.icon({
             iconUrl: '../images/marker.png',
@@ -67,31 +90,74 @@
             iconAnchor: [10, 9]
         });
 
-        // Fetch and load tree data
-        fetch('./arbratViari/extracted_2024_1T_OD_Arbrat_Viari_BCN.json')
-            .then(response => response.json())
-            .then(data => {
-                var markers = [];  // Initialize an empty array to store the markers
+        let allMarkers = [];  // Store all markers here
+        let currentFilter = ['GOTEIG', 'GOTEIG AVARIAT', 'ASPERSIÓ', 'SENSE INFORMAR']; // Default filter
+        let currentYear = 2024;  // Default year
 
-                data.forEach(item => {
-                    // Ensure valid latitude and longitude
-                    if (!isNaN(item.latitude) && !isNaN(item.longitude)) {
-                        // Create a marker for each item in the dataset using the parsed latitude and longitude
-                        var marker = L.marker([parseFloat(item.latitude), parseFloat(item.longitude)], { icon: icon })
-                            .bindPopup(`Tree Info: ${item.common_name || 'Unknown'}<br>Height: ${item.height || 'Unknown'}`);
+        // Function to filter markers based on `tipus_reg`
+        function applyFilter() {
+            ciLayer.clearLayers(); // Clear existing markers
 
-                        // Push the created marker into the markers array
-                        markers.push(marker);
-                    }
-                });
-
-                // Add all markers to the ciLayer at once for better performance
-                ciLayer.addLayers(markers);
-            })
-            .catch(error => {
-                console.error('Error fetching tree data:', error);
-                alert('Failed to load tree data.');
+            let filteredMarkers = allMarkers.filter(marker => {
+                return currentFilter.includes(marker.options.tipus_reg);
             });
+
+            ciLayer.addLayers(filteredMarkers); // Add filtered markers to map
+        }
+
+        // Function to load and display data for the selected year
+        function loadYearData(year) {
+            fetch(`./arbratViari_ambInfo/${year}.json`)
+                .then(response => response.json())
+                .then(data => {
+                    allMarkers = []; // Reset markers
+
+                    data.forEach(item => {
+                        // Ensure valid latitude and longitude
+                        if (!isNaN(item.latitud) && !isNaN(item.longitud)) {
+                            // Create a marker for each item in the dataset using the parsed latitude and longitude
+                            var marker = L.marker([parseFloat(item.latitud), parseFloat(item.longitud)], { 
+                                icon: icon,
+                                tipus_reg: item.tipus_reg || 'Unknown' // Store tipus_reg in marker options
+                            }).bindPopup(`Tree Info: ${item.nom_cientific || 'Unknown'}<br>Data plantació: ${item.data_plantacio || 'Unknown'}<br>Tipus de reg: ${item.tipus_reg || 'Unknown'}`);
+
+                            // Push the created marker into the allMarkers array
+                            allMarkers.push(marker);
+                        }
+                    });
+
+                    applyFilter(); // Apply initial filter after loading markers
+                })
+                .catch(error => {
+                    console.error('Error fetching tree data:', error);
+                    alert(`Failed to load tree data for ${year}.`);
+                });
+        }
+
+        // Load data for the default year (2024)
+        loadYearData(currentYear);
+
+        // Event listener for year slider changes
+        document.getElementById('yearRange').addEventListener('input', function (e) {
+            currentYear = e.target.value;
+            document.getElementById('yearLabel').innerText = currentYear;
+            loadYearData(currentYear); // Reload data when the year changes
+        });
+
+        // Event listener for filter changes
+        document.getElementById('controls').addEventListener('change', function (e) {
+            const value = e.target.value;
+            const checked = e.target.checked;
+
+            if (checked) {
+                currentFilter.push(value); // Add filter value
+            } else {
+                const index = currentFilter.indexOf(value);
+                if (index > -1) currentFilter.splice(index, 1); // Remove filter value
+            }
+
+            applyFilter(); // Re-apply filter after change
+        });
 
         // Fetch and load GeoJSON data for Barcelona districts
         fetch('./barcelonaDistrictes.geojson')
