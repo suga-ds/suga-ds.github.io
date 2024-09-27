@@ -42,8 +42,8 @@
 
         #yearSlider {
             position: absolute;
-            bottom: 20px;
-            left: 50%;
+            top: 10px;
+            right: 150px;
             transform: translateX(-50%);
             background: white;
             padding: 10px;
@@ -57,6 +57,7 @@
 
     <!-- Filter Controls -->
     <div id="controls">
+        <p style="font-size: 16px;">Filtre segons el tipus de reg:</p>
         <label><input type="checkbox" value="GOTEIG" checked> GOTEIG</label><br>
         <label><input type="checkbox" value="GOTEIG AVARIAT" checked> GOTEIG AVARIAT</label><br>
         <label><input type="checkbox" value="ASPERSIÓ" checked> ASPERSIÓ</label><br>
@@ -65,7 +66,7 @@
 
     <!-- Year Slider -->
     <div id="yearSlider">
-        <label for="yearRange">Year: <span id="yearLabel">2024</span></label><br>
+        <label for="yearRange">Tria un any: <span id="yearLabel">2024</span></label><br>
         <input type="range" id="yearRange" min="2021" max="2024" value="2024" step="1">
     </div>
 
@@ -119,7 +120,7 @@
                             var marker = L.marker([parseFloat(item.latitud), parseFloat(item.longitud)], { 
                                 icon: icon,
                                 tipus_reg: item.tipus_reg || 'Unknown' // Store tipus_reg in marker options
-                            }).bindPopup(`Tree Info: ${item.nom_cientific || 'Unknown'}<br>Data plantació: ${item.data_plantacio || 'Unknown'}<br>Tipus de reg: ${item.tipus_reg || 'Unknown'}`);
+                            }).bindPopup(`Nom: ${item.nom || 'Unknown'}<br>Data plantació: ${item.data_plantacio || 'Unknown'}<br>Tipus de reg: ${item.tipus_reg || 'Unknown'}`);
 
                             // Push the created marker into the allMarkers array
                             allMarkers.push(marker);
