@@ -178,7 +178,7 @@
         }).addTo(map);
 
         // Fetch and display the districtes data
-        fetch('./barcelonaDistrictes.geojson')
+        fetch('../barcelonaDistrictes.geojson')
             .then(response => response.json())
             .then(data => {
                 L.geoJSON(data, {

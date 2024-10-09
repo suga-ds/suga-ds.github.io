@@ -1,6 +1,50 @@
+/* GENERAL */
+
 html {
     padding: 0;
     margin: 0;
+}
+
+.sectionBody {
+    padding: 6vh 10vw 7vh 10vw;
+}
+
+.sectionTitle {
+    margin: 0;
+    margin-bottom: 6vh;
+    font-size: 3vh;
+    padding: 0;
+}
+
+.sectionSubtitle {
+    font-weight: 900;
+    font-size: 2.5vh;
+    margin-bottom: 0vh;
+}
+
+.button {
+    display: flex;
+}
+
+.button div {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+}
+
+.button div a {
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+.button div:hover {
+    bottom: 2px;
 }
 
 body {
@@ -117,50 +161,6 @@ body {
     font-size: 2.5vh;
 }
 
-/* GENERAL */
-
-.sectionBody {
-    padding: 6vh 10vw 7vh 10vw;
-}
-
-.sectionTitle {
-    margin: 0;
-    margin-bottom: 6vh;
-    font-size: 3vh;
-    padding: 0;
-}
-
-.sectionSubtitle {
-    font-weight: 900;
-    font-size: 2.5vh;
-    margin-bottom: 0vh;
-}
-
-.button {
-    display: flex;
-}
-
-.button div {
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    text-align: center;
-}
-
-.button div a {
-    outline: none;
-    text-decoration: none;
-    text-align: center;
-    position: relative;
-}
-
-.button div:hover {
-    bottom: 2px;
-}
-
 /* SERVICES */
 
 #serviceSection {
@@ -182,12 +182,11 @@ body {
 .blocks {
     display: flex;
     justify-content: space-between;
-    gap: 1vw;
+    gap: 4vw;
 }
 
 .block {
     flex: 1;
-    padding: 1vw;
     border-radius: 1vh;
 }
 

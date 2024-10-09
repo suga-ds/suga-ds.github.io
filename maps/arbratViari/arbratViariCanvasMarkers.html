@@ -161,7 +161,7 @@
         });
 
         // Fetch and load GeoJSON data for Barcelona districts
-        fetch('./barcelonaDistrictes.geojson')
+        fetch('../barcelonaDistrictes.geojson')
             .then(response => response.json())
             .then(data => {
                 L.geoJSON(data, {
