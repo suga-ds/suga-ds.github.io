@@ -41,16 +41,10 @@ body {
     gap: 2vw;
 }
 
-.buttonNav div {
+#buttonNav div {
     width: 17vh;
     height: 5vh;
     border-radius: 0.2vh;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-color: #7D3B58;
     text-decoration: none;
     border-style: solid;
@@ -58,16 +52,10 @@ body {
     border-radius: 4px;
 }
 
-.buttonNav div a {
+#buttonNav div a {
     font-weight: 600;
-    outline: none;
-    text-decoration: none;
     color: #7D3B58;
     font-size: 2vh;
-}
-
-.buttonNav div:hover {
-    bottom: 1px;
 }
 
 /* HERO */
@@ -111,38 +99,66 @@ body {
     text-align: left;
 }
 
-.buttonHero {
-    display: flex;
+#buttonHero {
     justify-content: left;
     margin: 7vh 0 0vh 10vw;
 }
 
-.buttonHero div {
+#buttonHero div {
     width: 30vh;
     height: 8vh;
     border-radius: 6px;
+    background-color: #7D3B58;
+}
+
+#buttonHero div a {
+    font-weight: 600;
+    color: white;
+    font-size: 2.5vh;
+}
+
+/* GENERAL */
+
+.sectionBody {
+    padding: 6vh 10vw 7vh 10vw;
+}
+
+.sectionTitle {
+    margin: 0;
+    margin-bottom: 6vh;
+    font-size: 3vh;
+    padding: 0;
+}
+
+.sectionSubtitle {
+    font-weight: 900;
+    font-size: 2.5vh;
+    margin-bottom: 0vh;
+}
+
+.button {
+    display: flex;
+}
+
+.button div {
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #7D3B58;
+    justify-content: center;    
     text-align: center;
 }
 
-.buttonHero div a {
-    font-weight: 600;
+.button div a {
     outline: none;
     text-decoration: none;
     text-align: center;
-    color: white;
     position: relative;
-    font-size: 2.5vh;
 }
 
-.buttonHero div:hover {
-    bottom: 1px;
+.button div:hover {
+    bottom: 2px;
 }
 
 /* SERVICES */
@@ -150,13 +166,10 @@ body {
 #serviceSection {
     display: flex;
     flex-direction: column;
-    padding: 6vh 10vw 5vh 10vw;
 }
 
 #serviceSubtitle {
     color: #7D3B58;
-    font-weight: 900;
-    font-size: 2.5vh;
     display: flex;
     justify-content: center;
 }
@@ -164,20 +177,12 @@ body {
 .sectionTitle {
     display: flex;
     justify-content: center;
-    margin-bottom: 3vh;
-    font-size: 3vh;
-}
-
-.sectionTitle h1 {
-    margin: 0;
-    margin-bottom: 6vh;
 }
 
 .blocks {
     display: flex;
     justify-content: space-between;
     gap: 1vw;
-    margin-bottom: 5vh;
 }
 
 .block {
@@ -195,23 +200,20 @@ body {
 
 .portfolio {
     background-color: #686868;
-    padding: 7vh 11vw;
     box-sizing: border-box;
     background-image: url("../images/pattern-2.png");
 }
 
 #portfolioSubtitle {
     color: white;
-    font-weight: 900;
-    font-size: 2.5vh;
     display: flex;
-    margin-top: 5vh;
+    justify-content: flex-start;
 }
 
-.portfolio h1 {
-    margin: 0vh 0 10vh 0;
-    font-size: 6vh;
+#portfolioTitle {
     color: white;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .projects {
@@ -284,18 +286,9 @@ body {
 
 /* PRICING */
 
-#serviceSection {
-    display: flex;
-    flex-direction: column;
-    padding: 8vh 10vw 5vh 10vw;
-}
-
 #pricingSubtitle {
     color: #7D3B58;
-    font-weight: 900;
-    font-size: 2.5vh;
     display: flex;
-    margin-top: 5vh;
     justify-content: center;
 }
 
@@ -303,7 +296,6 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 1vw;
-    margin-bottom: 5vh;
 }
 
 .pricingBlock {
@@ -333,13 +325,13 @@ body {
     border-top: 1px solid #d4d4d4; /* Adjust the color and thickness as needed */    
 }
 
-.buttonPricing {
+#buttonPricing {
     display: flex;
     justify-content: left;
     margin: 3vh 0;
 }
 
-.buttonPricing div {
+#buttonPricing div {
     width: 30vh;
     height: 6vh;
     border-radius: 0.4vh;
@@ -353,7 +345,7 @@ body {
     border: 1px solid #7D3B58;
 }
 
-.buttonPricing div a {
+#buttonPricing div a {
     font-weight: 600;
     outline: none;
     text-decoration: none;
@@ -362,11 +354,6 @@ body {
     position: relative;
     font-size: 2vh;
 }
-
-.buttonPricing div:hover {
-    bottom: 2px;
-}
-
 
 /* CONTACT FORM */
 
@@ -459,12 +446,12 @@ body {
         font-size: 2vh;
     }
 
-    .buttonNav div {
+    #buttonNav div {
         width: 25vw;
         height: 3vh;
     }
 
-    .buttonNav div a {
+    #buttonNav div a {
         font-size: 1.3vh;
     }
 
@@ -486,23 +473,23 @@ body {
         margin: 0 25vw 0 10vw;
     }
 
-    .buttonHero div {
+    #buttonHero div {
         width: 40vw;
         height: 5vh;
     }
 
-    .buttonHero div a {
+    #buttonHero div a {
         font-size:  1.8vh;
     }
 
     /* SERVICE */
 
-    #serviceSubtitle {
+    .subtitle {
         font-size: 1.5vh;
         justify-content: flex-start;
     }
 
-    .mediaTitle {
+    .title {
         justify-content: flex-start;
     }
 

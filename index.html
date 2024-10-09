@@ -25,9 +25,7 @@
         </div>
         <div class="navigation">
             <!-- <div><p><a href="./gallery.html" style="text-decoration: none; color: inherit;">GALLERY</a></p></div> -->
-            <div class="buttonNav">
-                <div class="scrollToContact"><a>CONTACT</a></div>
-            </div>
+            <div id="buttonNav" class="button"><div class="scrollToContact"><a>CONTACT</a></div></div>
         </div>
     </div>
     <!-- HEADER END -->
@@ -37,20 +35,16 @@
         <div class="heroSection">
             <h1>Interactive Maps <span class="highlight">Built For The Web</span></h1>
             <p>We craft maps for businesses seeking effective, user-friendly, and beautiful cartography.</p>
-            <div class="buttonHero">
-                <div class="scrollToContact"><a>CONTACT</a></div>
-            </div>
+            <div class="button" id="buttonHero"><div class="scrollToContact"><a>CONTACT</a></div></div>
         </div>
     </div>
     <!-- HERO END -->
 
     <!-- SERVICE -->
-    <div id="serviceSection">
+    <div id="serviceSection" class="sectionBody">
 
-        <div><p id="serviceSubtitle">- SPECIALIZED TECHNOLOGY -</p></div>
-        <div class="sectionTitle mediaTitle">
-            <h1>Mapping features.</h1>
-        </div>
+        <div><h2 id="serviceSubtitle" class="sectionSubtitle">- SPECIALIZED TECHNOLOGY -</h2></div>
+        <div id="serviceTitle" class="sectionTitle mediaTitle"><h1>Mapping features.</h1></div>
 
         <div class="blocks">
 
@@ -77,10 +71,10 @@
     <!-- SERVICE END -->
 
     <!-- PORTFOLIO -->
-    <div class="portfolio">
+    <div class="portfolio sectionBody">
 
-        <div><p id="portfolioSubtitle">- CLIENTS LOVE THEM -</p></div>
-        <h1 id="portfolioTitle">Completed Client Maps.</h1>
+        <div><h2 id="portfolioSubtitle" class="sectionSubtitle">- CLIENTS LOVE THEM -</h2></div>
+        <div id="portfolioTitle" class="sectionTitle"><h1>Mapping features.</h1></div>
 
         <div class="projects">
 
@@ -116,20 +110,19 @@
     <!-- PORTFOLIO END -->
 
     <!-- PRICING -->
-    <div id="serviceSection" style="background-color: rgb(245, 245, 245);">
+    <div id="pricingSection" style="background-color: rgb(245, 245, 245);" class="sectionBody">
 
-        <div><p id="pricingSubtitle">- TAILORED SOLUTIONS -</p></div>
-        <div class="sectionTitle">
-            <h1>Budgets.</h1>
-        </div>
+        <div><h2 id="pricingSubtitle" class="sectionSubtitle">- TAILORED SOLUTIONS -</h2></div>
+        <div class="sectionTitle"><h1>Budgets.</h1></div>
+
         <div class="pricingBlocks">
 
             <div class="pricingBlock">
                 <img src="./images/singleMarker.png" alt="image" style="height: 15vh;">
-                <h1>Single Marker</h1>
+                <h1>Plotted Map</h1>
                 <p class="note">Includes a custom location marker with comprehensive details such as schedules, addresses, and more. Plus, enjoy fully interactive features tailored to your specific needs.</p>
                 <div class="price"><p>50€+<span style="font-size: 2vh;">CAD</span></p></div>
-                <div class="buttonPricing"><div class="scrollToContact"><a>GET THIS MAP</a></div></div>
+                <div id="buttonPricing" class="button"><div class="scrollToContact"><a>GET THIS MAP</a></div></div>
             </div>
 
             <div class="pricingBlock">
@@ -137,7 +130,7 @@
                 <h1>Multiple Markers</h1>
                 <p class="note">We design and add several markers to your map, providing seamless interactivity that displays detailed information for each location.</p>
                 <div class="price"><p>120€+<span style="font-size: 2vh;">CAD</span></p></div>
-                <div class="buttonPricing"><div class="scrollToContact"><a>GET THIS MAP</a></div></div>
+                <div id="buttonPricing" class="button"><div class="scrollToContact"><a>GET THIS MAP</a></div></div>
             </div>
 
             <div class="pricingBlock">
@@ -145,7 +138,7 @@
                 <h1>Analytics</h1>
                 <p class="note">We equip teams with a robust cartographic technology foundation to support the development of mapping projects.</p>
                 <div class="price"><p>400€+<span style="font-size: 2vh;">CAD</span></p></div>
-                <div class="buttonPricing"><div class="scrollToContact"><a>GET THIS MAP</a></div></div>
+                <div id="buttonPricing" class="button"><div class="scrollToContact"><a>GET THIS MAP</a></div></div>
 
             </div>
         </div>
