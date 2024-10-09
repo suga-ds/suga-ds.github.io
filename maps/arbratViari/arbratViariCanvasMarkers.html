@@ -108,7 +108,7 @@
 
         // Function to load and display data for the selected year
         function loadYearData(year) {
-            fetch(`./arbratViari_ambInfo/${year}.json`)
+            fetch(`./arbratViariDB/${year}.json`)
                 .then(response => response.json())
                 .then(data => {
                     allMarkers = []; // Reset markers
