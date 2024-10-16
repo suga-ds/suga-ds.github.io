@@ -16,6 +16,11 @@ html {
     padding: 0;
 }
 
+h1 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
 .sectionSubtitle {
     font-weight: 900;
     font-size: 2.5vh;
@@ -87,7 +92,7 @@ body {
 
 #buttonNav div {
     width: 17vh;
-    height: 5vh;
+    height: 4vh;
     border-radius: 0.2vh;
     border-color: #7D3B58;
     text-decoration: none;
@@ -99,15 +104,15 @@ body {
 #buttonNav div a {
     font-weight: 600;
     color: #7D3B58;
-    font-size: 2vh;
+    font-size: 1.7vh;
 }
 
 /* HERO */
 
 .coolBackground {
-    background-image: url("../images/background.svg");
+    background-image: url("../images/barcelonaMaps\(4\).png");
     background-color: #c8d5d8;
-    background-size: 50%;
+    background-size: 100%;
 }
 
 .heroSection {
@@ -122,9 +127,9 @@ body {
 .heroSection h1 {
     font-weight: 900;
     letter-spacing: -0.070em;
-    font-size: 7.5vw;
-    line-height: 15vh;
-    margin: 0vh 25vw 7vh 10vw;
+    font-size: 5.4vw;
+    line-height: 11vh;
+    margin: 0vh 44vw 7vh 10vw;
     text-align: left;
 }
 
@@ -149,8 +154,8 @@ body {
 }
 
 #buttonHero div {
-    width: 30vh;
-    height: 8vh;
+    width: 25vh;
+    height: 6vh;
     border-radius: 6px;
     background-color: #7D3B58;
 }
@@ -158,7 +163,7 @@ body {
 #buttonHero div a {
     font-weight: 600;
     color: white;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 
 /* FEATURES */
@@ -183,6 +188,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 4vw;
+    margin-top: 2vh;
 }
 
 .block {
@@ -487,7 +493,7 @@ body {
         font-size:  1.8vh;
     }
 
-    /* SERVICE */
+    /* FEATURES */
 
     .subtitle {
         font-size: 1.5vh;
@@ -533,14 +539,10 @@ body {
         opacity: 1;
     }    
 
-    /* services */
+    /* SERVICES */
 
     #servicesSubtitle {
         font-size: 1.5vh;
-    }
-
-    .sectionTitle {
-        font-size: 2vh;
     }
 
     .servicesBlocks {
