@@ -447,6 +447,10 @@ body {
 
     /* HEDEAR */
 
+    .coolBackground {
+        background-image: url(../images/background.svg);
+    }
+
     .header {
         padding: 2vh 10vw;
         padding-top: 0.5vw;
@@ -547,10 +551,13 @@ body {
 
     .servicesBlocks {
         flex-direction: column;
+        margin: 0;
     }
 
     .servicesBlock {
         margin-bottom: 4vh;
+        padding: 2vh 4vw;
+        
     }
 
     /* CONTACT */
