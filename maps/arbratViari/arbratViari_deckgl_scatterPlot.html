@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbrat viari de la ciutat de Barcelona</title>
+
+    <link href='../../css/index.css' rel='stylesheet'>
+    <script src="https://unpkg.com/deck.gl@latest/dist.min.js"></script>
+    <!-- optional if maplibre base map is needed -->
+    <script src="https://unpkg.com/maplibre-gl@3.0.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@3.0.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <!-- Allow the map to render in full screen  -->
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <!-- Legend container -->
+    <div class="legend">
+        <h5 style="margin-bottom: 15px;">Arbrat viari de la ciutat de Barcelona</h5>
+        <h6 style="color: rgba(255, 255, 255, 0.89);">No. de instàncies:</h6>
+        <h4 style="margin-bottom: 15px;">146K</h1>
+            <ul class="color-bar">
+                <li>
+                    <div style="background-color: #fee5d9;"></div>Platanus × acerifolia
+                </li>
+                <li>
+                    <div style="background-color: #fcbba1;"></div>Celtis australis
+                </li>
+                <li>
+                    <div style="background-color: #fc9272;"></div>Styphnolobium japonicum
+                </li>
+                <li>
+                    <div style="background-color: #fb6a4a;"></div>Tipuana tipu
+                </li>
+                <li>
+                    <div style="background-color: #de2d26;"></div>Melia azedarach
+                </li>
+                <li>
+                    <div style="background-color: #ffffff3b;"></div>Àltres
+                </li>
+            </ul>
+    </div>
+
+    <script>
+        // Import DeckGL and Maplibre-GL
+        const { DeckGL, ScatterplotLayer } = deck;
+
+        const speciesColorMap = {
+            "Platanus x hispanica": [254, 229, 217],  // #fee5d9
+            "Celtis australis": [252, 187, 161],      // #fcbba1
+            "Styphnolobium japonicum": [252, 146, 114], // #fc9272
+            "Tipuana tipu": [251, 106, 74],           // #fb6a4a
+            "Melia azedarach": [222, 45, 38],         // #de2d26
+        };
+
+        // Fetch the tree data from the JSON file
+        fetch('./arbratViariDB/2024.json')
+            .then(response => response.json())
+            .then(data => {
+                // Map the fetched data into the format expected by the HexagonLayer
+                const formattedData = data.map(item => ({
+                    position: [parseFloat(item.longitud), parseFloat(item.latitud)],
+                    species: item.nom
+                }));
+
+                // Initialize the DeckGL map, centered on Eixample, Barcelona
+                new DeckGL({
+                    mapStyle: 'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json',
+                    initialViewState: {
+                        longitude: 2.1639,      // Longitude of Eixample, Barcelona
+                        latitude: 41.3888,      // Latitude of Eixample, Barcelona
+                        zoom: 13,               // Zoom level for clear view of the district
+                        // pitch: 45,
+                    },
+                    controller: true,
+                    useDevicePixels: true,   // Use device's pixel ratio for higher resolution rendering
+                    layers: [
+                        new ScatterplotLayer({
+                            id: 'scatterPlot-layer',
+                            data: formattedData,
+                            getPosition: d => d.position,
+                            getFillColor: d => speciesColorMap[d.species] || [0, 0, 0, 128],
+                            getRadius: 5,            // Radius of hexagons in meters
+                        })
+                    ]
+                });
+            })
+            .catch(error => console.error('Error fetching or processing data:', error));
+    </script>
+</body>
+
+</html>

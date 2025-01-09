@@ -6,7 +6,7 @@ html {
 }
 
 .sectionBody {
-    padding: 6vh 10vw 7vh 10vw;
+    padding: 6vh 10vw 9vh 10vw;
 }
 
 .sectionTitle {
@@ -439,6 +439,53 @@ body {
 
 .sendMessageButton:hover {
     background-color: #6b334b;
+}
+
+/* MAP'S LEGEND */
+
+.legend {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    border-radius: 8px;
+    width: 250px;
+    z-index: 1;
+}
+
+.legend h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.legend h6 {
+    font-size: medium;
+}
+
+.legend h5 {
+    font-size: large;
+}
+
+.legend .color-bar {
+    padding: 0px;
+    padding-top: 20px;
+    margin: 0 0;
+    font-size: small;
+    border-top: 2px solid rgba(0, 0, 0, 0.123);
+}
+
+.color-bar div {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.color-bar li {
+    display: flex;
+    margin-bottom: 5px;
 }
 
 /* FOOTER */
