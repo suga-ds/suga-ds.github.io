@@ -488,6 +488,22 @@ body {
     margin-bottom: 5px;
 }
 
+.legend .color-range {
+    display: flex;
+}
+
+.legend .color-range div {
+    width: 50px;
+    height: 10px;
+}
+
+.range {
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
 /* FOOTER */
 
 @media (max-width: 1000px) {
